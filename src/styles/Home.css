@@ -1,0 +1,127 @@
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-title {
+  color: #0d2c54;
+  font-size: 32px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #0d2c54;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.carreras-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.carrera-card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  text-decoration: none;
+  color: #333333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+
+.carrera-card:hover {
+  transform: translateY(-5px);
+  border-color: #f4b400;
+  box-shadow: 0 6px 12px rgba(13, 44, 84, 0.15);
+}
+
+.carrera-card h3 {
+  color: #0d2c54;
+  margin: 0 0 10px 0;
+  font-size: 20px;
+}
+
+.carrera-card p {
+  font-size: 14px;
+  color: #666666;
+  line-height: 1.5;
+  margin: 0;
+}
+.buscador-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.buscador {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px 16px;
+  font-size: 1rem;
+  border: 2px solid #0b3b75;
+  border-radius: 10px;
+  outline: none;
+}
+
+.buscador:focus {
+  box-shadow: 0 0 8px rgba(11, 59, 117, 0.3);
+}
+.buscador-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.buscador-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+}
+
+.buscador-icono {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  pointer-events: none;
+}
+
+.buscador {
+  width: 100%;
+  padding: 12px 16px 12px 45px;
+  font-size: 1rem;
+  border: 2px solid #0b3b75;
+  border-radius: 12px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.buscador:focus {
+  box-shadow: 0 0 10px rgba(11, 59, 117, 0.3);
+}
+.buscador-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto; /* centra horizontalmente */
+}
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.carreras-grid {
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+}

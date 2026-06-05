@@ -1,0 +1,597 @@
+{
+  "id": "informatica",
+  "nombre": "Ingeniería en Informática",
+  "duracion": "10 semestres",
+  "titulo": "Ingeniero(a) en Informática",
+  "descripcion": "Formar profesionales altamente capacitados para diseñar, desarrollar, implementar y gestionar soluciones tecnológicas robustas mediante el uso estratégico de software, hardware, bases de datos empresariales, infraestructura de redes de comunicación y metodologías avanzadas de ingeniería.",
+  "semestres": [
+    {
+      "numero": 1,
+      "resumen": "Establecer las bases fundamentales de comunicación, razonamiento lógico, desarrollo personal y matemáticas que servirán de soporte para las asignaturas técnicas de informática en los semestres posteriores.",
+      "proposito": "Proporcionar al estudiante las herramientas cognitivas, lingüísticas, lógicas y actitudinales indispensables para abordar con éxito las ciencias de la ingeniería.",
+      "materias": [
+        {
+          "nombre": "Lenguaje y Comunicación",
+          "descripcion": "Estudio exhaustivo de las herramientas fundamentales para el desarrollo de habilidades comunicativas y lingüísticas avanzadas en contextos académicos, profesionales y sociales. Se enfoca de manera integral en el fortalecimiento de la comprensión lectora analítica, la redacción de textos académicos y técnicos con rigor estructural, la expresión oral corporativa y la argumentación crítica. Asimismo, promueve el uso preciso de las normas gramaticales y ortográficas para la transmisión clara y efectiva de ideas, sirviendo como base obligatoria para la elaboración de informes de gestión, proyectos de investigación y manuales técnicos requeridos en el ejercicio de la ingeniería.",
+          "objetivo": "Fortalecer la capacidad de comprensión, análisis sintáctico, redacción de informes técnicos y expresión oral fluida mediante el uso adecuado y normativo del lenguaje.",
+          "competencias": [
+            "Redacción de textos académicos",
+            "Comprensión lectora",
+            "Expresión oral efectiva",
+            "Comunicación profesional"
+          ]
+        },
+        {
+          "nombre": "Cálculo I",
+          "descripcion": "Asignatura de ciencias básicas orientada al estudio riguroso de los fundamentos del cálculo diferencial como herramienta matemática indispensable para el análisis cuantitativo y la resolución de problemas complejos en ingeniería. Comprende el estudio formal de funciones reales, límites, continuidad y derivadas, aplicando estos conceptos al modelado de fenómenos reales vinculados con la razón de cambio, la variación y la optimización de recursos. A través de este curso, el estudiante desarrolla el razonamiento matemático abstracto y la capacidad de traducir situaciones del mundo físico mediante expresiones analíticas.",
+          "objetivo": "Desarrollar habilidades matemáticas avanzadas para analizar funciones, calcular límites complejos y aplicar la derivada en la resolución de problemas de optimización y variación en situaciones reales de ingeniería.",
+          "competencias": [
+            "Pensamiento lógico-matemático",
+            "Resolución de problemas",
+            "Análisis de funciones",
+            "Aplicación de derivadas"
+          ]
+        },
+        {
+          "nombre": "Desarrollo Personal y Profesional",
+          "descripcion": "Asignatura de formación humana orientada al fortalecimiento sistemático de las competencias personales, socio-afectivas y profesionales necesarias para garantizar un desempeño integral y ético en el ámbito universitario y laboral. Aborda de manera dinámica aspectos críticos relacionados con la autoestima, la inteligencia emocional, el liderazgo asertivo, la ética deontológica, la responsabilidad ciudadana, la toma de decisiones bajo presión y el trabajo colaborativo en equipos multidisciplinarios, fomentando la construcción de un proyecto de vida proactivo.",
+          "objetivo": "Fomentar valores humanos, habilidades sociales y actitudes proactivas que contribuyan de manera directa al desempeño integral, ético y ciudadano del futuro ingeniero.",
+          "competencias": [
+            "Liderazgo",
+            "Trabajo en equipo",
+            "Ética profesional",
+            "Inteligencia emocional"
+          ]
+        },
+        {
+          "nombre": "Entrenamiento Físico General",
+          "descripcion": "Asignatura práctica concebida para promover el bienestar físico, mental y social del estudiante a través de la ejecución planificada de actividades deportivas, recreativas y de acondicionamiento psicomotor. Se enfoca en el desarrollo progresivo de las capacidades físicas básicas (resistencia aeróbica, fuerza muscular, flexibilidad y coordinación motriz), al tiempo que fomenta la adquisición de hábitos de vida saludables para mitigar el estrés académico, incentivando la autodisciplina, la perseverancia y el respeto mutuo.",
+          "objetivo": "Contribuir al bienestar biopsicosocial y al desarrollo de la salud integral del estudiante como un componente de equilibrio fundamental en su formación de ingeniería.",
+          "competencias": [
+            "Disciplina personal",
+            "Hábitos saludables",
+            "Condición física",
+            "Trabajo colaborativo"
+          ]
+        },
+        {
+          "nombre": "Lógica",
+          "descripcion": "Asignatura medular para la estructuración del pensamiento analítico y formal requerido en el ámbito de las ciencias de la computación. Estudia en profundidad los principios, leyes y métodos formales del razonamiento abstracto, proporcionando técnicas para analizar argumentos, evaluar tablas de verdad, resolver acertijos conceptuales y formular conclusiones válidas. Introduce la lógica proposicional, el cálculo de predicados y las estructuras deductivas utilizadas directamente en el diseño de algoritmos eficaces y en la verificación formal de sistemas computacionales complejos.",
+          "objetivo": "Desarrollar la capacidad cognitiva de analizar argumentos formales, identificar patrones estructurales y construir soluciones algorítmicas robustas mediante la aplicación de leyes del pensamiento lógico.",
+          "competencias": [
+            "Razonamiento lógico",
+            "Pensamiento analítico",
+            "Resolución de problemas",
+            "Base para algoritmos y programación"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "resumen": "Fortalecer los conocimientos matemáticos y tecnológicos fundamentales, complementándolos con herramientas estadísticas, competencias lingüísticas y formación ciudadana.",
+      "proposito": "Introducir al estudiante en las ciencias de la computación, la gestión cuantitativa de datos y la comprensión de su entorno geográfico y ecológico.",
+      "materias": [
+        {
+          "nombre": "Cálculo II",
+          "descripcion": "Profundización avanzada de las ciencias matemáticas mediante el estudio riguroso del cálculo integral y sus extensas aplicaciones en la ingeniería. Se analizan de forma analítica los diferentes métodos y técnicas de integración (por partes, sustitución trigonométrica, fracciones parciales), el cálculo de integrales definidas e impropias, y la aplicación geométrica y física para el cálculo preciso de áreas planas, volúmenes de sólidos de revolución, longitudes de arco y la resolución de problemas dinámicos de la física.",
+          "objetivo": "Aplicar de manera sistemática los principios y teoremas del cálculo integral para resolver modelos matemáticos y problemas prácticos de la ingeniería física y computacional.",
+          "competencias": [
+            "Pensamiento analítico",
+            "Resolución de problemas matemáticos",
+            "Aplicación de integrales",
+            "Modelado matemático"
+          ]
+        },
+        {
+          "nombre": "Introducción a la Informática",
+          "descripcion": "Asignatura introductoria que proporciona una visión holística y científica de la informática como disciplina tecnológica global. Aborda el estudio evolutivo de las arquitecturas de computación, la clasificación formal de hardware y software, los fundamentos lógicos del almacenamiento y procesamiento de la información, las redes conceptuales y el impacto socioeconómico y ético de la transformación digital en las organizaciones modernas, sentando las bases terminológicas para los semestres superiores.",
+          "objetivo": "Comprender los fundamentos conceptuales de los sistemas informáticos, su taxonomía y su aplicación estratégica en la automatización y solución de problemas organizacionales.",
+          "competencias": [
+            "Alfabetización tecnológica",
+            "Comprensión de sistemas computacionales",
+            "Pensamiento tecnológico",
+            "Manejo conceptual de la informática"
+          ]
+        },
+        {
+          "nombre": "Espacio Geográfico e Identidad Nacional",
+          "descripcion": "Estudio analítico de las características geográficas, geopolíticas, históricas, socioculturales y económicas de Venezuela, orientado al robustecimiento de la identidad nacional y la conciencia ciudadana. Promueve la evaluación crítica del entorno territorial y el inventario de recursos estratégicos del país, analizando cómo el desarrollo de la infraestructura tecnológica e informática puede coadyuvar a la soberanía, sustentabilidad y progreso social del contexto nacional.",
+          "objetivo": "Reconocer de manera crítica la importancia estratégica del territorio, los valores culturales y la identidad nacional para ejercer una formación ciudadana responsable y comprometida.",
+          "competencias": [
+            "Conciencia ciudadana",
+            "Identidad cultural",
+            "Comprensión geográfica",
+            "Responsabilidad social"
+          ]
+        },
+        {
+          "nombre": "Estadística Descriptiva",
+          "descripcion": "Introducción formal a las técnicas metodológicas e informáticas empleadas en la recolección, tabulación, organización, síntesis y representación gráfica de conjuntos de datos cuantitativos y cualitativos. Abarca el cálculo e interpretación analítica de medidas de tendencia central (media, mediana, moda), medidas de dispersión (varianza, desviación estándar, rango) y el análisis exploratorio de datos, facilitando la toma de decisiones informadas basadas en evidencia empírica.",
+          "objetivo": "Aplicar métodos estadísticos descriptivos tradicionales y computacionales para sintetizar, analizar e interpretar conjuntos de datos en investigaciones y proyectos tecnológicos.",
+          "competencias": [
+            "Análisis de datos",
+            "Interpretación estadística",
+            "Pensamiento cuantitativo",
+            "Elaboración de informes"
+          ]
+        },
+        {
+          "nombre": "Inglés Instrumental",
+          "descripcion": "Asignatura diseñada para el desarrollo de competencias técnico-lingüísticas enfocadas en la traducción, comprensión lectora e interpretación avanzada de manuales, documentación de software, papers científicos y especificaciones técnicas redactadas en idioma inglés. Proporciona las estrategias de lectura rápida (skimming, scanning) y el vocabulario técnico especializado indispensable para el acceso a la vanguardia de la información científica e informática global.",
+          "objetivo": "Comprender con precisión textos académicos, manuales técnicos y documentación especializada en inglés, asociados al área de la ingeniería informática.",
+          "competencias": [
+            "Comprensión lectora",
+            "Vocabulario técnico",
+            "Interpretación de documentación",
+            "Acceso a información científica"
+          ]
+        },
+        {
+          "nombre": "Ecología y Educación Ambiental",
+          "descripcion": "Análisis científico de las relaciones dinámicas entre las comunidades biológicas y sus entornos físicos, promoviendo de forma estricta la conciencia ambientalista y el paradigma del desarrollo sustentable. Evalúa el impacto ambiental generado por la industria tecnológica y el desecho electrónico (e-waste), fomentando el diseño de soluciones de Green Computing (Informática Verde) y la gestión eco-responsable de recursos energéticos y tecnológicos.",
+          "objetivo": "Promover valores, principios y conocimientos técnicos orientados a la mitigación del impacto ambiental y la protección de los ecosistemas locales mediante prácticas tecnológicas sostenibles.",
+          "competencias": [
+            "Conciencia ambiental",
+            "Responsabilidad ecológica",
+            "Pensamiento sostenible",
+            "Participación social"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "resumen": "Consolidar la formación matemática y científica mientras se inicia formalmente el aprendizaje de la programación y la resolución computacional de problemas.",
+      "proposito": "Adquirir habilidades de modelado vectorial, programación estructurada y análisis de variables probabilísticas.",
+      "materias": [
+        {
+          "nombre": "Cálculo III",
+          "descripcion": "Extensión avanzada del análisis matemático hacia el estudio de funciones de varias variables reales. Abarca con rigor científico el cálculo de límites multidimensionales, derivadas parciales, gradientes, optimización de funciones multivariables con y sin restricciones (multiplicadores de Lagrange), integrales múltiples (dobles, triples) en sistemas de coordenadas cartesianas, polares, cilíndricas y esféricas, así como teoremas fundamentales del cálculo vectorial.",
+          "objetivo": "Aplicar con precisión técnicas avanzadas de cálculo multivariable para modelar y resolver problemas multidimensionales complejos en física, simulación e ingeniería.",
+          "competencias": [
+            "Modelado matemático avanzado",
+            "Análisis multidimensional",
+            "Resolución de problemas complejos",
+            "Pensamiento abstracto"
+          ]
+        },
+        {
+          "nombre": "Física",
+          "descripcion": "Estudio fundamental de las leyes de la mecánica clásica que rigen el universo físico. Cubre la cinemática de la partícula, dinámica de sistemas Newtonianos, leyes de conservación del trabajo, la energía y la cantidad de movimiento, estática de cuerpos rígidos y principios mecánicos básicos. Proporciona el marco empírico y el rigor analítico indispensables para comprender los fenómenos de la naturaleza e interpretar el funcionamiento físico del hardware informático.",
+          "objetivo": "Comprender y aplicar las leyes y principios de la física mecánica clásica para analizar fenómenos naturales y sustentar desarrollos tecnológicos e ingenieriles.",
+          "competencias": [
+            "Análisis físico",
+            "Interpretación de fenómenos naturales",
+            "Resolución de problemas científicos",
+            "Aplicación tecnológica"
+          ]
+        },
+        {
+          "nombre": "Algoritmos y Programación I",
+          "descripcion": "Primer encuentro formal con las ciencias de la computación y la ingeniería de software. Aborda el estudio riguroso de la lógica algorítmica, metodologías de descomposición de problemas, diagramación de flujo estandarizada y pseudocódigo, para luego realizar la transición hacia un lenguaje de programación de alto nivel. Analiza el uso de tipos de datos, estructuras de control condicionales e iterativas, arreglos unidimensionales y bidimensionales (vectores y matrices), y la modularización mediante funciones con paso de parámetros.",
+          "objetivo": "Desarrollar un pensamiento computacional sólido que capacite al estudiante para diseñar algoritmos eficientes y construir programas de software estructurados de mediana complejidad.",
+          "competencias": [
+            "Pensamiento computacional",
+            "Resolución de problemas",
+            "Diseño algorítmico",
+            "Programación básica"
+          ]
+        },
+        {
+          "nombre": "Álgebra",
+          "descripcion": "Asignatura estructural de las ciencias matemáticas que analiza el álgebra lineal y sus aplicaciones computacionales directas. Comprende el estudio exhaustivo de los sistemas de ecuaciones lineales, matrices, determinantes, álgebra matricial, espacios y subespacios vectoriales, transformaciones lineales, valores y vectores propios (eigenvalores y eigenvectors). Es una materia clave para comprender el desarrollo de gráficos por computadora, criptografía, minería de datos y algoritmos de inteligencia artificial.",
+          "objetivo": "Aplicar conceptos, teoremas y propiedades del álgebra lineal en el modelado, optimización y resolución de problemas prácticos de la ingeniería y ciencias de la computación.",
+          "competencias": [
+            "Pensamiento lógico-matemático",
+            "Análisis algebraico",
+            "Resolución de sistemas",
+            "Abstracción matemática"
+          ]
+        },
+        {
+          "nombre": "Inferencia y Probabilidades",
+          "descripcion": "Introducción teórica y matemática al modelado de fenómenos aleatorios y al análisis inferencial de datos. Aborda axiomas de probabilidad, probabilidad condicional, teorema de Bayes, variables aleatorias discretas y continuas, distribuciones notables (Binomial, Poisson, Normal), estimación de parámetros por intervalos de confianza y pruebas de hipótesis paramétricas, fundamentales para la ingeniería del software moderno, Big Data y machine learning.",
+          "objetivo": "Aplicar métodos probabilísticos y técnicas de inferencia estadística avanzados para modelar la incertidumbre y optimizar la toma de decisiones basada en muestras de datos.",
+          "competencias": [
+            "Pensamiento de nivel estadístico",
+            "Análisis probabilístico",
+            "Toma de decisiones",
+            "Interpretación de resultados"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "resumen": "Fortalecer las bases matemáticas, computacionales y tecnológicas mediante el estudio de estructuras discretas, programación avanzada y fundamentos electrónicos.",
+      "proposito": "Dominar la abstracción discreta, la ingeniería de circuitos básicos y el paradigma de la programación recursiva.",
+      "materias": [
+        {
+          "nombre": "Cálculo IV",
+          "descripcion": "Culminación de la formación matemática troncal mediante el análisis formal de las ecuaciones diferenciales ordinarias (EDO) y sus aplicaciones prácticas. Cubre métodos analíticos de resolución de EDO de primer orden y de orden superior (variables separables, exactas, lineales homogéneas y no homogéneas), modelado matemático de sistemas dinámicos, aplicación de la transformada de Laplace para la resolución de sistemas lineales y análisis de series de Fourier.",
+          "objetivo": "Aplicar las ecuaciones diferenciales y herramientas operacionales avanzadas para modelar y simular sistemas físicos, electrónicos y lógicos dentro del campo de la ingeniería.",
+          "competencias": [
+            "Modelado matemático",
+            "Resolución de problemas complejos",
+            "Pensamiento analítico",
+            "Aplicación de métodos matemáticos"
+          ]
+        },
+        {
+          "nombre": "Estructuras Discretas",
+          "descripcion": "Estudio formal de los fundamentos matemáticos que rigen de forma exclusiva el software y los sistemas de información computacionales. Analiza la lógica formal, teoría de conjuntos, relaciones binarias, funciones discretas, combinatoria, teoría de números de computación, inducción matemática, estructuras algebraicas discretas y una introducción exhaustiva a la teoría de grafos y árboles, esenciales para la comprensión profunda del diseño de bases de datos, redes de computadoras y análisis de algoritmos.",
+          "objetivo": "Comprender y aplicar estructuras abstractas discretas para modelar, analizar y resolver problemas computacionales puros, garantizando una base conceptual rigurosa para la informática.",
+          "competencias": [
+            "Pensamiento lógico",
+            "Abstracción matemática",
+            "Resolución de problemas computacionales",
+            "Análisis de estructuras discretas"
+          ]
+        },
+        {
+          "nombre": "Algoritmos y Programación II",
+          "descripcion": "Profundización avanzada en el diseño y construcción de sistemas de software modulares. Introduce técnicas avanzadas para el diseño algorítmico como la recursividad, estrategias de divide y vencerás, y backtracking. Explora el manejo avanzado de archivos de datos (secuenciales y aleatorios), la gestión y optimización estricta de la memoria interna, y los fundamentos de la reutilización de código mediante la modularización avanzada, preparando al estudiante para los retos del desarrollo profesional de software.",
+          "objetivo": "Diseñar e implementar aplicaciones de software robustas utilizando técnicas lógicas avanzadas de ordenamiento, búsqueda, optimización de código y manejo de persistencia en archivos.",
+          "competencias": [
+            "Programación avanzada",
+            "Diseño de algoritmos",
+            "Organización de código",
+            "Resolución eficiente de problemas"
+          ]
+        },
+        {
+          "nombre": "Electiva I (Métodos y Técnicas de Estudio)",
+          "descripcion": "Asignatura complementaria orientada al empoderamiento cognitivo y desarrollo de estrategias de aprendizaje autónomo y gestión del conocimiento en la ingeniería. Aborda técnicas científicas para la optimización del tiempo, mapas mentales, lectura comprensiva de alta velocidad, búsqueda avanzada en bases de datos indexadas, análisis crítico de literatura técnica y pautas formales para la redacción y presentación de trabajos de investigación universitarios.",
+          "objetivo": "Desarrollar hábitos, habilidades metodológicas y estrategias metacognitivas que optimicen los procesos de autoformación, investigación documental y gestión ágil del conocimiento.",
+          "competencias": [
+            "Aprendizaje autónomo",
+            "Organización académica",
+            "Gestión del tiempo",
+            "Investigación documental"
+          ]
+        },
+        {
+          "nombre": "Electrónica",
+          "descripcion": "Introducción formal a los principios básicos de la electrónica analógica y digital. Analiza con un enfoque de ingeniería el comportamiento de componentes electrónicos fundamentales (resistencias, capacitores, inductores, diodos, transistores BJT y MOSFET), amplificadores operacionales, álgebra booleana, compuertas lógicas, mapas de Karnaugh, circuitos combinacionales y secuenciales básicos (flip-flops, contadores), permitiendo comprender la interfaz física donde coexisten el hardware y el software.",
+          "objetivo": "Comprender de forma analítica el funcionamiento de los componentes electrónicos fundamentales y su aplicación directa en el diseño y diagnóstico de sistemas de hardware computacional.",
+          "competencias": [
+            "Análisis de circuitos",
+            "Comprensión de hardware",
+            "Pensamiento técnico",
+            "Aplicación tecnológica"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "resumen": "Iniciar la formación especializada en sistemas de información, arquitectura computacional e investigación científica, fortaleciendo las capacidades técnicas del estudiante.",
+      "proposito": "Adquirir el dominio del modelado conceptual de datos, la programación en memoria dinámica y la arquitectura del procesador.",
+      "materias": [
+        {
+          "nombre": "Bases de Datos I",
+          "descripcion": "Introducción teórica y práctica a los sistemas de almacenamiento relacional de información empresarial. Analiza las fases de diseño de bases de datos: levantamiento de requerimientos de datos, modelado conceptual mediante diagramas Entidad-Relación (DER), transformación al modelo relacional lógico, aplicación rigurosa de las reglas de normalización (1FN, 2FN, 3FN) para mitigar la redundancia, e introducción práctica al lenguaje estándar SQL para la definición y manipulación de datos.",
+          "objetivo": "Diseñar e implementar estructuras lógicas de almacenamiento relacional eficientes, estables y normalizadas que garanticen la integridad, consistencia y persistencia de los datos del negocio.",
+          "competencias": [
+            "Diseño de bases de datos",
+            "Modelado de información",
+            "Lenguaje SQL",
+            "Gestión de datos"
+          ]
+        },
+        {
+          "nombre": "Organización y Sistemas",
+          "descripcion": "Análisis estructural y procedimental de las organizaciones públicas y privadas bajo un enfoque de sistemas. Estudia los flujos administrativos, manuales de procesos, organigramas, reingeniería de procesos de negocios e integración de las Tecnologías de Información como herramientas estratégicas para automatizar operaciones, optimizar la eficiencia corporativa, mejorar la comunicación interna y soportar los sistemas de toma de decisiones.",
+          "objetivo": "Comprender de manera sistémica e integral la estructura organizacional para modelar sistemas de información que respondan de forma nativa a las necesidades estratégicas empresariales.",
+          "competencias": [
+            "Análisis organizacional",
+            "Pensamiento sistémico",
+            "Gestión de información",
+            "Comprensión empresarial"
+          ]
+        },
+        {
+          "nombre": "Algoritmos y Programación III",
+          "descripcion": "Consolidación avanzada de las competencias lógicas de desarrollo de software. Se enfoca en el estudio riguroso e implementación manual de estructuras de datos dinámicas lineales y no lineales en memoria RAM. Analiza punteros, manejo dinámico de memoria, listas enlazadas (simples, dobles, circulares), pilas, colas, árboles binarios de búsqueda (AVL) y grafos, implementando algoritmos avanzados de ordenamiento, búsqueda y balanceo de datos de alta velocidad.",
+          "objetivo": "Desarrollar componentes de software de alto rendimiento seleccionando e implementando las estructuras de datos dinámicas optimizadas para el procesamiento masivo de información.",
+          "competencias": [
+            "Desarrollo de software",
+            "Optimización de algoritmos",
+            "Diseño de aplicaciones",
+            "Pensamiento computacional avanzado"
+          ]
+        },
+        {
+          "nombre": "Arquitectura del Computador",
+          "descripcion": "Estudio detallado del funcionamiento interno y la organización de los componentes físicos de un sistema informático moderno. Analiza la Unidad Central de Procesamiento (CPU), la ruta de datos, la unidad de control, el ciclo de ejecución de la instrucción de máquina, programación en lenguaje ensamblador, la jerarquía de memoria (Caché L1/L2/L3, RAM, memoria virtual), sistemas de buses, interrupciones y la interfaz de controladores de entrada/salida.",
+          "objetivo": "Comprender la organización de bajo nivel del computador y la relación simbiótica entre la arquitectura de hardware y el software de sistema para maximizar el rendimiento computacional.",
+          "competencias": [
+            "Comprensión de hardware",
+            "Análisis de arquitectura computacional",
+            "Pensamiento técnico",
+            "Integración hardware-software"
+          ]
+        },
+        {
+          "nombre": "Metodología de la Investigación",
+          "descripcion": "Capacitación formal en las pautas epistemológicas y científicas requeridas para concebir, diseñar y documentar proyectos de investigación tecnológica. Aborda el planteamiento científico del problema, justificación, formulación de objetivos, delimitación, revisión de la literatura y construcción de marcos teóricos, técnicas e instrumentos de recolección de datos y la estructuración técnica de documentos académicos según estándares internacionales.",
+          "objetivo": "Aplicar de manera estricta el método científico en la formulación de propuestas de investigación aplicada, garantizando el rigor metodológico y la validez académica del proyecto.",
+          "competencias": [
+            "Investigación científica",
+            "Pensamiento crítico",
+            "Redacción académica",
+            "Gestión de proyectos de investigación"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "resumen": "Consolidar la formación técnica especializada mediante el estudio de bases de datos avanzadas, sistemas operativos, métodos numéricos e ingeniería del software.",
+      "proposito": "Aprender a programar motores de datos, gestionar recursos del kernel y modelar el ciclo de vida de un sistema.",
+      "materias": [
+        {
+          "nombre": "Bases de Datos Ii",
+          "descripcion": "Estudio avanzado de los Sistemas Gestores de Bases de Datos (SGBD) corporativos a gran escala. Profundiza en la programación procedimental en el servidor (PL/SQL), creación de funciones personalizadas, procedimientos almacenados, disparadores (triggers) complejos, cursores explicitos, optimización del rendimiento de consultas (Query Tuning), creación de índices indexados, administración de transacciones concurrentes, control de bloqueos y políticas de seguridad y respaldo.",
+          "objetivo": "Administrar, optimizar y programar motores de bases de datos relacionales empresariales de manera eficiente, garantizando la seguridad, concurrencia y alta disponibilidad de los datos.",
+          "competencias": [
+            "Administración de bases de datos",
+            "Security de información",
+            "Optimización de consultas",
+            "Gestión de sistemas de datos"
+          ]
+        },
+        {
+          "nombre": "Investigación de Operaciones",
+          "descripcion": "Introducción formal a los métodos cuantitativos y modelos matemáticos lineales utilizados para la optimización de recursos y toma de decisiones críticas en ingeniería. Aborda la formulación de modelos matemáticos lineales, programación lineal por método Gráfico y Simplex, modelos de transporte, asignación de recursos, teoría de redes (PERT/CPM) para planificación de proyectos y modelos de inventario con simulación determinística.",
+          "objetivo": "Aplicar modelos lógicos y matemáticos de optimización para maximizar utilidades, minimizar costos y optimizar procesos de toma de decisiones en organizaciones complejas.",
+          "competencias": [
+            "Modelado matemático",
+            "Optimización",
+            "Toma de decisiones",
+            "Análisis cuantitativo"
+          ]
+        },
+        {
+          "nombre": "Sistemas Operativos",
+          "descripcion": "Análisis arquitectónico del software base encargado del control y abstracción del hardware. Analiza detalladamente la gestión de procesos (planificación del CPU, hilos, sincronización y condiciones de carrera), administración avanzada de memoria (paginación, segmentación y memoria virtual), el sistema de archivos de almacenamiento, control de periféricos de E/S, seguridad a nivel de kernel y administración avanzada mediante scripts de shell en entornos Unix/Linux.",
+          "objetivo": "Comprender los algoritmos y la arquitectura interna de los sistemas operativos modernos para administrar eficientemente los recursos del computador y desarrollar software de sistema confiable.",
+          "competencias": [
+            "Administración de sistemas",
+            "Gestión de recursos",
+            "Análisis de sistemas operativos",
+            "Resolución de problemas técnicos"
+          ]
+        },
+        {
+          "nombre": "Métodos Numéricos",
+          "descripcion": "Asignatura técnica orientada al diseño e implementación computacional de algoritmos numéricos para resolver problemas matemáticos de ingeniería que no poseen soluciones analíticas exactas. Cubre aproximación y análisis de errores, resolución numérica de ecuaciones no lineales, sistemas de ecuaciones algebraicas lineales masivas, interpolación polinomial, aproximación de funciones, derivación e integración numérica, y solución numérica de ecuaciones diferenciales.",
+          "objetivo": "Aplicar e implementar algorítmicamente métodos numéricos aproximados de alta precisión para resolver modelos matemáticos avanzados a través de software informático.",
+          "competencias": [
+            "Programación científica",
+            "Análisis numérico",
+            "Resolución computacional de problemas",
+            "Modelado matemático"
+          ]
+        },
+        {
+          "nombre": "Principios de Ingeniería del Software",
+          "descripcion": "Introducción formal a los fundamentos disciplinares y estándares internacionales requeridos para el desarrollo sistemático de software de alta calidad. Aborda el análisis exhaustivo del ciclo de vida del software, modelos de proceso, captura y especificación técnica de requisitos de software (IEEE 830), fundamentos de diseño arquitectónico y de interfaz, estrategias básicas de verificación y validación (testing), mantenimiento de sistemas y estimación de costos.",
+          "objetivo": "Comprender y adoptar las metodologías, procesos, herramientas y estándares de la ingeniería aplicados al ciclo de desarrollo de software para asegurar productos eficientes y mantenibles.",
+          "competencias": [
+            "Análisis de requisitos",
+            "Diseño de software",
+            "Gestión de proyectos",
+            "Aseguramiento de calidad"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "resumen": "Desarrollar competencias avanzadas en ingeniería de software, redes de comunicación y gestión organizacional, fortaleciendo la capacidad para diseñar soluciones tecnológicas integrales.",
+      "proposito": "Dominar el patrón arquitectónico, las metodologías ágiles de software y la infraestructura OSI de redes LAN.",
+      "materias": [
+        {
+          "nombre": "Arquitecturas Software",
+          "descripcion": "Estudio avanzado de los principios, modelos y patrones de diseño estructural utilizados en la concepción de sistemas informáticos de nivel empresarial. Analiza con visión de ingeniería las arquitecturas en capas, basadas en eventos, cliente-servidor, arquitecturas orientadas a servicios (SOA) y el enfoque moderno de microservicios. Capacita al estudiante para evaluar y tomar decisiones de diseño arquitectónico que aseguren la escalabilidad, mantenibilidad, portabilidad y alta seguridad del sistema de software.",
+          "objetivo": "Diseñar arquitecturas de software robustas, modulares y escalables que satisfagan de manera óptima los requerimientos funcionales y los atributos de calidad no funcionales del sistema.",
+          "competencias": [
+            "Diseño arquitectónico",
+            "Análisis de sistemas complejos",
+            "Modelado de soluciones tecnológicas",
+            "Toma de decisiones técnicas"
+          ]
+        },
+        {
+          "nombre": "Metodología de Desarrollo de Software",
+          "descripcion": "Estudio comparativo y aplicación práctica de las metodologías de ingeniería y marcos de trabajo utilizados para guiar el proceso de construcción de software profesional. Cubre los enfoques tradicionales e iterativos (RUP, Cascada) y analiza a fondo el manifiesto ágil y sus marcos de trabajo dominantes en la industria moderna (Scrum, Kanban, Extreme Programming), capacitando en el control de sprints, historias de usuario, estimaciones ágiles y gestión de tableros colaborativos.",
+          "objetivo": "Seleccionar y aplicar con rigor metodologías tradicionales o marcos ágiles que permitan gestionar y ejecutar eficientemente proyectos complejos de desarrollo de software en equipos de trabajo.",
+          "competencias": [
+            "Gestión de proyectos",
+            "Trabajo colaborativo",
+            "Planificación de software",
+            "Aplicación de metodologías ágiles"
+          ]
+        },
+        {
+          "nombre": "Electiva II (Administración)",
+          "descripcion": "Asignatura orientada a la capacitación gerencial de los ingenieros, proporcionando los conocimientos teóricos fundamentales sobre los procesos administrativos modernos de planificación, organización, dirección y control corporativo. Enfatiza la gestión eficiente de los recursos humanos, materiales y financieros, la toma de decisiones estratégicas en las organizaciones y el rol fundamental que juegan las soluciones tecnológicas e informáticas en la ventaja competitiva corporativa.",
+          "objetivo": "Comprender de forma analítica los principios rectores de la ciencia administrativa y su articulación nativa con la implantación de sistemas de información empresariales.",
+          "competencias": [
+            "Gestión organizacional",
+            "Liderazgo",
+            "Toma de decisiones",
+            "Visión empresarial"
+          ]
+        },
+        {
+          "nombre": "Redes y Comunicaciones I",
+          "descripcion": "Introducción formal a las ciencias de la telemática y a la transmisión digital de datos a través de redes de computadoras. Estudia en profundidad los modelos de referencia de capas OSI y TCP/IP, medios de transmisión físicos (coaxial, par trenzado, fibra óptica, medios inalámbricos), topologías de red lógicas y físicas, direccionamiento lógico IPv4, cálculo avanzado de subredes de longitud fija (FLSM) y variable (VLSM), estándares Ethernet y protocolos de capa de transporte y aplicación.",
+          "objetivo": "Comprender la arquitectura funcional de las redes de datos y diseñar configuraciones e infraestructuras de redes de área local (LAN) bajo estándares normativos internacionales.",
+          "competencias": [
+            "Administración básica de redes",
+            "Comprensión de protocolos",
+            "Diseño de infraestructuras de comunicación",
+            "Resolución de problemas de conectividad"
+          ]
+        },
+        {
+          "nombre": "Desarrollo de Aplicaciones I",
+          "descripcion": "Asignatura eminentemente práctica orientada al diseño, codificación e implementación de aplicaciones de software informático utilizando lenguajes, frameworks y tecnologías de vanguardia en la industria. Se enfoca en la construcción de interfaces gráficas de usuario interactivas (GUI) que adopten principios de usabilidad, el consumo e integración nativa de bases de datos relacionales mediante ORMs o drivers nativos, y el uso estricto de repositorios distribuidos mediante Git.",
+          "objetivo": "Construir aplicaciones de software funcionales de nivel medio utilizando tecnologías y entornos de desarrollo modernos bajo buenas prácticas de ingeniería y versionamiento de código.",
+          "competencias": [
+            "Desarrollo de software",
+            "Diseño de interfaces",
+            "Integración de sistemas",
+            "Implementación de soluciones tecnológicas"
+          ]
+        },
+        {
+          "nombre": "Investigación Social",
+          "descripcion": "Asignatura interdisciplinaria destinada a analizar de forma crítica las complejas dinámicas de interrelación entre los avances científicos-tecnológicos y las transformaciones socio comunitarias. Proporciona herramientas cualitativas y cuantitativas propias de la investigación social para facultar al ingeniero en el diagnóstico de problemáticas en comunidades, la evaluación de impacto social de las TICs y el diseño participativo de soluciones informáticas inclusivas.",
+          "objetivo": "Aplicar métodos científicos de investigación social para evaluar críticamente el impacto, la pertinencia social y la viabilidad de soluciones tecnológicas integradas en contextos comunitarios reales.",
+          "competencias": [
+            "Investigación social",
+            "Análisis crítico",
+            "Responsabilidad social",
+            "Evaluación de impacto"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "resumen": "Integrar conocimientos técnicos y gerenciales mientras se desarrollan proyectos tecnológicos con enfoque ético, investigativo y organizacional.",
+      "proposito": "Dominar el enrutamiento WAN, el desarrollo de aplicaciones empresariales y estructurar la propuesta de tesis.",
+      "materias": [
+        {
+          "nombre": "Gerencia y Mercadeo",
+          "descripcion": "Estudio integral de los fundamentos modernos de la dirección ejecutiva y las estrategias de marketing mix aplicadas al sector empresarial de base tecnológica. Aborda el análisis del entorno macro y microeconómico, planificación estratégica corporativa, comportamiento de los consumidores digitales, investigación de mercados tecnológicos, posicionamiento de marca de software, diseño de modelos de negocios (Canvas) y estrategias ágiles para la comercialización de servicios informáticos.",
+          "objetivo": "Aplicar principios gerenciales y de mercadotecnia estratégica en la planificación, estructuración y comercialización de soluciones informáticas y productos tecnológicos innovadores.",
+          "competencias": [
+            "Gestión estratégica",
+            "Liderazgo organizacional",
+            "Análisis de mercado",
+            "Planificación empresarial"
+          ]
+        },
+        {
+          "nombre": "Redes y Comunicaciones II",
+          "descripcion": "Profundización avanzada en tecnologías de enrutamiento dinámico e interconexión de redes de área amplia (WAN). Analiza los protocolos de enrutamiento dinámico (RIPv2, OSPF, EIGRP), direccionamiento de nueva generación IPv6, traducción de direcciones de red (NAT/PAT), implementación de Listas de Control de Acceso (ACL) para seguridad perimetral, conmutación de switches de capa 2 y 3, configuración de redes privadas virtuales (VPN) y administración segura de servicios de red.",
+          "objetivo": "Diseñar, configurar, administrar y asegurar infraestructuras de redes de comunicaciones corporativas complejas a gran escala, garantizando la conectividad y disponibilidad del servicio telemático.",
+          "competencias": [
+            "Administración de redes",
+            "Seguridad informática",
+            "Diseño de infraestructuras",
+            "Gestión de comunicaciones"
+          ]
+        },
+        {
+          "nombre": "Electiva III (Edumática)",
+          "descripcion": "Asignatura especializada que explora la convergencia de la informática y los procesos psicopedagógicos de enseñanza-aprendizaje. Analiza la arquitectura técnica y funcional de los Sistemas de Gestión de Aprendizaje (LMS) como Moodle o Canvas, desarrollo de Objetos Virtuales de Aprendizaje (OVA) interactivos, integración de herramientas de Inteligencia Artificial en la educación, metodologías e-learning y b-learning, y el diseño de software educativo inclusivo.",
+          "objetivo": "Aplicar de forma innovadora las tecnologías de la información y la comunicación en el diseño, desarrollo e implementación de soluciones de software y plataformas para entornos digitales de aprendizaje.",
+          "competencias": [
+            "Innovación educativa",
+            "Integración tecnológica",
+            "Diseño de recursos digitales",
+            "Gestión del aprendizaje"
+          ]
+        },
+        {
+          "nombre": "Desarrollo de Aplicaciones II",
+          "descripcion": "Evolución técnica hacia el desarrollo de software de nivel industrial, escalable, distribuido y de alta concurrencia. Se enfoca intensamente en la arquitectura de aplicaciones web modernas, el diseño y desarrollo de Interfaces de Programación de Aplicaciones RESTful (Web APIs), autenticación y autorización segura mediante tokens (JWT/OAuth), optimización del rendimiento en servidores de aplicaciones, persistencia políglota de datos y empaquetamiento básico de aplicaciones.",
+          "objetivo": "Desarrollar sistemas de software corporativos avanzados e integrados utilizando patrones arquitectónicos distribuidos y herramientas de optimización que garanticen la escalabilidad y seguridad industrial.",
+          "competencias": [
+            "Programación avanzada",
+            "Arquitectura de software",
+            "Integración de sistemas",
+            "Optimización de aplicaciones"
+          ]
+        },
+        {
+          "nombre": "Proyecto de Grado",
+          "descripcion": "Fase académica y metodológica inicial dedicada a la concepción, diseño y formulación técnico-científica del trabajo final de investigación del estudiante. Guiado por metodologías científicas, el bachiller identifica un problema tecnológico o una necesidad de ingeniería real, define el marco de objetivos (general y específicos), levanta el marco teórico referencial y define la ruta metodológica y cronograma de desarrollo del anteproyecto.",
+          "objetivo": "Diseñar, estructurar y sustentar formalmente un proyecto de investigación aplicada o desarrollo tecnológico de ingeniería, avalado por un rigor científico y metodológico formal.",
+          "competencias": [
+            "Planificación de proyectos",
+            "Investigación aplicada",
+            "Formulación de soluciones",
+            "Gestión metodológica"
+          ]
+        },
+        {
+          "nombre": "Seminario de Ética Profesional",
+          "descripcion": "Espacio de debate, reflexión crítica y análisis ético sobre los dilemas morales, legales y de responsabilidad social inherentes al ejercicio de la ingeniería informática. Aborda en profundidad los derechos de propiedad intelectual, licenciamiento de software (libre y privativo), regulaciones de delitos informáticos, normativas internacionales de privacidad de datos, ética aplicada en algoritmos de inteligencia artificial, ciberseguridad corporativa y el compromiso social del ingeniero informático ante la sociedad.",
+          "objetivo": "Promover una sólida conducta deontológica profesional, fundamentada en valores éticos, morales, legales y de responsabilidad social en la toma de decisiones tecnológicas.",
+          "competencias": [
+            "Ética profesional",
+            "Responsabilidad social",
+            "Pensamiento crítico",
+            "Toma de decisiones responsables"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 9,
+      "resumen": "Consolidar las competencias profesionales mediante la gestión de proyectos tecnológicos, la auditoría de sistemas y la ejecución del trabajo de investigación final.",
+      "proposito": "Adquirir habilidades de PMBOK, auditoría informática y ejecutar el software del Trabajo de Grado.",
+      "materias": [
+        {
+          "nombre": "Planificación de Proyectos",
+          "descripcion": "Estudio científico y metodológico enfocado en la aplicación de los estándares mundiales (PMBOK/IEEE) para la planificación, inicio, ejecución, monitoreo, control y cierre exitoso de proyectos tecnológicos de información. Aborda la gestión integral del alcance del proyecto informático, estimación precisa de tiempos (diagramas de Gantt), gestión de costos y presupuestos de TI, aseguramiento de la calidad de los procesos, planes de gestión de riesgos tecnológicos y liderazgo de equipos técnicos.",
+          "objetivo": "Aplicar marcos de referencia y pautas metodológicas profesionales para planificar, presupuestar y controlar de forma integral proyectos de infraestructura tecnológica y desarrollo de software.",
+          "competencias": [
+            "Gestión de proyectos",
+            "Planificación estratégica",
+            "Administración de recursos",
+            "Control de procesos"
+          ]
+        },
+        {
+          "nombre": "Auditoría de Sistemas Informáticos",
+          "descripcion": "Asignatura especializada centrada en el análisis, revisión y evaluación metodológica objetiva de la eficiencia, seguridad, confiabilidad y cumplimiento normativo de la infraestructura tecnológica y sistemas de información en las empresas. Estudia el control interno informático, marcos de gobierno de TI (COBIT), metodologías de evaluación y gestión de riesgos tecnológicos, auditoría de la seguridad lógica y física de centros de datos, auditoría de bases de datos y la redacción formal de informes técnicos de hallazgos y recomendaciones.",
+          "objetivo": "Auditar y evaluar infraestructuras, plataformas informáticas y sistemas de información corporativos para garantizar su alineación con estándares de calidad, seguridad de la información y normativas legales vigentes.",
+          "competencias": [
+            "Auditoría tecnológica",
+            "Gestión de riesgos",
+            "Seguridad informática",
+            "Evaluación de sistemas"
+          ]
+        },
+        {
+          "nombre": "Trabajo de Grado",
+          "descripcion": "Fase intensiva de ejecución técnica, desarrollo ingenieril y culminación metodológica de la investigación propuesta en el semestre inmediato anterior. El estudiante aplica de forma independiente el total de las competencias científicas y técnicas adquiridas en la carrera para codificar la solución de software, implementar la infraestructura de redes o culminar la investigación científica planteada, procediendo a la recolección, análisis e interpretación de resultados y la redacción de la memoria técnica de grado.",
+          "objetivo": "Desarrollar, validar y culminar en su totalidad el proyecto de investigación aplicada o innovación tecnológica formulado, documentando rigurosamente los resultados bajo estándares científicos institucionales.",
+          "competencias": [
+            "Investigación aplicada",
+            "Desarrollo tecnológico",
+            "Gestión de proyectos",
+            "Comunicación científica"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 10,
+      "resumen": "Integrar y aplicar todos los conocimientos adquiridos durante la carrera en un contexto profesional real, facilitando la transición del estudiante hacia el ejercicio de la ingeniería informática.",
+      "proposito": "Validar las competencias profesionales mediante la inmersión laboral directa en la industria informática.",
+      "materias": [
+        {
+          "nombre": "Pasantía Profesional",
+          "descripcion": "Fase conclusiva de la formación universitaria que consiste en la inserción obligatoria y supervisada a tiempo completo del estudiante dentro del departamento de tecnología de una organización pública o privada de nivel regional o nacional. El pasante asume roles profesionales de ingeniería, ejecutando labores de desarrollo de software, administración de servidores, ingeniería de redes o gestión de proyectos, interactuando con equipos reales de trabajo bajo la supervisión de un tutor empresarial y un tutor académico de la UNELLEZ.",
+          "objetivo": "Vincular de forma práctica las competencias conceptuales, técnicas y actitudinales del estudiante con la realidad laboral de la industria tecnológica, resolviendo contingencias y problemas del mundo de los negocios en tiempo real.",
+          "competencias": [
+            "Experiencia profesional",
+            "Resolución de problemas reales",
+            "Trabajo en equipos multidisciplinarios",
+            "Adaptación al entorno laboral",
+            "Responsabilidad profesional"
+          ]
+        }
+      ]
+    }
+  ]
+}

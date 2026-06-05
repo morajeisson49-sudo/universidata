@@ -1,0 +1,8 @@
+.materia-card {
+  background-color: #f8f9fa;
+  border-left: 4px solid #0d2c54; /* Un detalle azul institucional a la izquierda */
+  border-radius: 4px;
+  padding: 15px;
+  margin-top: 15px;
+  text-align: left; /* Alineación limpia para descripciones y objetivos */
+}

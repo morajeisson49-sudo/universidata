@@ -1,0 +1,17 @@
+.carrera-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px;
+}
+
+.carrera-header {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.carrera-header h1 {
+  color: #003366;
+}

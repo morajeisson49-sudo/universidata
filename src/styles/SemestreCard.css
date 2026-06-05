@@ -1,0 +1,20 @@
+.semestre-card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  text-align: left !important;
+}
+
+.semestre-card h2 {
+  color: #0d2c54 !important;
+  font-size: 24px !important;
+  font-weight: bold !important;
+  margin-top: 0 !important;
+  margin-bottom: 15px !important;
+  border-bottom: 2px solid #f4b400 !important;
+  padding-bottom: 5px !important;
+  display: inline-block !important;
+}
