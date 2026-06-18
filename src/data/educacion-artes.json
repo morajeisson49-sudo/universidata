@@ -1,583 +1,410 @@
 {
-  "id": "educacion-artes",
-  "nombre": "Licenciatura en Educación Mención Artes",
+  "id": "educacion-arte",
+  "nombre": "Licenciatura en Educación Mención Arte",
   "duracion": "8 semestres",
-  "titulo": "Licenciado(a) en Educación Mención Artes",
-  "descripcion": "Formar profesionales de la educación con sólidos conocimientos pedagógicos, artísticos, culturales y humanísticos, capaces de promover el desarrollo integral de los estudiantes mediante la enseñanza de las artes visuales, escénicas y musicales, contribuyendo a la preservación del patrimonio cultural y al fortalecimiento de la creatividad, la sensibilidad estética y la identidad nacional.",
+  "titulo": "Licenciado(a) en Educación Mención Arte",
+  "creditos": 122,
+  "subproyectos": 43,
+  "horasTotales": 3408,
+  "descripcion": "La Licenciatura en Educación Mención Arte está orientada a la formación de profesionales capaces de integrar los conocimientos pedagógicos con las distintas manifestaciones artísticas para contribuir al desarrollo cultural, creativo y educativo de la sociedad. El programa promueve la comprensión del arte como herramienta de expresión, comunicación, identidad cultural y transformación social, preparando docentes comprometidos con la enseñanza de las artes en los diferentes niveles y modalidades del sistema educativo.",
   "semestres": [
     {
       "numero": 1,
-      "resumen": "Introducir al estudiante en los fundamentos de la educación, la comunicación, la expresión artística y el pensamiento humanístico que sustentan la formación del educador en artes.",
-      "proposito": "Desarrollar competencias básicas relacionadas con la comunicación, la apreciación artística, la pedagogía y el análisis cultural como fundamento para la formación profesional.",
+      "resumen": "Este semestre introduce al estudiante en las competencias fundamentales para la formación universitaria mediante el fortalecimiento de las habilidades comunicativas, tecnológicas, matemáticas, físicas y de identidad nacional.",
+      "proposito": "Desarrollar las bases académicas, personales y culturales necesarias para afrontar exitosamente la formación profesional en el área educativa y artística.",
       "materias": [
         {
-          "nombre": "Introducción a la Educación",
-          "descripcion": "Asignatura orientada al estudio de los fundamentos filosóficos, históricos y sociales de la educación. Analiza el papel del docente en la transformación de la sociedad y la formación integral de los ciudadanos.",
-          "objetivo": "Comprender los principios fundamentales de la educación y su importancia en el desarrollo humano y social.",
-          "competencias": [
-            "Comprensión educativa",
-            "Pensamiento crítico",
-            "Análisis pedagógico",
-            "Responsabilidad social"
-          ]
-        },
-        {
+          "codigo": "EA540140101",
           "nombre": "Lenguaje y Comunicación",
-          "descripcion": "Asignatura destinada al fortalecimiento de las habilidades comunicativas orales y escritas necesarias para el desempeño académico y profesional del futuro educador.",
-          "objetivo": "Desarrollar competencias comunicativas que favorezcan la interacción efectiva en contextos educativos.",
-          "competencias": [
-            "Comunicación oral",
-            "Redacción académica",
-            "Comprensión lectora",
-            "Expresión escrita"
-          ]
+          "uc": 4,
+          "prelacion": "Ninguna",
+          "descripcion": "Esta asignatura estudia los procesos fundamentales de la comunicación humana, haciendo énfasis en el desarrollo de las habilidades de comprensión lectora, expresión oral y producción escrita. Analiza los elementos que intervienen en la comunicación, las características de los diferentes tipos de textos y las normas gramaticales y ortográficas necesarias para una comunicación efectiva. Asimismo, promueve el desarrollo del pensamiento crítico y la capacidad de argumentación mediante actividades académicas orientadas a fortalecer el desempeño universitario y profesional del estudiante.",
+          "objetivo": "Desarrollar competencias comunicativas que permitan comprender, interpretar y producir mensajes orales y escritos con claridad, coherencia y corrección en distintos contextos académicos y profesionales."
         },
         {
-          "nombre": "Historia de la Cultura Universal",
-          "descripcion": "Estudio de las principales manifestaciones culturales desarrolladas por las civilizaciones a lo largo de la historia, analizando su influencia en el pensamiento artístico y social contemporáneo.",
-          "objetivo": "Analizar la evolución de las culturas y su impacto en las expresiones artísticas de la humanidad.",
-          "competencias": [
-            "Análisis histórico",
-            "Interpretación cultural",
-            "Pensamiento humanístico",
-            "Apreciación artística"
-          ]
+          "codigo": "EA540140102",
+          "nombre": "Inglés Instrumental",
+          "uc": 2,
+          "prelacion": "Ninguna",
+          "descripcion": "Proporciona herramientas básicas para la comprensión e interpretación de textos académicos y técnicos escritos en idioma inglés. La asignatura aborda vocabulario especializado, estrategias de lectura, análisis de estructuras gramaticales y técnicas de comprensión que facilitan el acceso a información científica y educativa. Su enfoque instrumental permite al estudiante utilizar el idioma como medio de consulta y actualización profesional dentro de su área de formación.",
+          "objetivo": "Desarrollar habilidades de lectura y comprensión de textos en inglés que permitan acceder a información académica y científica relacionada con la formación profesional."
         },
         {
-          "nombre": "Dibujo I",
-          "descripcion": "Asignatura práctica orientada al desarrollo de habilidades de representación gráfica mediante el estudio de líneas, formas, proporciones, perspectiva y composición visual.",
-          "objetivo": "Desarrollar destrezas básicas de observación y representación gráfica.",
-          "competencias": [
-            "Expresión gráfica",
-            "Observación artística",
-            "Composición visual",
-            "Creatividad"
-          ]
+          "codigo": "EA540130101",
+          "nombre": "Entrenamiento Físico General",
+          "uc": 2,
+          "prelacion": "Ninguna",
+          "descripcion": "Promueve el desarrollo integral del estudiante mediante actividades orientadas al fortalecimiento de la condición física, la salud corporal y el bienestar general. La asignatura aborda aspectos relacionados con la actividad física, hábitos saludables, prevención de enfermedades, acondicionamiento físico y calidad de vida. Asimismo, fomenta la disciplina, el trabajo en equipo y la valoración de la actividad física como componente esencial de la formación integral.",
+          "objetivo": "Fomentar hábitos de vida saludables mediante la práctica sistemática de actividades físicas orientadas al bienestar integral y al fortalecimiento de la salud."
         },
         {
-          "nombre": "Teoría del Arte",
-          "descripcion": "Asignatura destinada al análisis de conceptos fundamentales relacionados con la naturaleza del arte, los procesos creativos y las diferentes corrientes estéticas.",
-          "objetivo": "Comprender los fundamentos teóricos que sustentan las manifestaciones artísticas.",
-          "competencias": [
-            "Análisis estético",
-            "Interpretación artística",
-            "Pensamiento crítico",
-            "Apreciación cultural"
-          ]
+          "codigo": "EA540210103",
+          "nombre": "Espacio Geográfico e Identidad Nacional",
+          "uc": 2,
+          "prelacion": "Ninguna",
+          "descripcion": "Estudia las características geográficas, históricas y culturales de Venezuela, analizando la relación entre el territorio, la población y los procesos de construcción de la identidad nacional. Examina aspectos relacionados con la organización espacial, los recursos naturales, las regiones geográficas y las manifestaciones culturales que conforman el patrimonio venezolano. La asignatura busca fortalecer el sentido de pertenencia y el compromiso ciudadano con el desarrollo nacional.",
+          "objetivo": "Comprender la influencia del espacio geográfico en la construcción de la identidad nacional y valorar los elementos históricos y culturales que caracterizan a la sociedad venezolana."
         },
         {
-          "nombre": "Psicología General",
-          "descripcion": "Estudio de los procesos psicológicos básicos que intervienen en el comportamiento humano, incluyendo percepción, aprendizaje, motivación y desarrollo personal.",
-          "objetivo": "Comprender los procesos psicológicos fundamentales aplicables al ámbito educativo.",
-          "competencias": [
-            "Comprensión psicológica",
-            "Análisis conductual",
-            "Desarrollo humano",
-            "Aplicación educativa"
-          ]
+          "codigo": "EA540120102",
+          "nombre": "Informática",
+          "uc": 2,
+          "prelacion": "Ninguna",
+          "descripcion": "Introduce al estudiante en el uso de herramientas tecnológicas aplicadas al ámbito académico y profesional. Incluye el manejo de sistemas operativos, procesadores de texto, hojas de cálculo, presentaciones electrónicas, navegación por internet y búsqueda de información digital. Además, promueve el uso responsable de las tecnologías de información y comunicación como recursos fundamentales para el aprendizaje, la investigación y la producción de conocimiento.",
+          "objetivo": "Desarrollar competencias básicas en el uso de herramientas informáticas que faciliten el desempeño académico y profesional."
+        },
+        {
+          "codigo": "EA540150101",
+          "nombre": "Matemática General",
+          "uc": 4,
+          "prelacion": "Ninguna",
+          "descripcion": "Proporciona los fundamentos matemáticos necesarios para el desarrollo del razonamiento lógico y la resolución de problemas. Estudia conceptos relacionados con álgebra, ecuaciones, funciones, proporciones, operaciones matemáticas y análisis cuantitativo. La asignatura contribuye al fortalecimiento de las capacidades analíticas del estudiante y a la aplicación de procedimientos matemáticos en situaciones académicas y cotidianas.",
+          "objetivo": "Fortalecer las habilidades lógico-matemáticas mediante el estudio y aplicación de conceptos fundamentales que permitan resolver problemas de manera sistemática y razonada."
         }
       ]
     },
     {
       "numero": 2,
-      "resumen": "Profundizar en los fundamentos pedagógicos y artísticos mediante el estudio de la psicología educativa, la historia del arte y las técnicas básicas de expresión visual.",
-      "proposito": "Fortalecer las competencias necesarias para integrar conocimientos educativos y artísticos en procesos de enseñanza y aprendizaje.",
+      "resumen": "Este semestre incorpora los fundamentos psicológicos, filosóficos y sociológicos de la educación, junto con los primeros conocimientos especializados en el área artística.",
+      "proposito": "Comprender las bases teóricas que sustentan los procesos educativos y desarrollar las primeras competencias relacionadas con la apreciación y expresión artística.",
       "materias": [
         {
-          "nombre": "Psicología Educativa",
-          "descripcion": "Asignatura orientada al estudio de los procesos psicológicos relacionados con el aprendizaje, el desarrollo cognitivo y las estrategias educativas.",
-          "objetivo": "Aplicar principios psicológicos en la planificación y ejecución de procesos educativos.",
-          "competencias": [
-            "Evaluación educativa",
-            "Comprensión del aprendizaje",
-            "Diseño pedagógico",
-            "Intervención educativa"
-          ]
+          "codigo": "EA540110201",
+          "nombre": "Psicología Evolutiva",
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Analiza las distintas etapas del desarrollo humano desde la infancia hasta la adultez, considerando los cambios físicos, cognitivos, emocionales y sociales que caracterizan cada período. La asignatura permite comprender cómo evolucionan las capacidades y comportamientos de las personas, aportando herramientas fundamentales para la comprensión de los procesos educativos y la atención de las necesidades individuales de los estudiantes.",
+          "objetivo": "Estudiar las características del desarrollo humano y su influencia en los procesos de aprendizaje y formación integral."
         },
         {
-          "nombre": "Historia del Arte Universal",
-          "descripcion": "Estudio de las principales corrientes, movimientos y manifestaciones artísticas desarrolladas desde la antigüedad hasta la época contemporánea.",
-          "objetivo": "Analizar la evolución histórica de las artes y su influencia en la cultura universal.",
-          "competencias": [
-            "Análisis histórico-artístico",
-            "Interpretación estética",
-            "Pensamiento crítico",
-            "Valoración cultural"
-          ]
+          "codigo": "EA540110203",
+          "nombre": "Filosofía de la Educación",
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Examina los fundamentos filosóficos que sustentan la educación como fenómeno humano y social. Analiza las principales corrientes del pensamiento educativo, las concepciones sobre el conocimiento, los valores y la formación integral del individuo. La asignatura promueve la reflexión crítica sobre la función de la educación y el papel del docente dentro de la sociedad contemporánea.",
+          "objetivo": "Comprender los principios filosóficos que orientan la práctica educativa y su influencia en la formación de los ciudadanos."
         },
         {
-          "nombre": "Dibujo II",
-          "descripcion": "Continuación del desarrollo de técnicas de representación gráfica mediante estudios avanzados de perspectiva, figura humana y composición artística.",
-          "objetivo": "Perfeccionar habilidades técnicas y expresivas en el dibujo artístico.",
-          "competencias": [
-            "Representación avanzada",
-            "Expresión visual",
-            "Técnicas artísticas",
-            "Creatividad"
-          ]
+          "codigo": "EA540210201",
+          "nombre": "Sociología de la Educación",
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Estudia la educación desde una perspectiva social, analizando las relaciones entre escuela, comunidad, cultura y sociedad. Examina los factores sociales que influyen en el aprendizaje, los procesos de socialización y las transformaciones educativas asociadas al contexto histórico y cultural.",
+          "objetivo": "Analizar la educación como fenómeno social y comprender su impacto en el desarrollo de las comunidades y las sociedades."
         },
         {
-          "nombre": "Color y Composición",
-          "descripcion": "Asignatura dedicada al estudio de la teoría del color, armonías cromáticas y principios compositivos aplicados a la creación artística.",
-          "objetivo": "Aplicar principios cromáticos y compositivos en producciones artísticas.",
-          "competencias": [
-            "Manejo del color",
-            "Diseño visual",
-            "Composición artística",
-            "Sensibilidad estética"
-          ]
+          "codigo": "EA540160201",
+          "nombre": "Dibujo Analítico",
+          "uc": 2,
+          "prelacion": "Ninguna",
+          "descripcion": "Desarrolla las capacidades de observación, percepción visual y representación gráfica mediante el estudio de formas, proporciones, volúmenes y estructuras. La asignatura constituye una base fundamental para la formación artística, permitiendo comprender los principios técnicos que intervienen en la elaboración de dibujos con fines expresivos y académicos.",
+          "objetivo": "Desarrollar habilidades de observación y representación gráfica mediante la aplicación de principios fundamentales del dibujo."
         },
         {
-          "nombre": "Expresión Corporal",
-          "descripcion": "Estudio de técnicas de comunicación y expresión mediante el movimiento corporal como recurso educativo y artístico.",
-          "objetivo": "Desarrollar habilidades expresivas utilizando el cuerpo como medio de comunicación.",
-          "competencias": [
-            "Expresión corporal",
-            "Comunicación no verbal",
-            "Creatividad",
-            "Desarrollo artístico"
-          ]
+          "codigo": "EA540160202",
+          "nombre": "Historia del Arte I",
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Estudia el origen y evolución de las manifestaciones artísticas desde la prehistoria hasta las civilizaciones clásicas. Analiza las expresiones artísticas desarrolladas por las culturas antiguas, sus características estéticas, significados simbólicos y contextos históricos. La asignatura permite comprender la influencia de estos períodos en el desarrollo posterior del arte universal.",
+          "objetivo": "Comprender la evolución histórica de las principales manifestaciones artísticas de la antigüedad y valorar su aporte al patrimonio cultural de la humanidad."
         },
         {
-          "nombre": "Metodología de la Investigación",
-          "descripcion": "Asignatura destinada al estudio de los métodos y técnicas de investigación aplicados al ámbito educativo y artístico.",
-          "objetivo": "Desarrollar competencias investigativas para el análisis y solución de problemas educativos y culturales.",
-          "competencias": [
-            "Investigación científica",
-            "Análisis crítico",
-            "Diseño metodológico",
-            "Producción académica"
-          ]
+          "codigo": "EA540160203",
+          "nombre": "Introducción a las Bellas Artes",
+          "uc": 2,
+          "prelacion": "Ninguna",
+          "descripcion": "Presenta una visión general de las diferentes disciplinas que integran las bellas artes, incluyendo pintura, escultura, música, danza, teatro y arquitectura. Analiza sus fundamentos, características expresivas y aportes al desarrollo cultural de las sociedades. Asimismo, promueve la apreciación estética y la comprensión del arte como medio de comunicación y transformación social.",
+          "objetivo": "Conocer las principales disciplinas artísticas y comprender su importancia dentro del desarrollo cultural y educativo."
         }
       ]
-    }
-  ,
-{
+    },
+    {
   "numero": 3,
-  "resumen": "Profundizar en el estudio de las artes visuales y los procesos educativos mediante el análisis de corrientes artísticas latinoamericanas, técnicas pictóricas y fundamentos curriculares.",
-  "proposito": "Desarrollar competencias artísticas y pedagógicas que permitan integrar la creación visual con los procesos de enseñanza y aprendizaje.",
+  "resumen": "Este semestre profundiza en los fundamentos psicológicos del aprendizaje, la educación ambiental y el desarrollo de competencias artísticas orientadas a la expresión visual, la apreciación estética y la integración del arte en los procesos educativos.",
+  "proposito": "Fortalecer la comprensión de los procesos de aprendizaje y consolidar las bases artísticas y pedagógicas necesarias para la formación del futuro docente especialista en arte.",
   "materias": [
     {
-      "nombre": "Historia del Arte Latinoamericano",
-      "descripcion": "Estudio de las manifestaciones artísticas desarrolladas en América Latina desde las culturas precolombinas hasta las expresiones contemporáneas, analizando su contexto histórico, social y cultural.",
-      "objetivo": "Comprender la evolución del arte latinoamericano y su aporte a la identidad cultural regional.",
-      "competencias": [
-        "Análisis histórico-artístico",
-        "Valoración cultural",
-        "Interpretación estética",
-        "Identidad latinoamericana"
-      ]
+      "codigo": "EA540110302",
+      "nombre": "Psicología del Aprendizaje",
+      "uc": 3,
+      "prelacion": "Ninguna",
+      "descripcion": "Estudia las principales teorías y enfoques que explican cómo las personas adquieren conocimientos, habilidades, actitudes y valores. Analiza los procesos cognitivos, conductuales y socioculturales involucrados en el aprendizaje, así como los factores individuales y ambientales que influyen en el desarrollo educativo. La asignatura proporciona herramientas fundamentales para comprender las necesidades de los estudiantes y diseñar estrategias pedagógicas efectivas.",
+      "objetivo": "Comprender los procesos psicológicos que intervienen en el aprendizaje humano para favorecer el diseño de experiencias educativas significativas y adaptadas a las características de los estudiantes."
     },
     {
-      "nombre": "Pintura I",
-      "descripcion": "Asignatura práctica orientada al aprendizaje de técnicas básicas de pintura mediante el uso de diversos materiales, soportes y procedimientos de representación visual.",
-      "objetivo": "Desarrollar habilidades técnicas y creativas en la producción pictórica.",
-      "competencias": [
-        "Técnicas pictóricas",
-        "Expresión visual",
-        "Creatividad artística",
-        "Composición estética"
-      ]
+      "codigo": "EA540120301",
+      "nombre": "Ecología y Educación Ambiental",
+      "uc": 3,
+      "prelacion": "Ninguna",
+      "descripcion": "Aborda los principios fundamentales de la ecología, la relación entre los seres vivos y su entorno, así como los principales problemas ambientales que afectan al planeta. Promueve la comprensión de la sostenibilidad, la conservación de los recursos naturales y la responsabilidad ambiental desde una perspectiva educativa. Asimismo, fomenta la participación activa en la búsqueda de soluciones para los desafíos ecológicos contemporáneos.",
+      "objetivo": "Promover la conciencia ambiental mediante el estudio de los principios ecológicos y su aplicación en la educación para el desarrollo sostenible."
     },
     {
-      "nombre": "Escultura I",
-      "descripcion": "Introducción al modelado y construcción tridimensional mediante materiales tradicionales y contemporáneos, explorando conceptos de volumen, espacio y forma.",
-      "objetivo": "Desarrollar capacidades de representación tridimensional mediante técnicas escultóricas básicas.",
-      "competencias": [
-        "Modelado artístico",
-        "Percepción espacial",
-        "Construcción tridimensional",
-        "Creatividad"
-      ]
+      "codigo": "EA540160304",
+      "nombre": "Dibujo Descriptivo",
+      "uc": 2,
+      "prelacion": "Dibujo Analítico",
+      "descripcion": "Profundiza en las técnicas de representación gráfica mediante el estudio de la perspectiva, la proporción, la composición y la descripción visual de objetos y espacios. La asignatura desarrolla la capacidad de interpretar y representar la realidad de forma precisa, fortaleciendo las habilidades artísticas necesarias para el desempeño profesional en el área de las artes visuales.",
+      "objetivo": "Perfeccionar las habilidades de representación gráfica mediante la aplicación de técnicas avanzadas de observación y descripción visual."
     },
     {
-      "nombre": "Currículo y Evaluación",
-      "descripcion": "Estudio de los fundamentos teóricos y metodológicos del currículo, así como de los procesos de evaluación aplicados al ámbito educativo.",
-      "objetivo": "Diseñar estrategias curriculares y evaluativas adaptadas a contextos educativos diversos.",
-      "competencias": [
-        "Diseño curricular",
-        "Evaluación educativa",
-        "Planificación académica",
-        "Análisis pedagógico"
-      ]
+      "codigo": "EA540160305",
+      "nombre": "Historia del Arte II",
+      "uc": 3,
+      "prelacion": "Historia del Arte I",
+      "descripcion": "Estudia la evolución de las manifestaciones artísticas desde la Edad Media hasta el Renacimiento y los movimientos artísticos posteriores. Analiza los cambios culturales, religiosos, políticos y sociales que influyeron en la producción artística de cada período, permitiendo comprender la transformación de las formas de expresión y su impacto en el desarrollo de la cultura occidental.",
+      "objetivo": "Analizar la evolución histórica del arte durante los períodos medieval, renacentista y moderno, identificando sus características y aportes al patrimonio cultural universal."
     },
     {
-      "nombre": "Música y Expresión Sonora",
-      "descripcion": "Asignatura orientada al estudio de los elementos básicos del lenguaje musical y su aplicación en procesos educativos y expresivos.",
-      "objetivo": "Desarrollar habilidades musicales básicas para su utilización en contextos pedagógicos y artísticos.",
-      "competencias": [
-        "Apreciación musical",
-        "Expresión sonora",
-        "Comunicación artística",
-        "Sensibilidad auditiva"
-      ]
+      "codigo": "EA540160306",
+      "nombre": "Arte y Proceso Educativo",
+      "uc": 3,
+      "prelacion": "Ninguna",
+      "descripcion": "Examina la relación entre el arte y la educación como medios para el desarrollo integral de las personas. Analiza el valor pedagógico de las expresiones artísticas y su contribución al fortalecimiento de la creatividad, la sensibilidad, la comunicación y el pensamiento crítico. Asimismo, estudia estrategias para incorporar el arte como recurso didáctico dentro de los procesos de enseñanza y aprendizaje.",
+      "objetivo": "Comprender la importancia del arte como herramienta educativa y promover su integración en los procesos de formación y desarrollo humano."
     },
     {
-      "nombre": "Psicología del Desarrollo",
-      "descripcion": "Estudio de las etapas del desarrollo humano y de los factores biológicos, psicológicos y sociales que influyen en el aprendizaje y comportamiento.",
-      "objetivo": "Comprender los procesos evolutivos del ser humano para mejorar la práctica educativa.",
-      "competencias": [
-        "Comprensión del desarrollo",
-        "Análisis conductual",
-        "Aplicación educativa",
-        "Intervención pedagógica"
-      ]
+      "codigo": "ELECTIVA-I",
+      "nombre": "Electiva I",
+      "uc": 2,
+      "prelacion": "Ninguna",
+      "descripcion": "Espacio académico destinado a complementar la formación integral del estudiante mediante la selección de asignaturas orientadas al fortalecimiento de habilidades personales, comunicativas, culturales o profesionales. Las electivas permiten ampliar conocimientos en áreas de interés específicas y enriquecer el perfil académico del futuro docente.",
+      "objetivo": "Favorecer la formación integral del estudiante mediante experiencias de aprendizaje complementarias adaptadas a sus intereses y necesidades académicas."
     }
   ]
 },
 {
   "numero": 4,
-  "resumen": "Fortalecer la formación artística mediante el desarrollo de competencias expresivas, teatrales y pictóricas vinculadas a la práctica educativa.",
-  "proposito": "Integrar las artes visuales y escénicas como herramientas pedagógicas para el desarrollo creativo y cultural.",
+  "resumen": "Este semestre fortalece las competencias relacionadas con la orientación educativa, la planificación de la enseñanza y el desarrollo de habilidades artísticas más avanzadas, integrando conocimientos pedagógicos y expresivos necesarios para el ejercicio profesional docente.",
+  "proposito": "Desarrollar capacidades para la planificación de procesos educativos y profundizar en áreas artísticas que contribuyan a la formación integral del futuro docente especialista en arte.",
   "materias": [
     {
-      "nombre": "Pintura II",
-      "descripcion": "Continuación del estudio de técnicas pictóricas avanzadas mediante la experimentación con diversos estilos, materiales y recursos expresivos.",
-      "objetivo": "Profundizar en los procesos de creación pictórica y expresión visual.",
-      "competencias": [
-        "Producción artística",
-        "Dominio técnico",
-        "Expresión creativa",
-        "Composición avanzada"
-      ]
+      "codigo": "EA540110404",
+      "nombre": "Orientación Educativa",
+      "uc": 3,
+      "prelacion": "Psicología del Aprendizaje",
+      "descripcion": "Estudia los principios, fundamentos y estrategias de la orientación educativa como proceso de apoyo al desarrollo integral de los estudiantes. Analiza aspectos relacionados con la atención individual y grupal, la prevención de problemáticas escolares, la toma de decisiones vocacionales y el fortalecimiento de las relaciones interpersonales dentro del contexto educativo.",
+      "objetivo": "Comprender la importancia de la orientación educativa y aplicar estrategias que favorezcan el desarrollo personal, académico y social de los estudiantes."
     },
     {
-      "nombre": "Escultura II",
-      "descripcion": "Asignatura orientada al perfeccionamiento de técnicas escultóricas mediante proyectos tridimensionales de mayor complejidad conceptual y técnica.",
-      "objetivo": "Desarrollar proyectos escultóricos que integren creatividad, técnica y significado artístico.",
-      "competencias": [
-        "Creación tridimensional",
-        "Innovación artística",
-        "Resolución creativa",
-        "Dominio técnico"
-      ]
+      "codigo": "EA540150402",
+      "nombre": "Estadística Descriptiva",
+      "uc": 3,
+      "prelacion": "Ninguna",
+      "descripcion": "Introduce los conceptos fundamentales de la estadística aplicada a la educación y las ciencias sociales. Estudia técnicas para la recopilación, organización, representación e interpretación de datos mediante tablas, gráficos y medidas estadísticas que faciliten el análisis de información y la toma de decisiones.",
+      "objetivo": "Aplicar herramientas estadísticas básicas para analizar e interpretar datos relacionados con situaciones educativas y sociales."
     },
     {
-      "nombre": "Didáctica General",
-      "descripcion": "Estudio de métodos, estrategias y recursos destinados a facilitar los procesos de enseñanza y aprendizaje en distintos contextos educativos.",
-      "objetivo": "Aplicar principios didácticos en la planificación y ejecución de actividades educativas.",
-      "competencias": [
-        "Diseño didáctico",
-        "Gestión del aprendizaje",
-        "Planificación educativa",
-        "Innovación pedagógica"
-      ]
+      "codigo": "EA540230401",
+      "nombre": "Planificación de la Enseñanza",
+      "uc": 4,
+      "prelacion": "Psicología del Aprendizaje",
+      "descripcion": "Analiza los principios y procedimientos necesarios para diseñar experiencias educativas significativas. Incluye el estudio de objetivos de aprendizaje, estrategias metodológicas, recursos didácticos, organización curricular y planificación de actividades adaptadas a las necesidades de los estudiantes.",
+      "objetivo": "Diseñar planes de enseñanza fundamentados en principios pedagógicos que contribuyan al logro de los objetivos educativos."
     },
     {
-      "nombre": "Expresión Teatral I",
-      "descripcion": "Introducción a las técnicas básicas de actuación, improvisación y comunicación escénica como herramientas de desarrollo artístico y educativo.",
-      "objetivo": "Desarrollar habilidades expresivas mediante recursos teatrales básicos.",
-      "competencias": [
-        "Actuación",
-        "Expresión escénica",
-        "Comunicación verbal",
-        "Creatividad"
-      ]
+      "codigo": "EA540160407",
+      "nombre": "Dibujo Expresivo",
+      "uc": 2,
+      "prelacion": "Dibujo Descriptivo",
+      "descripcion": "Profundiza en las posibilidades expresivas del dibujo como medio artístico y de comunicación visual. Estudia técnicas orientadas al desarrollo de la creatividad, la interpretación subjetiva de la realidad y la construcción de lenguajes gráficos personales.",
+      "objetivo": "Desarrollar capacidades creativas y expresivas mediante el uso del dibujo como herramienta artística y comunicativa."
     },
     {
-      "nombre": "Planificación Educativa",
-      "descripcion": "Asignatura orientada al diseño, organización y evaluación de programas y actividades educativas adaptadas a diversos contextos institucionales.",
-      "objetivo": "Diseñar planes educativos coherentes con objetivos formativos específicos.",
-      "competencias": [
-        "Planificación académica",
-        "Organización educativa",
-        "Evaluación de programas",
-        "Gestión pedagógica"
-      ]
+      "codigo": "EA540160408",
+      "nombre": "Historia del Arte III",
+      "uc": 3,
+      "prelacion": "Historia del Arte II",
+      "descripcion": "Examina los principales movimientos artísticos contemporáneos y modernos, analizando sus características estéticas, contextos históricos y contribuciones al desarrollo del arte universal. Estudia las transformaciones culturales que dieron origen a nuevas formas de expresión artística.",
+      "objetivo": "Analizar los movimientos artísticos modernos y contemporáneos para comprender su influencia en el arte actual."
     },
     {
-      "nombre": "Estética",
-      "descripcion": "Estudio filosófico de la belleza, el arte y la percepción estética, analizando corrientes de pensamiento relacionadas con la creación artística.",
-      "objetivo": "Comprender los fundamentos filosóficos que sustentan las experiencias estéticas y artísticas.",
-      "competencias": [
-        "Pensamiento crítico",
-        "Interpretación estética",
-        "Análisis filosófico",
-        "Apreciación artística"
-      ]
+      "codigo": "EA540160409",
+      "nombre": "Danza I",
+      "uc": 2,
+      "prelacion": "Ninguna",
+      "descripcion": "Introduce los fundamentos de la expresión corporal y el movimiento como formas de comunicación artística. Estudia elementos básicos de la danza, coordinación motriz, ritmo, espacio escénico y apreciación de las manifestaciones dancísticas como expresión cultural.",
+      "objetivo": "Desarrollar habilidades básicas de expresión corporal y comprensión de la danza como manifestación artística y educativa."
     }
   ]
-}
-,
+},
 {
   "numero": 5,
-  "resumen": "Consolidar la formación artística mediante el estudio de técnicas visuales avanzadas, patrimonio cultural e integración de recursos tecnológicos aplicados a la educación artística.",
-  "proposito": "Desarrollar competencias profesionales que permitan diseñar experiencias educativas innovadoras utilizando diversas manifestaciones artísticas y herramientas tecnológicas.",
+  "resumen": "Este semestre incorpora herramientas para la gestión educativa, la investigación y el fortalecimiento de las capacidades musicales y pictóricas necesarias para el ejercicio profesional en el área artística.",
+  "proposito": "Desarrollar competencias relacionadas con la administración educativa, la investigación y las distintas manifestaciones artísticas aplicadas al contexto pedagógico.",
   "materias": [
     {
-      "nombre": "Expresión Teatral II",
-      "descripcion": "Profundización en técnicas de actuación, montaje escénico, expresión corporal y construcción de personajes, fortaleciendo las capacidades comunicativas y pedagógicas del futuro docente.",
-      "objetivo": "Aplicar recursos teatrales avanzados en procesos artísticos y educativos.",
-      "competencias": [
-        "Interpretación escénica",
-        "Dirección teatral",
-        "Comunicación artística",
-        "Creatividad pedagógica"
-      ]
+      "codigo": "EA540230504",
+      "nombre": "Gerencia Educativa",
+      "uc": 3,
+      "prelacion": "Ninguna",
+      "descripcion": "Estudia los fundamentos de la administración y gestión de instituciones educativas. Analiza procesos relacionados con liderazgo, organización, planificación, toma de decisiones y gestión de recursos para mejorar la calidad de los procesos educativos.",
+      "objetivo": "Comprender los principios de la gerencia educativa y su aplicación en la administración eficiente de instituciones escolares."
     },
     {
-      "nombre": "Grabado",
-      "descripcion": "Asignatura orientada al estudio y práctica de técnicas tradicionales y contemporáneas de grabado artístico sobre diversos soportes.",
-      "objetivo": "Desarrollar habilidades técnicas para la producción de obras gráficas mediante procedimientos de grabado.",
-      "competencias": [
-        "Producción gráfica",
-        "Dominio técnico",
-        "Expresión visual",
-        "Innovación artística"
-      ]
+      "codigo": "EA540230503",
+      "nombre": "Evaluación del Aprendizaje",
+      "uc": 3,
+      "prelacion": "Planificación de la Enseñanza",
+      "descripcion": "Analiza los procesos, técnicas e instrumentos utilizados para valorar el aprendizaje de los estudiantes. Estudia enfoques contemporáneos de evaluación, criterios de valoración y procedimientos para la toma de decisiones pedagógicas basadas en evidencias.",
+      "objetivo": "Diseñar y aplicar estrategias de evaluación que permitan valorar el progreso y desempeño de los estudiantes."
     },
     {
-      "nombre": "Fotografía",
-      "descripcion": "Estudio de principios técnicos y estéticos de la fotografía, abordando composición, iluminación, narrativa visual y edición básica de imágenes.",
-      "objetivo": "Utilizar la fotografía como herramienta de expresión artística y educativa.",
-      "competencias": [
-        "Composición fotográfica",
-        "Narrativa visual",
-        "Edición digital",
-        "Comunicación visual"
-      ]
+      "codigo": "EA540220501",
+      "nombre": "Metodología de la Investigación",
+      "uc": 3,
+      "prelacion": "Ninguna",
+      "descripcion": "Introduce los fundamentos epistemológicos y metodológicos de la investigación científica. Estudia las etapas del proceso investigativo, formulación de problemas, construcción de objetivos, diseño metodológico y análisis de información.",
+      "objetivo": "Desarrollar conocimientos y habilidades básicas para la elaboración de investigaciones en el ámbito educativo y artístico."
     },
     {
-      "nombre": "Arte Venezolano",
-      "descripcion": "Análisis de las manifestaciones artísticas desarrolladas en Venezuela, considerando su evolución histórica, identidad cultural y contribuciones al patrimonio nacional.",
-      "objetivo": "Valorar el desarrollo del arte venezolano y su importancia cultural.",
-      "competencias": [
-        "Identidad cultural",
-        "Análisis artístico",
-        "Patrimonio nacional",
-        "Interpretación histórica"
-      ]
+      "codigo": "EA540160510",
+      "nombre": "Educación Musical I",
+      "uc": 3,
+      "prelacion": "Ninguna",
+      "descripcion": "Aborda los fundamentos teóricos y prácticos de la música, incluyendo lenguaje musical, ritmo, melodía, armonía y apreciación auditiva. Promueve la comprensión de la música como herramienta educativa y de desarrollo cultural.",
+      "objetivo": "Comprender los elementos fundamentales de la música y su aplicación en los procesos educativos."
     },
     {
-      "nombre": "Tecnología Educativa",
-      "descripcion": "Asignatura orientada al uso de recursos tecnológicos aplicados al diseño y desarrollo de experiencias de aprendizaje innovadoras.",
-      "objetivo": "Integrar herramientas tecnológicas en procesos de enseñanza y aprendizaje.",
-      "competencias": [
-        "Competencia digital",
-        "Diseño instruccional",
-        "Innovación educativa",
-        "Uso de TIC"
-      ]
+      "codigo": "EA540160511",
+      "nombre": "Técnicas de la Pintura",
+      "uc": 2,
+      "prelacion": "Dibujo Expresivo",
+      "descripcion": "Estudia materiales, procedimientos y técnicas empleadas en la producción pictórica. Analiza aspectos relacionados con el color, la composición, la textura y los recursos expresivos utilizados en diferentes estilos y corrientes artísticas.",
+      "objetivo": "Aplicar técnicas pictóricas que permitan desarrollar habilidades de representación visual y expresión artística."
     },
     {
-      "nombre": "Práctica Profesional I",
-      "descripcion": "Experiencia supervisada orientada a la observación y análisis de contextos educativos donde se desarrollan actividades relacionadas con la educación artística.",
-      "objetivo": "Reconocer las dinámicas educativas reales y el papel del docente en artes.",
-      "competencias": [
-        "Observación pedagógica",
-        "Análisis institucional",
-        "Reflexión profesional",
-        "Integración teoría-práctica"
-      ]
+      "codigo": "ELECTIVA-II",
+      "nombre": "Electiva II",
+      "uc": 2,
+      "prelacion": "Ninguna",
+      "descripcion": "Espacio académico orientado a complementar la formación profesional mediante la selección de contenidos especializados que amplíen los conocimientos y experiencias del estudiante en áreas de interés relacionadas con la educación y las artes.",
+      "objetivo": "Fortalecer la formación integral mediante experiencias de aprendizaje complementarias seleccionadas de acuerdo con los intereses académicos del estudiante."
     }
   ]
 },
 {
   "numero": 6,
-  "resumen": "Fortalecer la capacidad de gestión, producción artística e investigación educativa mediante proyectos interdisciplinarios orientados al desarrollo cultural.",
-  "proposito": "Preparar al estudiante para liderar iniciativas culturales y educativas que promuevan el desarrollo artístico en distintos contextos sociales.",
+  "resumen": "Este semestre integra la práctica profesional inicial con la investigación educativa y el fortalecimiento de las competencias éticas, musicales y teatrales necesarias para el desempeño docente.",
+  "proposito": "Aplicar los conocimientos adquiridos en contextos reales de formación y fortalecer las capacidades pedagógicas, investigativas y artísticas del futuro profesional.",
   "materias": [
     {
-      "nombre": "Gestión Cultural",
-      "descripcion": "Asignatura dedicada al estudio de estrategias para la planificación, organización y ejecución de proyectos culturales y artísticos.",
-      "objetivo": "Gestionar iniciativas culturales que contribuyan al desarrollo artístico y comunitario.",
-      "competencias": [
-        "Gestión cultural",
-        "Planificación de eventos",
-        "Liderazgo organizacional",
-        "Desarrollo comunitario"
-      ]
+      "codigo": "EA540220603",
+      "nombre": "Práctica Profesional I: El Docente como Agente de Cambio Social",
+      "uc": 3,
+      "prelacion": "Gerencia Educativa",
+      "descripcion": "Introduce al estudiante en escenarios educativos reales para observar y analizar el papel del docente como promotor de transformación social. Favorece la reflexión crítica sobre la práctica educativa y el compromiso con el desarrollo comunitario.",
+      "objetivo": "Comprender la función social del docente y su influencia en los procesos de cambio y desarrollo de las comunidades."
     },
     {
-      "nombre": "Producción Artística",
-      "descripcion": "Asignatura práctica destinada a la creación y ejecución de proyectos artísticos integrales utilizando diversos lenguajes y medios de expresión.",
-      "objetivo": "Desarrollar proyectos artísticos con criterios técnicos, estéticos y conceptuales.",
-      "competencias": [
-        "Creación artística",
-        "Gestión de proyectos",
-        "Innovación cultural",
-        "Producción interdisciplinaria"
-      ]
+      "codigo": "EA540230603",
+      "nombre": "Metodología y Recursos para el Aprendizaje",
+      "uc": 4,
+      "prelacion": "Planificación de la Enseñanza",
+      "descripcion": "Estudia métodos, estrategias y recursos didácticos que facilitan el aprendizaje significativo. Analiza la selección, diseño y utilización de materiales educativos adaptados a diferentes contextos y necesidades formativas.",
+      "objetivo": "Diseñar y aplicar recursos didácticos que contribuyan al desarrollo efectivo de los procesos de enseñanza y aprendizaje."
     },
     {
-      "nombre": "Investigación Educativa",
-      "descripcion": "Estudio de metodologías y técnicas de investigación aplicadas al análisis de problemas educativos relacionados con la enseñanza de las artes.",
-      "objetivo": "Desarrollar investigaciones orientadas al mejoramiento de los procesos educativos artísticos.",
-      "competencias": [
-        "Investigación aplicada",
-        "Análisis de datos",
-        "Producción académica",
-        "Resolución de problemas"
-      ]
+      "codigo": "EA540220602",
+      "nombre": "Investigación Social",
+      "uc": 4,
+      "prelacion": "Metodología de la Investigación",
+      "descripcion": "Profundiza en los métodos y técnicas de investigación aplicados al estudio de fenómenos sociales y educativos. Incluye procedimientos para la recolección, análisis e interpretación de datos orientados a la solución de problemas comunitarios.",
+      "objetivo": "Aplicar herramientas de investigación social para comprender y abordar problemáticas presentes en contextos educativos y comunitarios."
     },
     {
-      "nombre": "Diseño de Proyectos Culturales",
-      "descripcion": "Asignatura orientada al diseño, formulación y evaluación de proyectos destinados a promover el desarrollo cultural y artístico en distintos entornos.",
-      "objetivo": "Diseñar proyectos culturales viables y sostenibles.",
-      "competencias": [
-        "Formulación de proyectos",
-        "Planificación estratégica",
-        "Evaluación de impacto",
-        "Gestión de recursos"
-      ]
+      "codigo": "EA540110605",
+      "nombre": "Ética y Docencia",
+      "uc": 3,
+      "prelacion": "Ninguna",
+      "descripcion": "Analiza los principios éticos que orientan el ejercicio de la profesión docente. Reflexiona sobre la responsabilidad social, el compromiso profesional, los valores humanos y la construcción de una práctica educativa fundamentada en el respeto y la justicia.",
+      "objetivo": "Promover una actuación profesional ética y responsable acorde con los principios que orientan la labor educativa."
     },
     {
-      "nombre": "Didáctica de las Artes",
-      "descripcion": "Estudio de estrategias metodológicas para la enseñanza de las artes en diferentes niveles educativos.",
-      "objetivo": "Aplicar métodos didácticos especializados para la enseñanza artística.",
-      "competencias": [
-        "Diseño didáctico",
-        "Innovación pedagógica",
-        "Evaluación artística",
-        "Mediación educativa"
-      ]
+      "codigo": "EA540160612",
+      "nombre": "Educación Musical II",
+      "uc": 3,
+      "prelacion": "Educación Musical I",
+      "descripcion": "Profundiza los conocimientos musicales mediante el estudio de técnicas interpretativas, apreciación musical avanzada y aplicación pedagógica de la música en los procesos educativos.",
+      "objetivo": "Fortalecer las competencias musicales y su utilización como recurso para la enseñanza y el desarrollo artístico."
     },
     {
-      "nombre": "Práctica Profesional II",
-      "descripcion": "Experiencia supervisada orientada a la participación activa en procesos de enseñanza artística dentro de instituciones educativas.",
-      "objetivo": "Aplicar conocimientos pedagógicos y artísticos en contextos reales de enseñanza.",
-      "competencias": [
-        "Docencia artística",
-        "Gestión de aula",
-        "Aplicación metodológica",
-        "Desarrollo profesional"
-      ]
+      "codigo": "EA540160613",
+      "nombre": "Expresión Teatral I",
+      "uc": 2,
+      "prelacion": "Ninguna",
+      "descripcion": "Introduce los fundamentos de la actuación, la expresión corporal, la comunicación escénica y las técnicas básicas del teatro. Promueve la creatividad, la espontaneidad y el desarrollo de habilidades comunicativas mediante experiencias dramáticas.",
+      "objetivo": "Desarrollar capacidades expresivas y comunicativas a través de los principios fundamentales de la expresión teatral."
     }
   ]
-}
-,
+},
 {
   "numero": 7,
-  "resumen": "Consolidar la formación artística, investigativa y patrimonial mediante el estudio del arte contemporáneo, la gestión museística y la aplicación de proyectos educativos especializados.",
-  "proposito": "Desarrollar competencias para analizar, preservar y difundir manifestaciones artísticas y culturales en contextos educativos y comunitarios.",
+  "resumen": "Este semestre consolida la formación profesional mediante experiencias de práctica educativa, el fortalecimiento de las expresiones artísticas especializadas y la aplicación de conocimientos adquiridos durante la carrera en contextos reales de enseñanza y aprendizaje.",
+  "proposito": "Integrar las competencias pedagógicas, investigativas y artísticas desarrolladas a lo largo de la carrera para fortalecer el desempeño profesional del futuro docente especialista en arte.",
   "materias": [
     {
-      "nombre": "Arte Contemporáneo",
-      "descripcion": "Estudio de las corrientes, movimientos y tendencias artísticas desarrolladas desde el siglo XX hasta la actualidad, analizando sus fundamentos conceptuales, sociales y culturales.",
-      "objetivo": "Interpretar las manifestaciones artísticas contemporáneas y su influencia en la sociedad actual.",
-      "competencias": [
-        "Análisis crítico",
-        "Interpretación artística",
-        "Pensamiento contemporáneo",
-        "Valoración cultural"
-      ]
+      "codigo": "EA540220704",
+      "nombre": "Práctica Profesional II: Administración y Supervisión de la Educación",
+      "uc": 3,
+      "prelacion": "Práctica Profesional I",
+      "descripcion": "Profundiza la experiencia práctica del estudiante mediante el análisis y participación en procesos administrativos y de supervisión dentro de instituciones educativas. Examina aspectos relacionados con la organización escolar, el seguimiento de procesos académicos, la gestión institucional y la toma de decisiones orientadas al mejoramiento de la calidad educativa.",
+      "objetivo": "Aplicar conocimientos administrativos y pedagógicos en contextos educativos reales, fortaleciendo las capacidades de gestión, supervisión y liderazgo institucional."
     },
     {
-      "nombre": "Museología y Patrimonio Cultural",
-      "descripcion": "Asignatura orientada al estudio de la conservación, gestión y difusión del patrimonio cultural mediante instituciones museísticas y proyectos de preservación.",
-      "objetivo": "Promover la conservación y valoración del patrimonio artístico y cultural.",
-      "competencias": [
-        "Gestión patrimonial",
-        "Conservación cultural",
-        "Administración museística",
-        "Divulgación cultural"
-      ]
+      "codigo": "EA540160716",
+      "nombre": "Pintura al Óleo",
+      "uc": 2,
+      "prelacion": "Técnicas de la Pintura",
+      "descripcion": "Estudia los fundamentos técnicos y expresivos de la pintura al óleo como una de las principales manifestaciones de las artes visuales. Incluye el manejo de materiales, mezclas cromáticas, composición, iluminación y desarrollo de propuestas creativas que permitan al estudiante expresar ideas y emociones mediante el lenguaje pictórico.",
+      "objetivo": "Desarrollar habilidades técnicas y creativas en la utilización de la pintura al óleo como medio de expresión artística."
     },
     {
-      "nombre": "Seminario de Investigación Artística",
-      "descripcion": "Espacio académico destinado al análisis de problemáticas relacionadas con el arte y la educación mediante el desarrollo de investigaciones especializadas.",
-      "objetivo": "Diseñar proyectos de investigación aplicados al ámbito artístico y educativo.",
-      "competencias": [
-        "Investigación especializada",
-        "Producción académica",
-        "Pensamiento crítico",
-        "Metodología científica"
-      ]
+      "codigo": "EA540160714",
+      "nombre": "Expresión Teatral II",
+      "uc": 2,
+      "prelacion": "Expresión Teatral I",
+      "descripcion": "Profundiza en las técnicas de actuación, interpretación y creación escénica mediante ejercicios prácticos orientados al desarrollo de la creatividad, la expresión corporal y la comunicación artística. Asimismo, estudia la puesta en escena y el valor educativo del teatro como herramienta pedagógica.",
+      "objetivo": "Fortalecer las capacidades interpretativas y expresivas mediante la aplicación de técnicas teatrales avanzadas en contextos educativos y artísticos."
     },
     {
-      "nombre": "Curaduría y Montaje de Exposiciones",
-      "descripcion": "Estudio de técnicas y procedimientos relacionados con la organización, diseño y ejecución de exposiciones artísticas y culturales.",
-      "objetivo": "Planificar y ejecutar proyectos expositivos de carácter artístico y educativo.",
-      "competencias": [
-        "Curaduría",
-        "Diseño expositivo",
-        "Gestión cultural",
-        "Producción artística"
-      ]
+      "codigo": "EA540160715",
+      "nombre": "Danza II",
+      "uc": 2,
+      "prelacion": "Danza I",
+      "descripcion": "Continúa el estudio de la danza como disciplina artística mediante la exploración de técnicas de movimiento, composición coreográfica y expresión corporal. Analiza la danza como manifestación cultural y recurso educativo capaz de favorecer el desarrollo integral de los estudiantes.",
+      "objetivo": "Perfeccionar las habilidades de expresión corporal y creación artística mediante la práctica de técnicas avanzadas de danza."
     },
     {
-      "nombre": "Educación Artística Comunitaria",
-      "descripcion": "Asignatura orientada al diseño de programas de formación artística dirigidos a comunidades y grupos sociales diversos.",
-      "objetivo": "Promover el desarrollo cultural mediante proyectos de educación artística comunitaria.",
-      "competencias": [
-        "Intervención comunitaria",
-        "Educación popular",
-        "Gestión social",
-        "Desarrollo cultural"
-      ]
-    },
-    {
-      "nombre": "Práctica Profesional III",
-      "descripcion": "Experiencia supervisada de intervención educativa donde el estudiante diseña y ejecuta actividades pedagógicas relacionadas con las artes.",
-      "objetivo": "Integrar conocimientos artísticos y pedagógicos en escenarios reales de enseñanza.",
-      "competencias": [
-        "Docencia especializada",
-        "Gestión educativa",
-        "Planificación didáctica",
-        "Desempeño profesional"
-      ]
+      "codigo": "ELECTIVA-III",
+      "nombre": "Electiva III",
+      "uc": 2,
+      "prelacion": "Ninguna",
+      "descripcion": "Espacio académico destinado a complementar la formación especializada del estudiante mediante la selección de asignaturas relacionadas con las artes y la educación. Permite profundizar conocimientos en áreas específicas de interés profesional y artístico.",
+      "objetivo": "Ampliar la formación académica mediante experiencias de aprendizaje complementarias orientadas al fortalecimiento del perfil profesional."
     }
   ]
 },
 {
   "numero": 8,
-  "resumen": "Integrar las competencias pedagógicas, artísticas e investigativas mediante experiencias profesionales y proyectos de culminación de estudios.",
-  "proposito": "Consolidar el perfil profesional del Licenciado en Educación Mención Artes mediante la aplicación práctica de conocimientos y la producción académica especializada.",
+  "resumen": "El último semestre está orientado a la integración de los conocimientos adquiridos durante toda la carrera mediante la práctica docente supervisada y la elaboración de un trabajo de investigación que contribuya al desarrollo educativo y artístico.",
+  "proposito": "Consolidar la formación profesional mediante la aplicación integral de competencias pedagógicas, investigativas y artísticas en escenarios reales de desempeño laboral.",
   "materias": [
     {
-      "nombre": "Trabajo Especial de Grado",
-      "descripcion": "Actividad académica orientada al desarrollo de una investigación o proyecto de innovación relacionado con la educación artística, la cultura o las artes.",
-      "objetivo": "Desarrollar una investigación que contribuya al fortalecimiento de los procesos educativos y culturales.",
-      "competencias": [
-        "Investigación aplicada",
-        "Análisis científico",
-        "Redacción académica",
-        "Resolución de problemas"
-      ]
+      "codigo": "EA540220805",
+      "nombre": "Práctica Profesional III: Docencia Integrada",
+      "uc": 7,
+      "prelacion": "Práctica Profesional II",
+      "descripcion": "Representa la culminación del proceso de formación práctica del estudiante mediante el ejercicio directo de funciones docentes en instituciones educativas. Incluye la planificación, ejecución y evaluación de actividades de enseñanza, así como la integración de estrategias pedagógicas y artísticas adaptadas a las necesidades del contexto escolar.",
+      "objetivo": "Demostrar competencias profesionales para el ejercicio de la docencia mediante la aplicación integrada de conocimientos pedagógicos, artísticos y metodológicos."
     },
     {
-      "nombre": "Emprendimiento Cultural",
-      "descripcion": "Asignatura destinada al desarrollo de iniciativas culturales sostenibles mediante herramientas de gestión, innovación y formulación de proyectos.",
-      "objetivo": "Diseñar propuestas emprendedoras vinculadas al sector artístico y cultural.",
-      "competencias": [
-        "Emprendimiento",
-        "Innovación cultural",
-        "Gestión de proyectos",
-        "Planificación estratégica"
-      ]
-    },
-    {
-      "nombre": "Ética Profesional",
-      "descripcion": "Estudio de principios éticos y valores que orientan el ejercicio responsable de la profesión docente y artística.",
-      "objetivo": "Fortalecer la responsabilidad ética en el desempeño profesional.",
-      "competencias": [
-        "Ética profesional",
-        "Responsabilidad social",
-        "Toma de decisiones",
-        "Compromiso institucional"
-      ]
-    },
-    {
-      "nombre": "Legislación Educativa y Cultural",
-      "descripcion": "Asignatura orientada al análisis del marco legal que regula las actividades educativas, culturales y patrimoniales en Venezuela.",
-      "objetivo": "Aplicar la normativa vigente en el ejercicio profesional educativo y cultural.",
-      "competencias": [
-        "Interpretación normativa",
-        "Gestión legal",
-        "Cumplimiento regulatorio",
-        "Responsabilidad profesional"
-      ]
-    },
-    {
-      "nombre": "Práctica Profesional IV",
-      "descripcion": "Experiencia final de desempeño profesional donde el estudiante asume responsabilidades docentes y de gestión cultural bajo supervisión institucional.",
-      "objetivo": "Demostrar competencias integrales para el ejercicio profesional en educación artística.",
-      "competencias": [
-        "Desempeño profesional",
-        "Liderazgo educativo",
-        "Gestión cultural",
-        "Aplicación de conocimientos"
-      ]
+      "codigo": "EA540220806",
+      "nombre": "Trabajo de Grado",
+      "uc": 4,
+      "prelacion": "Aprobación de los subproyectos requeridos",
+      "descripcion": "Consiste en el desarrollo de una investigación orientada al estudio y solución de problemas relacionados con la educación, las artes o los procesos socioculturales. Integra conocimientos metodológicos, teóricos y prácticos adquiridos durante la carrera, permitiendo generar aportes significativos para el ámbito académico y profesional.",
+      "objetivo": "Diseñar y ejecutar una investigación que contribuya al fortalecimiento del conocimiento científico, educativo y artístico mediante la aplicación rigurosa del método de investigación."
     }
   ]
 }

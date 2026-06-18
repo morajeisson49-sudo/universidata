@@ -1,7 +1,19 @@
 function MateriaCard({ materia }) {
   return (
-    <div>
+    <div className="materia-card">
       <h4>{materia.nombre}</h4>
+
+      <p>
+        <strong>Código:</strong> {materia.codigo}
+      </p>
+
+      <p>
+        <strong>UC:</strong> {materia.uc}
+      </p>
+
+      <p>
+        <strong>Prelación:</strong> {materia.prelacion}
+      </p>
 
       <p>
         <strong>Descripción:</strong>
@@ -14,16 +26,6 @@ function MateriaCard({ materia }) {
       </p>
 
       <p>{materia.objetivo}</p>
-
-      <p>
-        <strong>Competencias:</strong>
-      </p>
-
-      <ul>
-        {materia.competencias?.map((competencia, index) => (
-          <li key={index}>{competencia}</li>
-        ))}
-      </ul>
     </div>
   );
 }
