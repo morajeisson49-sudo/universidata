@@ -1,449 +1,404 @@
 {
   "id": "derecho",
   "nombre": "Derecho",
-  "duracion": "8 semestres",
+  "duracion": "4 años",
   "titulo": "Abogado(a)",
-  "descripcion": "Formar profesionales del derecho con una sólida preparación científica, humanística y ética, dotados de competencias analíticas y argumentativas avanzadas para interpretar, aplicar y defender el ordenamiento jurídico nacional e internacional, promoviendo la justicia, la equidad social y la resolución pacífica de conflictos.",
+  "creditos": 105,
+  "subproyectos": 44,
+  "horasTotales": 2160,
+  "descripcion": "La carrera de Derecho está orientada a la formación de profesionales con sólidos conocimientos jurídicos, éticos y humanísticos, capaces de interpretar, aplicar y desarrollar el ordenamiento jurídico nacional e internacional. El programa promueve el análisis crítico de las normas, la defensa de los derechos humanos, la administración de justicia y la resolución de conflictos, contribuyendo al fortalecimiento del Estado de Derecho y al desarrollo democrático de la sociedad.",
   "semestres": [
     {
       "numero": 1,
-      "resumen": "Introducción a las ciencias jurídicas, la argumentación lógica, el contexto social del derecho y las bases del derecho constitucional e institucional venezolano.",
-      "proposito": "Proporcionar al estudiante las categorías conceptuales, metodológicas e históricas fundamentales indispensables para comprender la naturaleza y el funcionamiento del fenómeno jurídico.",
+      "nombre": "I Año",
+      "resumen": "El primer año proporciona los fundamentos esenciales de la formación jurídica, introduciendo al estudiante en el estudio del Derecho, las instituciones jurídicas, la organización del Estado, la lógica aplicada al razonamiento jurídico y las bases históricas y sociales del ordenamiento legal.",
+      "proposito": "Desarrollar una comprensión inicial del sistema jurídico, fortaleciendo las capacidades de análisis, argumentación y comprensión de las instituciones fundamentales del Derecho.",
       "materias": [
         {
+          "codigo": "D540111501",
           "nombre": "Introducción al Derecho",
-          "descripcion": "Estudio exhaustivo y propedéutico de la ciencia jurídica. Abarca el análisis conceptual del Derecho, la distinción científica entre normas jurídicas, morales, religiosas y sociales, la teoría de las fuentes del derecho (ley, costumbre, jurisprudencia y doctrina), la estructura de la norma jurídica, los conceptos jurídicos fundamentales (sujeto de derecho, deber jurídico, sanción) y la división tradicional de las ramas del derecho público, privado y social, sirviendo como zapata conceptual para toda la carrera.",
-          "objetivo": "Comprender con rigor teórico y epistemológico los fundamentos generales del Derecho, su evolución doctrinaria y su rol estructural en la organización y regulación coercitiva de la sociedad.",
-          "competencias": [
-            "Comprensión del sistema jurídico",
-            "Interpretación de conceptos jurídicos básicos",
-            "Análisis normativo",
-            "Pensamiento crítico",
-            "Argumentación jurídica inicial"
-          ]
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Esta asignatura introduce al estudiante en los conceptos fundamentales del Derecho, su origen, evolución, fuentes, principios generales y función dentro de la sociedad. Se analizan las normas jurídicas, la estructura del ordenamiento jurídico y el papel del Derecho como instrumento regulador de la convivencia social.",
+          "objetivo": "Comprender los fundamentos teóricos y conceptuales del Derecho como disciplina científica y como mecanismo de regulación social."
         },
         {
+          "codigo": "D540140201",
+          "nombre": "Derecho Constitucional",
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Estudia la Constitución como norma suprema del ordenamiento jurídico, analizando la organización del Estado, la separación de poderes, los principios constitucionales y los derechos fundamentales reconocidos por la legislación venezolana.",
+          "objetivo": "Analizar los principios constitucionales que sustentan la organización política y jurídica del Estado venezolano."
+        },
+        {
+          "codigo": "D540111601",
           "nombre": "Lógica Jurídica",
-          "descripcion": "Asignatura metodológica enfocada en la aplicación estricta de las leyes de la lógica formal y dialéctica al pensamiento y discurso jurídico. Analiza las estructuras del razonamiento forense, el juicio jurídico, el silogismo jurídico, las falacias argumentativas en los litigios, la interpretación hermenéutica de la ley y las metodologías contemporáneas de la argumentación judicial, dotando al futuro abogado de herramientas críticas para estructurar demandas, dictámenes y sentencias coherentes.",
-          "objetivo": "Desarrollar habilidades analíticas y de razonamiento lógico formal para construir, evaluar y refutar argumentos jurídicos con precisión conceptual en el ejercicio de la abogacía.",
-          "competencias": [
-            "Razonamiento jurídico",
-            "Identificación de falacias",
-            "Estructuración de argumentos",
-            "Análisis crítico",
-            "Coherencia discursiva"
-          ]
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Desarrolla habilidades de razonamiento lógico aplicadas al ámbito jurídico. Se estudian los principios de la argumentación, la interpretación normativa y la construcción de razonamientos válidos que permitan sustentar posiciones jurídicas sólidas.",
+          "objetivo": "Fortalecer la capacidad de razonamiento jurídico mediante la aplicación de principios lógicos al análisis legal."
         },
         {
+          "codigo": "D540140101",
           "nombre": "Sociología Jurídica",
-          "descripcion": "Estudio científico de las relaciones de interdependencia recíproca entre la sociedad y el ordenamiento jurídico. Analiza el derecho como un producto social, la eficacia práctica de las normas, las funciones sociales del derecho (control social, resolución de conflictos, cambio social), los factores sociológicos que influyen en la producción legislativa, la criminalidad como fenómeno de la sociedad y el acceso real a la administración de justicia por parte de los sectores vulnerables.",
-          "objetivo": "Analizar críticamente el impacto real de las normas jurídicas en el comportamiento social y cómo los cambios culturales y económicos determinan la evolución y transformación del aparato legal.",
-          "competencias": [
-            "Análisis socio-jurídico",
-            "Comprensión del entorno social",
-            "Evaluación del impacto normativo",
-            "Pensamiento crítico social",
-            "Sensibilidad social"
-          ]
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Examina la relación entre Derecho y sociedad, analizando cómo las normas jurídicas influyen en la organización social y cómo los fenómenos sociales impactan la evolución del sistema jurídico.",
+          "objetivo": "Comprender la interacción entre los fenómenos sociales y el desarrollo del ordenamiento jurídico."
         },
         {
-          "nombre": "Derecho Constitucional I",
-          "descripcion": "Estudio exhaustivo de la Teoría de la Constitución y del constitucionalismo como limitador del poder político. Comprende el análisis de la supremacía constitucional, el poder constituyente y constituido, la estructura dogmática de las cartas magnas, los derechos fundamentales, las garantías constitucionales y civiles, y los mecanismos de control de la constitucionalidad, con un estudio detallado y comparativo de los principios fundamentales de la Constitución de la República Bolivariana de Venezuela.",
-          "objetivo": "Dominar los principios teóricos y normativos que rigen el orden constitucional, la protección efectiva de los derechos humanos y la supremacía de la Carta Magna en el sistema de fuentes.",
-          "competencias": [
-            "Interpretación constitucional",
-            "Defensa de derechos fundamentales",
-            "Análisis de garantías jurídicas",
-            "Manejo de jurisprudencia constitucional",
-            "Pensamiento institucional"
-          ]
+          "codigo": "D540111301",
+          "nombre": "Derecho Romano I",
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Introduce el estudio de las instituciones jurídicas romanas, consideradas la base histórica de gran parte de los sistemas jurídicos contemporáneos. Se analizan conceptos fundamentales relacionados con las personas, la familia y la organización jurídica romana.",
+          "objetivo": "Comprender los fundamentos históricos del Derecho mediante el estudio de las instituciones jurídicas romanas."
+        },
+        {
+          "codigo": "D540130101",
+          "nombre": "Derecho Civil I (Personas y Bienes)",
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Estudia las normas que regulan la personalidad jurídica, la capacidad de las personas y el régimen jurídico de los bienes. Se analizan los derechos subjetivos, la propiedad y las distintas clasificaciones patrimoniales reconocidas por la legislación civil.",
+          "objetivo": "Analizar las instituciones fundamentales del Derecho Civil relacionadas con las personas y los bienes."
+        },
+        {
+          "codigo": "D540112001",
+          "nombre": "Derecho Registral y Notarial",
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Examina los principios y procedimientos relacionados con los sistemas registrales y notariales, destacando su importancia para la seguridad jurídica y la autenticidad de los actos jurídicos.",
+          "objetivo": "Comprender el funcionamiento del sistema registral y notarial como garantía de seguridad jurídica."
+        },
+        {
+          "codigo": "D540130601",
+          "nombre": "Derecho Administrativo I",
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Introduce el estudio de la administración pública, sus principios, organización y funciones. Se analizan los actos administrativos, los órganos del Estado y las relaciones jurídicas entre la administración y los ciudadanos.",
+          "objetivo": "Comprender los fundamentos del Derecho Administrativo y el funcionamiento de la administración pública."
+        },
+        {
+          "codigo": "D540110101",
+          "nombre": "Eje Transversal Formación Ciudadana I",
+          "uc": 0,
+          "prelacion": "Ninguna",
+          "descripcion": "Promueve la formación ciudadana mediante el estudio de valores democráticos, derechos humanos, participación social y responsabilidad ciudadana dentro del contexto nacional.",
+          "objetivo": "Fortalecer la conciencia ciudadana y el compromiso con los principios democráticos."
+        },
+        {
+          "codigo": "D540110501",
+          "nombre": "Eje Transversal Desarrollo Personal I",
+          "uc": 0,
+          "prelacion": "Ninguna",
+          "descripcion": "Favorece el desarrollo integral del estudiante mediante actividades orientadas al crecimiento personal, la autoestima, el liderazgo y las habilidades sociales necesarias para la vida académica y profesional.",
+          "objetivo": "Impulsar el desarrollo de competencias personales que favorezcan el desempeño académico y profesional."
+        },
+        {
+          "codigo": "D540110901",
+          "nombre": "Eje Transversal Proyección Institucional I",
+          "uc": 0,
+          "prelacion": "Ninguna",
+          "descripcion": "Promueve la integración del estudiante con la misión, visión y valores institucionales, fortaleciendo el sentido de pertenencia y compromiso con la universidad y la comunidad.",
+          "objetivo": "Fomentar la identificación institucional y la participación activa en actividades universitarias."
         }
       ]
     },
     {
       "numero": 2,
-      "resumen": "Profundizar en la organización político-administrativa del Estado, las bases históricas del derecho civil y penal, y la evolución del pensamiento político.",
-      "proposito": "Comprender la estructura orgánica de los poderes públicos, la teoría general del delito y el estatuto jurídico de las personas.",
+      "nombre": "II Año",
+      "resumen": "Durante el segundo año se profundiza en áreas fundamentales del Derecho Público, Privado y Penal, incorporando conocimientos relacionados con los derechos humanos, las obligaciones civiles, la administración pública, los procedimientos judiciales y el sistema penal.",
+      "proposito": "Consolidar la formación jurídica mediante el estudio de instituciones y procedimientos fundamentales para el ejercicio profesional del Derecho.",
       "materias": [
         {
-          "nombre": "Derecho Constitucional II",
-          "descripcion": "Estudio de la parte orgánica de la Constitución Nacional. Se enfoca con rigor en la distribución vertical y horizontal del Poder Público (Nacional, Estadal y Municipal), el funcionamiento detallado de las ramas del poder (Legislativo, Ejecutivo, Judicial, Ciudadano y Electoral), la teoría del acto administrativo general, las relaciones de control interinstitucional, los estados de excepción y el régimen socioeconómico del Estado, analizando las atribuciones específicas de cada órgano público.",
-          "objetivo": "Comprender de forma analítica la estructura, competencias y dinámicas operativas de los órganos del Poder Público venezolano, garantizando el apego al principio de legalidad institucional.",
-          "competencias": [
-            "Análisis de la estructura del Estado",
-            "Comprensión de competencias públicas",
-            "Evaluación de actos institucionales",
-            "Manejo de derecho público",
-            "Visión orgánica institucional"
-          ]
+          "codigo": "D540111702",
+          "nombre": "Derechos Humanos",
+          "uc": 3,
+          "prelacion": "Derecho Constitucional",
+          "descripcion": "Analiza los principios, normas e instrumentos nacionales e internacionales destinados a la protección de la dignidad humana y las libertades fundamentales.",
+          "objetivo": "Comprender los mecanismos jurídicos de protección y promoción de los derechos humanos."
         },
         {
-          "nombre": "Derecho Civil I (Personas)",
-          "descripcion": "Estudio troncal del estatuto jurídico de la persona como sujeto de derechos y obligaciones en el ámbito privado. Abarca la clasificación formal de las personas (naturales y jurídicas), el inicio y fin de la personalidad jurídica, la capacidad civil de goce y de ejercicio, las incapacidades legales y de protección, el estado civil, la posesión de estado, la identificación legal, el domicilio y el régimen de ausencia y presunción de muerte, fundamentado en el Código Civil.",
-          "objetivo": "Dominar las instituciones fundamentales del derecho civil de personas, resolviendo problemas jurídicos prácticos relacionados con la personalidad, la capacidad y los atributos legales de los sujetos.",
-          "competencias": [
-            "Aplicación del derecho civil",
-            "Análisis de la capacidad jurídica",
-            "Resolución de casos de filiación y estado",
-            "Manejo del Código Civil",
-            "Asesoría jurídica privada"
-          ]
+          "codigo": "D540111402",
+          "nombre": "Derecho Romano II",
+          "uc": 3,
+          "prelacion": "Derecho Romano I",
+          "descripcion": "Profundiza el estudio de las instituciones jurídicas romanas relacionadas con las obligaciones, contratos y procedimientos, destacando su influencia en los sistemas jurídicos modernos.",
+          "objetivo": "Analizar la evolución histórica de las instituciones jurídicas romanas y su impacto en el Derecho contemporáneo."
         },
         {
-          "nombre": "Derecho Penal I (General)",
-          "descripcion": "Introducción científica a la Teoría General del Delito y de la Pena. Analiza los principios rectores del derecho penal sustantivo (legalidad, tipicidad, culpabilidad, irretroactividad), la estructura dogmática del delito (acción, tipicidad, antijuricidad, culpabilidad y punibilidad), las causas de justificación (legítima defensa, estado de necesidad), las formas de autoría y participación, la tentativa, la frustración y la teoría de la dosificación de la pena criminal según el Código Penal vigente.",
-          "objetivo": "Aplicar de manera sistemática la teoría del delito para determinar la existencia de responsabilidad penal, analizando las conductas punibles y las consecuencias jurídicas derivadas del hecho punible.",
-          "competencias": [
-            "Análisis dogmático penal",
-            "Calificación jurídica de conductas",
-            "Aplicación de principios penales",
-            "Manejo del Código Penal",
-            "Estructuración de defensa o acusación"
-          ]
+          "codigo": "D540130202",
+          "nombre": "Derecho Civil II (Obligaciones)",
+          "uc": 3,
+          "prelacion": "Derecho Civil I (Personas y Bienes)",
+          "descripcion": "Estudia las obligaciones jurídicas, sus fuentes, efectos, modalidades y formas de extinción, constituyendo una base esencial para la comprensión de las relaciones patrimoniales.",
+          "objetivo": "Comprender el régimen jurídico de las obligaciones y su aplicación en las relaciones civiles."
         },
         {
-          "nombre": "Historia de las Ideas Políticas",
-          "descripcion": "Análisis evolutivo y filosófico de las doctrinas, corrientes y teorías políticas que han configurado la estructura de los sistemas jurídicos y estatales a lo largo de la historia de la humanidad. Desde el pensamiento de la antigüedad clásica (Platón, Aristóteles), pasando por el contractualismo moderno (Hobbes, Locke, Rousseau) y el nacimiento del Estado liberal, hasta las corrientes ideológicas contemporáneas, analizando cómo cada filosofía impactó la legislación y el concepto de justicia.",
-          "objetivo": "Contextualizar históricamente el nacimiento de las instituciones jurídicas y políticas contemporáneas mediante la evaluación crítica de las grandes corrientes doctrinales del pensamiento político.",
-          "competencias": [
-            "Análisis histórico-político",
-            "Pensamiento crítico analítico",
-            "Comprensión ideológica institucional",
-            "Interpretación de contextos estatales",
-            "Argumentación filosófica"
-          ]
-        }
-      ]
-    },
-    {
-      "numero": 3,
-      "resumen": "Estudio del derecho administrativo, las relaciones jurídicas familiares, los delitos en particular y los fundamentos de la contratación privada.",
-      "proposito": "Adquirir competencias para la defensa de derechos familiares, el análisis de tipos penales específicos y el manejo de las obligaciones civiles.",
-      "materias": [
-        {
-          "nombre": "Derecho Administrativo I",
-          "descripcion": "Estudio de las normas y principios jurídicos que regulan la organización, actividad y control de la Administración Pública, así como sus relaciones con los administrados. Abarca la teoría de las fuentes del derecho administrativo, el acto administrativo (concepto, elementos, vicios, nulidad y anulabilidad), la discrecionalidad administrativa, los contratos públicos y la potestad sancionatoria del Estado, basándose en la Ley Orgánica de Procedimientos Administrativos (LOPA).",
-          "objetivo": "Analizar la legalidad y validez de los actos emitidos por la Administración Pública y defender los derechos e intereses de los particulares frente a las prerrogativas del poder estatal.",
-          "competencias": [
-            "Análisis del acto administrativo",
-            "Defensa de derechos de los administrados",
-            "Manejo de la legislación administrativa",
-            "Evaluación de la legalidad pública",
-            "Estructuración de recursos administrativos"
-          ]
+          "codigo": "D540130702",
+          "nombre": "Derecho Administrativo II",
+          "uc": 3,
+          "prelacion": "Derecho Administrativo I",
+          "descripcion": "Profundiza en los mecanismos de actuación administrativa, los procedimientos administrativos y las formas de control jurídico de la administración pública.",
+          "objetivo": "Analizar los procedimientos administrativos y los mecanismos de control de la actividad estatal."
         },
         {
-          "nombre": "Derecho Civil II (Familia)",
-          "descripcion": "Estudio jurídico de las relaciones familiares y de protección en el ámbito del derecho privado. Comprende la naturaleza jurídica del matrimonio, los requisitos para su celebración, los deberes y derechos de los cónyuges, el régimen patrimonial matrimonial, las causales y efectos del divorcio y la separación de cuerpos, las uniones estables de hecho, la filiación, la patria potestad, la obligación de manutención, el régimen de convivencia familiar y las instituciones de tutela y curatela.",
-          "objetivo": "Resolver conflictos del ámbito familiar aplicando de manera precisa las disposiciones legales y jurisprudenciales del derecho civil y de protección de niños, niñas y adolescentes.",
-          "competencias": [
-            "Resolución de conflictos familiares",
-            "Aplicación de derecho familiar y protección",
-            "Redacción de documentos de mutuo acuerdo",
-            "Litigio en tribunales de familia",
-            "Mediación familiar"
-          ]
-        },
-        {
-          "nombre": "Derecho Penal II (Especial)",
-          "descripcion": "Estudio analítico e interpretación de los diversos tipos penales consagrados en el Libro Segundo del Código Penal y en leyes penales especiales. Abarca de manera exhaustiva los delitos contra las personas (homicidio, lesiones, aborto), los delitos contra la propiedad (hurto, robo, estafa, apropiación indebida), los delitos contra la fe pública (falsificación), los delitos contra la administración de justicia y los delitos contra el orden público, evaluando los elementos constitutivos de cada tipo.",
-          "objetivo": "Tipificar y calificar jurídicamente conductas punibles específicas del mundo real dentro de los tipos penales particulares establecidos en la legislación sustantiva penal venezolana.",
-          "competencias": [
-            "Tipificación de delitos particulares",
-            "Análisis de casos penales complejos",
-            "Manejo de la legislación penal especial",
-            "Estructuración de teoría del caso penal",
-            "Evaluación de evidencias delictivas"
-          ]
-        },
-        {
-          "nombre": "Derecho de Obligaciones I",
-          "descripcion": "Estudio de la teoría general de la obligación civil como vínculo jurídico de contenido patrimonial. Aborda el concepto de obligación, su estructura, los elementos constitutivos (sujetos, objeto, vínculo) y la clasificación de las obligaciones. Se enfoca en las fuentes de las obligaciones: el contrato, el hecho ilícito (responsabilidad civil extracontractual), el enriquecimiento sin causa, el pago de lo indebido y la gestión de negocios, analizando los principios de la autonomía de la voluntad.",
-          "objetivo": "Comprender los mecanismos lógicos y normativos que dan origen a las obligaciones patrimoniales entre los particulares, sentando las bases operativas de la contratación civil.",
-          "competencias": [
-            "Análisis de vínculos obligacionales",
-            "Aplicación de la teoría de la responsabilidad civil",
-            "Interpretación de fuentes patrimoniales",
-            "Manejo doctrinario de las obligaciones",
-            "Asesoría en responsabilidad patrimonial"
-          ]
-        }
-      ]
-    },
-    {
-      "numero": 4,
-      "resumen": "Profundización en los contratos civiles, el régimen de bienes y derechos reales, la actividad adjetiva procesal y el derecho internacional público.",
-      "proposito": "Adquirir destrezas para la redacción de contratos, la defensa del derecho de propiedad y la comprensión de la soberanía internacional.",
-      "materias": [
-        {
-          "nombre": "Derecho Civil III (Contratos)",
-          "descripcion": "Estudio teórico y práctico de los contratos civiles en particular, analizando su formación, validez, ejecución y extinción. Comprende los contratos traslativos de propiedad (compraventa, donación, permuta), contratos de uso y goce (arrendamiento, comodato), contratos de prestación de servicios (mandato, depósito), contratos de garantía (fianza, prenda, hipoteca) y los contratos de resolución de conflictos como la transacción.",
-          "objetivo": "Diseñar, redactar, interpretar y evaluar contratos civiles y mercantiles, garantizando la seguridad jurídica y la protección de los intereses económicos de las partes contratantes.",
-          "competencias": [
-            "Redacción de contratos civiles",
-            "Análisis de validez contractual",
-            "Interpretación de cláusulas patrimoniales",
-            "Asesoría jurídica de negocios",
-            "Resolución de litigios contractuales"
-          ]
-        },
-        {
-          "nombre": "Derecho Civil IV (Bienes y Derechos Reales)",
-          "descripcion": "Estudio del régimen jurídico de los bienes, la propiedad y los demás derechos reales que se ejercen directamente sobre las cosas de contenido económico. Analiza el concepto legal de bienes y su clasificación, el derecho de propiedad, los modos de adquirir la propiedad, la posesión (efectos, protección interdictal), y los derechos reales limitados como el usufructo, el uso, la habitación, las servidumbres y los derechos de garantía real.",
-          "objetivo": "Aplicar las instituciones del derecho de bienes y derechos reales para la resolución de litigios sobre propiedad, posesión y deslindes, protegiendo los derechos patrimoniales privados.",
-          "competencias": [
-            "Defensa del derecho de propiedad",
-            "Manejo de acciones posesorias e interdictos",
-            "Análisis de títulos de propiedad",
-            "Asesoría en garantías reales",
-            "Resolución de conflictos de linderos"
-          ]
-        },
-        {
-          "nombre": "Teoría General del Proceso",
-          "descripcion": "Asignatura fundamental del derecho adjetivo o procesal que estudia los principios e instituciones comunes a todas las ramas procesales (civil, penal, laboral). Abarca la teoría de la jurisdicción, la competencia de los tribunales, la acción procesal, la excepción, el proceso (concepto, estructura, etapas, principios rectores), los sujetos procesales (juez, partes, terceros), los actos procesales y la teoría general de la cosa juzgada.",
-          "objetivo": "Comprender la estructura lógica y constitucional del proceso judicial como instrumento fundamental para la realización de la justicia y la garantía del debido proceso legal.",
-          "competencias": [
-            "Manejo de principios procesales",
-            "Análisis de competencia judicial",
-            "Garantía del debido proceso",
-            "Identificación de vicios procesales",
-            "Estructuración formal de acciones judiciales"
-          ]
-        },
-        {
+          "codigo": "D540111802",
           "nombre": "Derecho Internacional Público",
-          "descripcion": "Estudio del ordenamiento jurídico que regula las relaciones entre los sujetos de la comunidad internacional (Estados, organizaciones internacionales, la Santa Sede, etc.). Analiza las fuentes del derecho internacional (tratados, costumbre internacional, principios generales), el reconocimiento de Estados y gobiernos, la responsabilidad internacional, la solución pacífica de controversias, el derecho del mar, el derecho diplomático y consular, y el sistema universal y regional de protección de los Derechos Humanos.",
-          "objetivo": "Interpretar y aplicar las normas, tratados y convenios del derecho internacional público para asesorar a entes públicos y privados en asuntos transnacionales y de diplomacia.",
-          "competencias": [
-            "Interpretación de tratados internacionales",
-            "Manejo de derecho diplomático y consular",
-            "Análisis de jurisprudencia internacional",
-            "Defensa internacional de derechos humanos",
-            "Asesoría en disputas interestatales"
-          ]
-        }
-      ]
-    },
-    {
-      "numero": 5,
-      "resumen": "Estudio del derecho procesal civil inicial, el derecho laboral individual y colectivo, el derecho mercantil de sociedades y la criminología.",
-      "proposito": "Adquirir capacidades para la interposición de demandas civiles, el manejo de nóminas y contratos de trabajo y la constitución de empresas.",
-      "materias": [
+          "uc": 3,
+          "prelacion": "Introducción al Derecho",
+          "descripcion": "Examina las normas que regulan las relaciones entre los Estados y otros sujetos del Derecho Internacional, así como los organismos internacionales y los tratados internacionales.",
+          "objetivo": "Comprender los principios y normas que rigen las relaciones jurídicas internacionales."
+        },
         {
+          "codigo": "D540130402",
+          "nombre": "Derecho Penal I",
+          "uc": 3,
+          "prelacion": "Introducción al Derecho",
+          "descripcion": "Introduce los fundamentos del Derecho Penal, incluyendo el delito, la responsabilidad penal, las penas y los principios que orientan la aplicación de la justicia penal.",
+          "objetivo": "Analizar los principios fundamentales del Derecho Penal y su aplicación dentro del sistema jurídico."
+        },
+        {
+          "codigo": "D540130302",
+          "nombre": "Criminología y Criminalística",
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Estudia las causas y manifestaciones del fenómeno criminal, así como las técnicas científicas utilizadas para la investigación y esclarecimiento de hechos delictivos.",
+          "objetivo": "Comprender los factores criminológicos y las técnicas criminalísticas aplicadas a la investigación penal."
+        },
+        {
+          "codigo": "D540131302",
           "nombre": "Derecho Procesal Civil I",
-          "descripcion": "Estudio sistemático de las fases iniciales del procedimiento civil ordinario regulado en el Código de Procedimiento Civil. Comprende la demanda (requisitos, admisión, reforma), los mecanismos de emplazamiento y citación, las cuestiones previas como medios de depuración procesal, la contestación de la demanda, la reconvención, la intervención de terceros y la teoría general de la reconvención y la rebeldía del demandado.",
-          "objetivo": "Diseñar e interponer demandas civiles formalmente válidas y estructurar contestaciones o defensas procesales oportunas que garanticen el derecho a la defensa dentro del juicio ordinario.",
-          "competencias": [
-            "Redacción de libelos de demanda civil",
-            "Interposición de cuestiones previas",
-            "Estructuración de contestación de demanda",
-            "Litigio procesal civil inicial",
-            "Manejo del Código de Procedimiento Civil"
-          ]
+          "uc": 4,
+          "prelacion": "Derecho Registral y Notarial",
+          "descripcion": "Analiza los principios fundamentales del proceso civil, la organización judicial y las etapas iniciales de los procedimientos jurisdiccionales civiles.",
+          "objetivo": "Comprender la estructura y funcionamiento de los procesos civiles dentro del sistema judicial."
         },
         {
-          "nombre": "Derecho del Trabajo I",
-          "descripcion": "Estudio de las relaciones individuales de trabajo conforme a la legislación laboral sustantiva. Abarca los principios rectores del derecho del trabajo, el contrato individual de trabajo, la relación de trabajo, la jornada laboral, el salario y sus protecciones, las prestaciones sociales, las indemnizaciones por terminación de la relación laboral, la estabilidad laboral, la inamovilidad y el régimen de accidentes de trabajo y enfermedades ocupacionales (LOTTT y LOPCYMAT).",
-          "objetivo": "Asesorar a trabajadores y empleadores en materia de derechos y obligaciones individuales del trabajo, calculando conceptos laborales y redactando contratos de empleo conformes a la ley.",
-          "competencias": [
-            "Cálculo de prestaciones sociales y conceptos laborales",
-            "Redacción de contratos de trabajo individuales",
-            "Asesoría jurídica laboral corporativa o sindical",
-            "Manejo de la legislación laboral (LOTTT)",
-            "Defensa de derechos de los trabajadores"
-          ]
+          "codigo": "D540110202",
+          "nombre": "Eje Transversal Formación Ciudadana II",
+          "uc": 0,
+          "prelacion": "Ninguna",
+          "descripcion": "Profundiza en la formación ciudadana mediante el fortalecimiento de valores democráticos, participación comunitaria y responsabilidad social.",
+          "objetivo": "Promover el ejercicio responsable de la ciudadanía y la participación social."
         },
         {
-          "nombre": "Derecho Mercantil I",
-          "descripcion": "Estudio del derecho privado regulador de los actos de comercio, los comerciantes y la actividad empresarial. Comprende el análisis del acto de comercio, el estatuto del comerciante, las obligaciones profesionales de los comerciantes (registro, contabilidad), y el estudio exhaustivo de las Sociedades Mercantiles (compañías anónimas, sociedades de responsabilidad limitada), su constitución, funcionamiento, asambleas de accionistas, disolución y liquidación.",
-          "objetivo": "Asesorar en la constitución, estructuración, fusiones, actas de asambleas y liquidación de sociedades mercantiles, velando por el cumplimiento de las normativas del Código de Comercio.",
-          "competencias": [
-            "Constitución de sociedades mercantiles",
-            "Redacción de actas de asamblea de accionistas",
-            "Asesoría legal corporativa mercantil",
-            "Manejo del Código de Comercio",
-            "Evaluación de operaciones de comercio"
-          ]
+          "codigo": "D540110602",
+          "nombre": "Eje Transversal Desarrollo Personal II",
+          "uc": 0,
+          "prelacion": "Ninguna",
+          "descripcion": "Fortalece habilidades personales relacionadas con la comunicación, liderazgo, trabajo colaborativo y desarrollo profesional.",
+          "objetivo": "Desarrollar competencias personales orientadas al crecimiento académico y profesional."
         },
         {
-          "nombre": "Criminología",
-          "descripcion": "Asignatura científica e interdisciplinaria que estudia el fenómeno criminal desde una perspectiva biopsicosocial. Analiza las causas del delito (etiología criminal), el perfil de la personalidad del delincuente, la victimología (estudio de la víctima), la reacción social institucional y no institucional ante el delito, los sistemas penitenciarios y el diseño científico de políticas públicas orientadas a la prevención del delito.",
-          "objetivo": "Analizar los factores determinantes del delito y de la conducta desviada para proponer estrategias de prevención del crimen, reformas penales y programas de reinserción social efectivos.",
-          "competencias": [
-            "Análisis criminológico de la conducta",
-            "Evaluación de políticas de seguridad ciudadana",
-            "Aplicación de la victimología",
-            "Comprensión del fenómeno delictivo social",
-            "Asesoría en reformas penitenciarias"
-          ]
+          "codigo": "D540111002",
+          "nombre": "Eje Transversal Proyección Institucional II",
+          "uc": 0,
+          "prelacion": "Ninguna",
+          "descripcion": "Promueve la vinculación activa del estudiante con los proyectos, programas y actividades institucionales desarrollados por la universidad.",
+          "objetivo": "Fortalecer el compromiso institucional y la participación universitaria."
         }
       ]
     },
+{
+  "numero": 3,
+  "nombre": "III Año",
+  "resumen": "Durante el tercer año se fortalecen las competencias profesionales mediante el estudio especializado del Derecho Tributario, Laboral, Penal y Procesal. Asimismo, se incorporan experiencias prácticas y conocimientos interdisciplinarios que permiten una comprensión integral de los procedimientos judiciales y administrativos.",
+  "proposito": "Desarrollar capacidades para interpretar, aplicar y argumentar normas jurídicas en áreas especializadas del Derecho, fortaleciendo la formación práctica y procesal del futuro abogado.",
+  "materias": [
     {
-      "numero": 6,
-      "resumen": "Estudio de la fase probatoria civil, los títulos valores y quiebras mercantiles, el procedimiento laboral y el derecho procesal penal.",
-      "proposito": "Dominar el debate probatorio, el manejo de cheques y pagarés, y la estructura del juicio oral y público penal.",
-      "materias": [
-        {
-          "nombre": "Derecho Procesal Civil II",
-          "descripcion": "Estudio detallado del lapso probatorio y la fase resolutoria del procedimiento civil ordinario. Comprende la teoría general de la prueba (objeto, carga de la prueba, licitud), el análisis de los medios de prueba en particular (documental, testimonial, confesión, inspección judicial, experticias, indicios, presunciones), la promoción y evacuación de pruebas, los informes de las partes y la estructura formal de la sentencia definitiva.",
-          "objetivo": "Promover, evacuar y objetar medios de prueba dentro de un proceso civil, argumentando eficazmente en la fase de informes para obtener resoluciones judiciales favorables.",
-          "competencias": [
-            "Manejo de la fase probatoria civil",
-            "Redacción de escritos de promoción y evacuación de pruebas",
-            "Objeción e impugnación de pruebas ilegales",
-            "Redacción de informes finales de juicio",
-            "Análisis de sentencias judiciales"
-          ]
-        },
-        {
-          "nombre": "Derecho Mercantil II",
-          "descripcion": "Profundización en las instituciones avanzadas del derecho comercial. Abarca la teoría general de los Títulos Valores, analizando de forma práctica la letra de cambio, el pagaré, el cheque y la factura cambiaria, sus mecanismos de circulación (endoso) y acciones cambiarias de cobro. Asimismo, estudia el derecho concursal, los estados de atraso y los procedimientos de liquidación judicial y quiebra de los comerciantes.",
-          "objetivo": "Gestionar, cobrar y defender títulos valores comerciales en el tráfico mercantil y asesorar a empresas en situaciones de crisis económica, insolvencia, atraso o quiebra legal.",
-          "competencias": [
-            "Manejo y cobro de títulos valores (letras, pagarés, cheques)",
-            "Asesoría en procedimientos de atraso y quiebra",
-            "Litigio cambiario mercantil",
-            "Protección de créditos comerciales",
-            "Gestión de insolvencia corporativa"
-          ]
-        },
-        {
-          "nombre": "Derecho Procesal del Trabajo",
-          "descripcion": "Estudio de los mecanismos adjetivos para la resolución de los conflictos laborales ante los tribunales del trabajo. Analiza los principios del derecho procesal laboral (oralidad, inmediación, concentración, gratuidad), la estructura de los tribunales laborales, el procedimiento ordinario en primera instancia (audiencia preliminar, mediación, audiencia de juicio, evacuación de pruebas), el recurso de casación laboral y los procedimientos de amparo constitucional laboral.",
-          "objetivo": "Representar y defender con éxito los intereses de los trabajadores o empleadores en las audiencias de mediación y juicio oral ante las instancias judiciales del trabajo.",
-          "competencias": [
-            "Litigio oral en audiencias laborales",
-            "Mediación y conciliación de conflictos de trabajo",
-            "Redacción de demandas judiciales laborales",
-            "Promoción de pruebas en el proceso laboral",
-            "Manejo de la Ley Orgánica Procesal del Trabajo"
-          ]
-        },
-        {
-          "nombre": "Derecho Procesal Penal I",
-          "descripcion": "Estudio analítico de la estructura y principios rectores del sistema penal acusatorio regulado en el Código Orgánico Procesal Penal (COPP). Abarca los principios constitucionales del proceso penal, los sujetos procesales (Ministerio Público, imputado, víctima, tribunal), la fase preparatoria o de investigación (denuncia, querella, flagrancia, órdenes de aprehensión, actos conclusivos), y la fase intermedia centrada en la Audiencia Preliminar.",
-          "objetivo": "Intervenir de forma técnico-jurídica en las fases de investigación e intermedia del proceso penal, ejerciendo la representación de la víctima o la defensa técnica del imputado.",
-          "competencias": [
-            "Manejo de la fase preparatoria penal",
-            "Asistencia jurídica en audiencias de presentación",
-            "Control de la legalidad de la investigación fiscal",
-            "Redacción de escritos de defensa y excepciones",
-            "Manejo del Código Orgánico Procesal Penal"
-          ]
-        }
-      ]
+      "codigo": "D540131903",
+      "nombre": "Derecho Tributario",
+      "uc": 4,
+      "prelacion": "Derecho Administrativo II",
+      "descripcion": "Estudia el régimen jurídico de los tributos, los principios que regulan la potestad tributaria del Estado y las obligaciones fiscales de los contribuyentes. Analiza los procedimientos de recaudación, fiscalización y control tributario dentro del marco legal venezolano.",
+      "objetivo": "Comprender el sistema tributario venezolano y aplicar sus normas en la resolución de situaciones relacionadas con obligaciones fiscales."
     },
     {
-      "numero": 7,
-      "resumen": "Estudio del juicio oral penal, los recursos ordinarios y extraordinarios, las sucesiones hereditarias, el derecho financiero y tributario, y la medicina legal.",
-      "proposito": "Adquirir habilidades para la defensa en el debate de juicio penal, la declaración sucesoral ante el SENIAT y el análisis de dictámenes forenses.",
-      "materias": [
-        {
-          "nombre": "Derecho Procesal Penal II",
-          "descripcion": "Profundización en las fases estelares del proceso penal acusatorio. Comprende de forma práctica la Fase de Juicio Oral y Público (principios del debate, apertura, recepción de pruebas testimoniales y experticias, conclusiones, deliberación y sentencia), el sistema de recursos procesales (revocación, apelación de autos, apelación de sentencia, casación), los procedimientos especiales penales y la fase de ejecución de la pena.",
-          "objetivo": "Litigar con destreza en el debate oral y público de un juicio penal y estructurar recursos de apelación y casación penal contra decisiones judiciales desfavorables.",
-          "competencias": [
-            "Litigio oral y técnicas de interrogatorio en juicio penal",
-            "Estructuración de conclusiones en el debate oral",
-            "Redacción e interposición de recursos de apelación y casación",
-            "Manejo de la fase de ejecución de penas",
-            "Estructuración de la teoría del caso en juicio"
-          ]
-        },
-        {
-          "nombre": "Derecho Civil V (Sucesiones)",
-          "descripcion": "Estudio del derecho hereditario y la transmisión de los derechos patrimoniales por causa de muerte. Abarca la sucesión intestada o abintestato (orden de suceder), la sucesión testamentaria (requisitos, tipos de testamento), la legítima como limitación a la libertad de testar, la aceptación y repudiación de la herencia, la colación, el pago de deudas hereditarias, la partición de la herencia y el procedimiento de declaración sucesoral.",
-          "objetivo": "Asesorar a los herederos en la liquidación y partición de herencias, tramitando de forma correcta la declaración sucesoral ante la autoridad fiscal y redactando documentos de partición amigables o judiciales.",
-          "competencias": [
-            "Trámite y liquidación de declaraciones sucesorales",
-            "Redacción de testamentos y legados",
-            "Cálculo y distribución de cuotas hereditarias y legítimas",
-            "Resolución de litigios sucesorales de partición",
-            "Manejo de la legislación sucesoral"
-          ]
-        },
-        {
-          "nombre": "Derecho Financiero y Tributario",
-          "descripcion": "Estudio del ordenamiento jurídico regulador de la actividad financiera del Estado y el sistema impositivo. Comprende los principios constitucionales tributarios (legalidad, progresividad, no confiscatoriedad), la relación jurídica tributaria, el hecho imponible, los sujetos de la obligación tributaria, los ilícitos tributarios y el análisis sustantivo de los principales tributos nacionales (ISLR, IVA), estadales y municipales, basándose en el Código Orgánico Tributario.",
-          "objetivo": "Asesorar a contribuyentes y empresas en el cumplimiento de sus obligaciones impositivas, planificando estrategias fiscales legales y ejerciendo la defensa administrativa y judicial ante reparos fiscales.",
-          "competencias": [
-            "Asesoría fiscal e impositiva corporativa",
-            "Manejo del Código Orgánico Tributario y leyes impositivas",
-            "Estructuración de recursos jerárquicos y contenciosos tributarios",
-            "Identificación de ilícitos y sanciones fiscales",
-            "Planificación fiscal preventiva"
-          ]
-        },
-        {
-          "nombre": "Medicina Legal",
-          "descripcion": "Asignatura auxiliar de la ciencia penal que aplica los conocimientos médicos y biológicos a la resolución de problemas jurídicos y a la administración de justicia. Comprende la tanatología forense (diagnóstico de muerte, autopsia), traumatología forense (estudio de lesiones por armas, quemaduras, accidentes), asfixiología forense, sexología forense, toxicología forense, psiquiatría forense y la valoración e interpretación del dictamen pericial médico forense.",
-          "objetivo": "Interpretar, evaluar y controvertir de manera científica informes médicos forenses, autopsias y peritajes biológicos utilizados como medios de prueba determinantes en juicios penales y civiles.",
-          "competencias": [
-            "Interpretación de informes médicos forenses y autopsias",
-            "Análisis técnico-científico de escenas del crimen",
-            "Objeción de peritajes forenses defectuosos",
-            "Aplicación de la tanatología y traumatología jurídica",
-            "Interrogatorio técnico a expertos médicos en juicio"
-          ]
-        }
-      ]
+      "codigo": "D540130803",
+      "nombre": "Derecho Civil III (Contratos)",
+      "uc": 3,
+      "prelacion": "Derecho Civil II (Obligaciones)",
+      "descripcion": "Examina los contratos como fuente principal de obligaciones jurídicas, abordando su formación, validez, clasificación, efectos y formas de extinción. Se estudian los principales contratos civiles regulados por la legislación venezolana.",
+      "objetivo": "Analizar las instituciones contractuales y su aplicación dentro de las relaciones jurídicas civiles."
     },
     {
-      "numero": 8,
-      "resumen": "Estudio del derecho internacional privado, la resolución alternativa de conflictos, los recursos civiles avanzados, la deología forense y la práctica jurídica.",
-      "proposito": "Consolidar las competencias profesionales mediante la simulación de audiencias y la inmersión práctica en el ejercicio del Derecho.",
-      "materias": [
-        {
-          "nombre": "Derecho Internacional Privado",
-          "descripcion": "Estudio del sector del derecho que regula las relaciones jurídicas entre particulares que contienen elementos de extranjería. Analiza la determinación de la jurisdicción competente, la determinación de la ley aplicable para resolver el fondo del asunto (normas de conflicto), la teoría del reenvío, el orden público internacional, y los mecanismos para el reconocimiento y ejecución de sentencias extranjeras (Exequátur) en el país.",
-          "objetivo": "Resolver conflictos jurídicos transnacionales que involucren contratos internacionales, matrimonios o divorcios en el extranjero y sucesiones internacionales, determinando la ley y el tribunal competente.",
-          "competencias": [
-            "Resolución de conflictos de leyes internacionales",
-            "Tramitación de procedimientos de Exequátur",
-            "Asesoría en contratación y negocios transnacionales",
-            "Manejo de tratados de derecho internacional privado",
-            "Determinación de competencia judicial internacional"
-          ]
-        },
-        {
-          "nombre": "Medios Alternativos de Resolución de Conflictos",
-          "descripcion": "Estudio de las metodologías extrajudiciales utilizadas para resolver controversias jurídicas sin necesidad de acudir al litigio tradicional ante los tribunales. Comprende la teoría general del conflicto, las técnicas avanzadas de negociación estratégica, el proceso de mediación comunitaria y familiar, la conciliación guiada y el arbitraje comercial nacional e internacional, analizando la validez jurídica de los laudos arbitrales.",
-          "objetivo": "Actuar con solvencia como mediador, conciliador o árbitro en controversias civiles y comerciales, facilitando acuerdos autocompositivos que posean fuerza ejecutiva de cosa juzgada.",
-          "competencias": [
-            "Técnicas de negociación y mediación estratégica",
-            "Conducción de arbitrajes comerciales",
-            "Redacción de transacciones y acuerdos extrajudiciales",
-            "Descongestionamiento de la vía judicial",
-            "Manejo de resolución pacífica de disputas"
-          ]
-        },
-        {
-          "nombre": "Derecho Procesal Civil III",
-          "descripcion": "Estudio de las fases superiores, recursos y procedimientos especiales regulados en el ordenamiento adjetivo civil. Abarca el sistema de recursos (apelación, recurso de casación civil, recurso de invalidación), la ejecución forzosa de la sentencia, las medidas cautelares (embargo, secuestro, prohibición de enajenar y gravar) y el análisis de los juicios ejecutivos especiales como la vía ejecutiva y la ejecución de hipoteca.",
-          "objetivo": "Estructurar e interponer recursos extraordinarios de casación civil y tramitar la ejecución forzosa de fallos judiciales, resguardando las pretensiones económicas mediante la solicitud de medidas preventivas.",
-          "competencias": [
-            "Redacción de recursos de casación civil",
-            "Solicitud y ejecución de medidas cautelares preventivas",
-            "Tramitación de ejecuciones de sentencias e hipotecas",
-            "Litigio civil avanzado",
-            "Defensa en juicios ejecutivos de cobro de bolívares"
-          ]
-        },
-        {
-          "nombre": "Práctica Profesional (Clínica Jurídica)",
-          "descripcion": "Asignatura integradora y terminal de inmersión práctica en el ejercicio real del Derecho. A través de consultorías jurídicas gratuitas supervisadas, simulaciones de juicios orales (Moot Courts) y pasantías en pasillos judiciales, fiscalías o notarías, el estudiante redacta libelos, asiste a audiencias, atiende consultas de usuarios reales de la comunidad y aplica de forma holística la totalidad de los conocimientos sustantivos y adjetivos adquiridos.",
-          "objetivo": "Demostrar capacidades prácticas integrales para el ejercicio ético y eficiente de la abogacía, resolviendo casos jurídicos reales, redactando documentación forense válida y litigando en estrados simulados.",
-          "competencias": [
-            "Litigio práctico en audiencias simuladas y reales",
-            "Atención y asesoría técnica a usuarios reales",
-            "Redacción de escritos, demandas, denuncias y defensas",
-            "Deontología y comportamiento ético en tribunales",
-            "Integración total del conocimiento jurídico"
-          ]
-        }
-      ]
+      "codigo": "D540140303",
+      "nombre": "Derecho Laboral",
+      "uc": 3,
+      "prelacion": "Derecho Constitucional",
+      "descripcion": "Estudia las normas que regulan las relaciones entre trabajadores y empleadores, incluyendo derechos laborales, contratación, estabilidad laboral, seguridad social y protección del trabajo.",
+      "objetivo": "Comprender el marco jurídico que regula las relaciones laborales y la protección de los derechos de los trabajadores."
+    },
+    {
+      "codigo": "D540131603",
+      "nombre": "Derecho Contencioso Administrativo",
+      "uc": 4,
+      "prelacion": "Derecho Administrativo II",
+      "descripcion": "Analiza los mecanismos jurídicos destinados al control judicial de la administración pública, así como los procedimientos utilizados para resolver controversias entre los ciudadanos y los órganos administrativos.",
+      "objetivo": "Aplicar los principios y procedimientos del control jurisdiccional de la actividad administrativa."
+    },
+    {
+      "codigo": "D540130503",
+      "nombre": "Derecho Penal II",
+      "uc": 3,
+      "prelacion": "Derecho Penal I",
+      "descripcion": "Profundiza en el estudio de los delitos en particular, las circunstancias modificativas de la responsabilidad penal y los diferentes tipos penales contemplados en la legislación venezolana.",
+      "objetivo": "Analizar las figuras delictivas y los mecanismos de aplicación de la responsabilidad penal."
+    },
+    {
+      "codigo": "D540130903",
+      "nombre": "Medicina Legal y Práctica Forense",
+      "uc": 2,
+      "prelacion": "Criminología y Criminalística",
+      "descripcion": "Integra conocimientos médicos y jurídicos aplicados a la investigación de hechos con relevancia legal. Se estudian técnicas forenses, peritajes, identificación de evidencias y valoración médico-legal.",
+      "objetivo": "Comprender la aplicación de conocimientos médico-legales en la investigación y resolución de casos judiciales."
+    },
+    {
+      "codigo": "D540131403",
+      "nombre": "Derecho Procesal Civil II",
+      "uc": 4,
+      "prelacion": "Derecho Procesal Civil I",
+      "descripcion": "Profundiza en las etapas procesales civiles, los medios de impugnación, la actividad probatoria y los mecanismos de resolución de controversias dentro del proceso civil.",
+      "objetivo": "Analizar el desarrollo de los procedimientos civiles y las garantías procesales aplicables."
+    },
+    {
+      "codigo": "D540131103",
+      "nombre": "Derecho Probatorio",
+      "uc": 3,
+      "prelacion": "Derecho Procesal Civil I",
+      "descripcion": "Estudia los principios, medios y procedimientos relacionados con la prueba judicial. Se analizan los mecanismos de valoración probatoria y su importancia dentro de los procesos jurisdiccionales.",
+      "objetivo": "Aplicar los principios del Derecho Probatorio en la valoración y presentación de medios de prueba."
+    },
+    {
+      "codigo": "D540120103",
+      "nombre": "Práctica I",
+      "uc": 2,
+      "prelacion": "Ninguna",
+      "descripcion": "Actividad orientada a la aplicación práctica de los conocimientos jurídicos adquiridos, permitiendo al estudiante familiarizarse con procedimientos, documentos y situaciones reales del ejercicio profesional.",
+      "objetivo": "Integrar conocimientos teóricos mediante experiencias prácticas relacionadas con el ámbito jurídico."
+    },
+    {
+      "codigo": "D540110303",
+      "nombre": "Eje Transversal Formación Ciudadana III",
+      "uc": 0,
+      "prelacion": "Ninguna",
+      "descripcion": "Promueve el compromiso social, la participación ciudadana y la responsabilidad democrática mediante actividades orientadas al fortalecimiento de la conciencia cívica.",
+      "objetivo": "Fortalecer valores ciudadanos y la participación responsable dentro de la sociedad."
+    },
+    {
+      "codigo": "D540110703",
+      "nombre": "Eje Transversal Desarrollo Personal III",
+      "uc": 0,
+      "prelacion": "Ninguna",
+      "descripcion": "Contribuye al fortalecimiento de competencias personales relacionadas con la inteligencia emocional, la ética profesional y el liderazgo.",
+      "objetivo": "Desarrollar habilidades personales que favorezcan el crecimiento profesional y humano."
+    },
+    {
+      "codigo": "D540111103",
+      "nombre": "Eje Transversal Proyección Institucional III",
+      "uc": 0,
+      "prelacion": "Ninguna",
+      "descripcion": "Fortalece la integración del estudiante con los proyectos de vinculación social e institucional promovidos por la universidad.",
+      "objetivo": "Promover la participación activa en iniciativas institucionales y comunitarias."
     }
+  ]
+},
+{
+  "numero": 4,
+  "nombre": "IV Año",
+  "resumen": "El cuarto año consolida la formación profesional mediante el estudio de áreas especializadas del Derecho Público, Privado, Laboral, Mercantil y Procesal. Asimismo, fortalece las competencias prácticas necesarias para el ejercicio profesional, integrando conocimientos adquiridos durante toda la carrera.",
+  "proposito": "Perfeccionar las capacidades de análisis, interpretación y aplicación de normas jurídicas especializadas, preparando al estudiante para el ejercicio profesional y la resolución de conflictos complejos.",
+  "materias": [
+    {
+      "codigo": "D540111904",
+      "nombre": "Derecho Internacional Privado",
+      "uc": 3,
+      "prelacion": "Derecho Internacional Público",
+      "descripcion": "Estudia las normas y principios que regulan las relaciones jurídicas privadas con elementos extranjeros. Analiza los conflictos de leyes, la competencia internacional y los mecanismos utilizados para determinar la legislación aplicable en situaciones transnacionales.",
+      "objetivo": "Comprender los principios y mecanismos jurídicos que regulan las relaciones privadas de carácter internacional."
+    },
+    {
+      "codigo": "D540132004",
+      "nombre": "Derechos Especiales (Agrario y Ambiental, Seguridad Social y Protección del Niño y del Adolescente)",
+      "uc": 5,
+      "prelacion": "Ninguna",
+      "descripcion": "Integra el estudio de áreas jurídicas especializadas orientadas a la protección de sectores estratégicos y grupos vulnerables. Se abordan aspectos relacionados con el Derecho Agrario, la protección ambiental, la seguridad social y la defensa integral de los derechos de niños, niñas y adolescentes.",
+      "objetivo": "Analizar regímenes jurídicos especiales destinados a garantizar la protección social, ambiental y de grupos prioritarios."
+    },
+    {
+      "codigo": "D540131004",
+      "nombre": "Derecho Civil IV (Familia y Sucesiones)",
+      "uc": 3,
+      "prelacion": "Derecho Civil III (Contratos)",
+      "descripcion": "Examina las instituciones jurídicas relacionadas con la familia, el matrimonio, la filiación, la patria potestad y las sucesiones. Se estudian los mecanismos legales que regulan la transmisión patrimonial y las relaciones familiares.",
+      "objetivo": "Comprender las instituciones jurídicas vinculadas al Derecho de Familia y al Derecho Sucesoral."
+    },
+    {
+      "codigo": "D540131804",
+      "nombre": "Derecho Procesal Laboral",
+      "uc": 4,
+      "prelacion": "Derecho Laboral",
+      "descripcion": "Analiza los procedimientos judiciales aplicables a los conflictos laborales, incluyendo principios procesales, mecanismos de protección de derechos laborales y procedimientos especiales contemplados en la legislación vigente.",
+      "objetivo": "Aplicar los procedimientos y principios que regulan la solución judicial de controversias laborales."
+    },
+    {
+      "codigo": "D540131204",
+      "nombre": "Derecho Mercantil",
+      "uc": 3,
+      "prelacion": "Derecho Civil III (Contratos)",
+      "descripcion": "Estudia las normas que regulan los actos de comercio, los comerciantes, las sociedades mercantiles y las operaciones comerciales. Se analizan las instituciones jurídicas fundamentales relacionadas con la actividad económica y empresarial.",
+      "objetivo": "Comprender el régimen jurídico aplicable a las actividades comerciales y empresariales."
+    },
+    {
+      "codigo": "D540131704",
+      "nombre": "Derecho Procesal Penal",
+      "uc": 4,
+      "prelacion": "Derecho Penal II",
+      "descripcion": "Examina los principios, etapas y procedimientos del proceso penal venezolano, así como las garantías constitucionales que protegen a las partes involucradas en la administración de justicia penal.",
+      "objetivo": "Analizar el funcionamiento del sistema procesal penal y las garantías jurídicas aplicables a los procesos penales."
+    },
+    {
+      "codigo": "D540131504",
+      "nombre": "Derecho Procesal Civil III",
+      "uc": 4,
+      "prelacion": "Derecho Procesal Civil II",
+      "descripcion": "Profundiza en los procedimientos especiales, mecanismos de ejecución de sentencias y recursos extraordinarios contemplados dentro de la jurisdicción civil.",
+      "objetivo": "Aplicar procedimientos avanzados del Derecho Procesal Civil para la resolución efectiva de conflictos jurídicos."
+    },
+    {
+      "codigo": "D540120204",
+      "nombre": "Práctica II",
+      "uc": 2,
+      "prelacion": "Práctica I",
+      "descripcion": "Actividad académica orientada a consolidar la experiencia práctica del estudiante mediante el análisis y participación en situaciones jurídicas reales relacionadas con diversas áreas del Derecho.",
+      "objetivo": "Integrar conocimientos teóricos y prácticos mediante experiencias profesionales vinculadas al ejercicio jurídico."
+    },
+    {
+      "codigo": "D540110404",
+      "nombre": "Eje Transversal Formación Ciudadana IV",
+      "uc": 0,
+      "prelacion": "Ninguna",
+      "descripcion": "Promueve la reflexión sobre la participación ciudadana, la responsabilidad social y el compromiso democrático como elementos fundamentales para el ejercicio profesional responsable.",
+      "objetivo": "Fortalecer el compromiso ciudadano y la participación activa en la construcción de una sociedad democrática."
+    },
+    {
+      "codigo": "D540110804",
+      "nombre": "Eje Transversal Desarrollo Personal IV",
+      "uc": 0,
+      "prelacion": "Ninguna",
+      "descripcion": "Contribuye al fortalecimiento de competencias relacionadas con liderazgo, ética profesional, inteligencia emocional y desarrollo humano integral.",
+      "objetivo": "Potenciar habilidades personales necesarias para el desempeño profesional y la formación integral."
+    },
+    {
+      "codigo": "D540111204",
+      "nombre": "Eje Transversal Proyección Institucional IV",
+      "uc": 0,
+      "prelacion": "Ninguna",
+      "descripcion": "Favorece la participación activa del estudiante en proyectos institucionales y comunitarios que contribuyan al fortalecimiento de la vinculación universidad-sociedad.",
+      "objetivo": "Promover el compromiso institucional y la participación en iniciativas de impacto social."
+    }
+  ]
+}
   ]
 }

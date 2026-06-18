@@ -4,7 +4,7 @@ import "../styles/SemestreCard.css";
 function SemestreCard({ semestre }) {
   return (
     <div className="semestre-card">
-      <h2>Semestre {semestre.numero}</h2>
+      <h2>{semestre.nombre || `Semestre ${semestre.numero}`}</h2>
 
       <p>{semestre.resumen}</p>
 
