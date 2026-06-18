@@ -23,33 +23,40 @@ function Carrera() {
           <h1>{carrera.nombre}</h1>
 
 
-          <div className="carrera-meta">
-            <p>
-              <strong>Duración:</strong> {carrera.duracion}
-            </p>
+         <div className="carrera-meta">
 
-            <p>
-              <strong>Título:</strong> {carrera.titulo}
-            </p>
+  <div className="meta-card">
+    <span className="meta-label">Duración</span>
+    <h3>{carrera.duracion}</h3>
+  </div>
 
-            {carrera.creditos && (
-              <p>
-                <strong>Créditos:</strong> {carrera.creditos}
-              </p>
-            )}
+  <div className="meta-card">
+    <span className="meta-label">Título</span>
+    <h3>{carrera.titulo}</h3>
+  </div>
 
-            {carrera.subproyectos && (
-              <p>
-                <strong>Subproyectos:</strong> {carrera.subproyectos}
-              </p>
-            )}
+  {carrera.creditos && (
+    <div className="meta-card">
+      <span className="meta-label">Créditos</span>
+      <h3>{carrera.creditos}</h3>
+    </div>
+  )}
 
-            {carrera.horasTotales && (
-              <p>
-                <strong>Horas Totales:</strong> {carrera.horasTotales}
-              </p>
-            )}
-          </div>
+  {carrera.subproyectos && (
+    <div className="meta-card">
+      <span className="meta-label">Subproyectos</span>
+      <h3>{carrera.subproyectos}</h3>
+    </div>
+  )}
+
+  {carrera.horasTotales && (
+    <div className="meta-card">
+      <span className="meta-label">Horas Totales</span>
+      <h3>{carrera.horasTotales}</h3>
+    </div>
+  )}
+
+</div>
 
           <p className="carrera-descripcion">
             {carrera.descripcion}
