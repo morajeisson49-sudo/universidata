@@ -1,474 +1,413 @@
 {
-    "id": "educacion_fisica",
-    "nombre": "Licenciatura en Educación Física, Deporte y Recreación",
-    "duracion": "8 semestres",
-    "titulo": "Licenciado(a) en Educación Física, Deporte y Recreación",
-    "descripcion": "Formar profesionales integrales altamente capacitados para planificar, desarrollar, dirigir, evaluar y promover programas de educación física, actividad física, deporte y recreación, contribuyendo al bienestar biopsicosocial, la salud, la formación educativa y el desarrollo comunitario mediante la aplicación de conocimientos científicos, pedagógicos, técnicos y humanísticos.",
-    "semestres": [
+  "id": "educacion-fisica-deporte-recreacion",
+  "nombre": "Licenciatura en Educación Mención Educación Física, Deporte y Recreación",
+  "duracion": "8 semestres",
+  "titulo": "Licenciado(a) en Educación Mención Educación Física, Deporte y Recreación",
+  "creditos": 129,
+  "subproyectos": 44,
+  "horasTotales": 3000,
+  "descripcion": "La Licenciatura en Educación Mención Educación Física, Deporte y Recreación está orientada a la formación de profesionales capaces de promover el desarrollo integral de las personas mediante la actividad física, el deporte y la recreación. El programa integra conocimientos pedagógicos, biológicos, psicológicos, sociales y deportivos que permiten planificar, ejecutar y evaluar procesos educativos relacionados con la educación física en los distintos niveles del sistema educativo. Asimismo, fomenta la investigación, la gestión deportiva, la promoción de hábitos saludables y el compromiso con el bienestar individual y colectivo.",
+  "semestres": [
+    {
+      "numero": 1,
+      "resumen": "El primer semestre introduce al estudiante en los fundamentos pedagógicos, biológicos y deportivos que sustentan la formación profesional en Educación Física, Deporte y Recreación. Se desarrollan conocimientos básicos sobre educación, comunicación, anatomía humana y actividad física, proporcionando las bases necesarias para comprender el papel del educador físico en la sociedad.",
+      "proposito": "Brindar una formación inicial que permita comprender los fundamentos educativos, biológicos y comunicacionales relacionados con la actividad física, el deporte y la recreación.",
+      "materias": [
         {
-            "numero": 1,
-            "resumen": "Establecer las bases científicas, comunicacionales y humanísticas necesarias para comprender el cuerpo humano, los fundamentos de la educación física y el desarrollo integral de la persona.",
-            "proposito": "Proporcionar al estudiante los conocimientos iniciales sobre comunicación, desarrollo humano, biología y educación física que servirán como fundamento para su formación profesional.",
-            "materias": [
-                {
-                    "nombre": "Lenguaje y Comunicación",
-                    "descripcion": "Asignatura orientada al desarrollo de las competencias comunicativas necesarias para el desempeño académico y profesional. Estudia los procesos de comprensión lectora, producción escrita, argumentación, redacción académica y expresión oral efectiva, fortaleciendo la capacidad del estudiante para transmitir conocimientos, elaborar informes técnicos, desarrollar proyectos educativos y participar activamente en contextos pedagógicos, deportivos y comunitarios. Asimismo, fomenta el uso adecuado de las normas gramaticales y ortográficas para garantizar una comunicación clara, coherente y profesional.",
-                    "objetivo": "Desarrollar habilidades avanzadas de comunicación oral y escrita que permitan al estudiante expresarse con claridad, precisión y efectividad en contextos académicos, profesionales y sociales.",
-                    "competencias": [
-                        "Comprensión lectora",
-                        "Redacción académica",
-                        "Comunicación oral efectiva",
-                        "Argumentación crítica"
-                    ]
-                },
-                {
-                    "nombre": "Desarrollo Personal y Profesional",
-                    "descripcion": "Asignatura destinada al fortalecimiento de las capacidades personales, emocionales y sociales del estudiante mediante el análisis de valores, liderazgo, inteligencia emocional, trabajo en equipo y responsabilidad profesional. Promueve el desarrollo de una actitud ética y reflexiva frente a los desafíos de la vida universitaria y del ejercicio profesional, favoreciendo la construcción de un proyecto de vida basado en principios de compromiso, disciplina y servicio a la comunidad.",
-                    "objetivo": "Fomentar el crecimiento personal y profesional mediante el desarrollo de habilidades socioemocionales, éticas y de liderazgo.",
-                    "competencias": [
-                        "Liderazgo",
-                        "Trabajo en equipo",
-                        "Inteligencia emocional",
-                        "Ética profesional"
-                    ]
-                },
-                {
-                    "nombre": "Anatomía Humana",
-                    "descripcion": "Estudio científico de la estructura y organización del cuerpo humano mediante el análisis detallado de los sistemas óseo, muscular, articular, nervioso, cardiovascular y respiratorio. La asignatura proporciona las bases anatómicas indispensables para comprender el movimiento humano, la ejecución de actividades físicas y deportivas, así como los procesos fisiológicos involucrados en el rendimiento físico y la salud integral.",
-                    "objetivo": "Comprender la estructura anatómica del cuerpo humano y su relación con el movimiento, la actividad física y el deporte.",
-                    "competencias": [
-                        "Identificación anatómica",
-                        "Comprensión del movimiento humano",
-                        "Análisis corporal",
-                        "Aplicación de conocimientos biológicos"
-                    ]
-                },
-                {
-                    "nombre": "Fundamentos de Educación Física",
-                    "descripcion": "Introducción a los principios filosóficos, históricos, científicos y pedagógicos que sustentan la educación física como disciplina académica y profesional. Analiza la evolución histórica de la actividad física, su importancia en la formación integral del individuo y su contribución al desarrollo físico, psicológico y social. También estudia las funciones del profesional de la educación física en los distintos ámbitos educativos y comunitarios.",
-                    "objetivo": "Comprender los fundamentos teóricos y conceptuales que sustentan la educación física como campo profesional y educativo.",
-                    "competencias": [
-                        "Comprensión pedagógica",
-                        "Análisis histórico",
-                        "Pensamiento crítico",
-                        "Identidad profesional"
-                    ]
-                },
-                {
-                    "nombre": "Biología General",
-                    "descripcion": "Asignatura orientada al estudio de los principios fundamentales de la vida, abordando la organización celular, genética básica, evolución, biodiversidad y relaciones ecológicas. Proporciona una visión científica de los procesos biológicos que intervienen en el funcionamiento del organismo humano y en su adaptación al entorno, sirviendo de base para la comprensión de fenómenos relacionados con la salud, el ejercicio y el rendimiento físico.",
-                    "objetivo": "Comprender los principios biológicos fundamentales que sustentan la vida y el funcionamiento de los organismos.",
-                    "competencias": [
-                        "Pensamiento científico",
-                        "Comprensión biológica",
-                        "Análisis de procesos vitales",
-                        "Interpretación de fenómenos naturales"
-                    ]
-                }
-            ]
+          "codigo": "ED540110101",
+          "nombre": "Introducción a la Educación",
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Estudia los fundamentos filosóficos, históricos y sociales de la educación, analizando su evolución, funciones y papel en el desarrollo humano. Se examinan los principales enfoques pedagógicos y la importancia de la educación como herramienta de transformación social.",
+          "objetivo": "Comprender los principios fundamentales de la educación y su importancia en la formación integral de las personas."
         },
         {
-            "numero": 2,
-            "resumen": "Profundizar el conocimiento científico del funcionamiento corporal e introducir herramientas psicológicas, recreativas y estadísticas aplicadas al ámbito de la educación física y el deporte.",
-            "proposito": "Fortalecer las bases biológicas y conductuales del estudiante para comprender la actividad física desde una perspectiva integral y científica.",
-            "materias": [
-                {
-                    "nombre": "Fisiología Humana",
-                    "descripcion": "Asignatura dedicada al estudio funcional de los sistemas que integran el organismo humano. Analiza los mecanismos fisiológicos responsables del mantenimiento de la homeostasis y el funcionamiento coordinado de los sistemas nervioso, cardiovascular, respiratorio, endocrino y muscular. Proporciona conocimientos esenciales para comprender las respuestas del organismo ante el ejercicio físico y las adaptaciones producidas por el entrenamiento.",
-                    "objetivo": "Comprender el funcionamiento fisiológico del organismo humano y su respuesta ante diferentes estímulos físicos.",
-                    "competencias": [
-                        "Análisis fisiológico",
-                        "Interpretación de respuestas corporales",
-                        "Comprensión funcional del organismo",
-                        "Aplicación al ejercicio físico"
-                    ]
-                },
-                {
-                    "nombre": "Psicología General",
-                    "descripcion": "Estudio de los procesos psicológicos básicos que influyen en el comportamiento humano. Aborda temas relacionados con percepción, aprendizaje, memoria, motivación, personalidad, emociones y desarrollo humano. La asignatura permite comprender los factores psicológicos que intervienen en los procesos educativos y en la participación de las personas en actividades físicas y deportivas.",
-                    "objetivo": "Analizar los procesos psicológicos fundamentales que influyen en la conducta humana y el aprendizaje.",
-                    "competencias": [
-                        "Comprensión psicológica",
-                        "Análisis conductual",
-                        "Interpretación del aprendizaje",
-                        "Aplicación educativa"
-                    ]
-                },
-                {
-                    "nombre": "Atletismo I",
-                    "descripcion": "Asignatura práctica orientada al aprendizaje de las técnicas fundamentales del atletismo como disciplina deportiva básica. Incluye el estudio y ejecución de pruebas de velocidad, resistencia, saltos y lanzamientos, desarrollando capacidades físicas fundamentales y promoviendo hábitos de entrenamiento adecuados. Asimismo, fomenta el dominio técnico y metodológico necesario para la enseñanza de esta disciplina.",
-                    "objetivo": "Desarrollar habilidades técnicas y metodológicas básicas para la práctica y enseñanza del atletismo.",
-                    "competencias": [
-                        "Ejecución técnica deportiva",
-                        "Planificación del entrenamiento",
-                        "Desarrollo físico",
-                        "Capacidad pedagógica"
-                    ]
-                },
-                {
-                    "nombre": "Recreación y Tiempo Libre",
-                    "descripcion": "Estudio de los fundamentos teóricos y metodológicos de la recreación como herramienta para el desarrollo humano y la calidad de vida. Analiza la planificación y ejecución de actividades recreativas dirigidas a diferentes grupos poblacionales, promoviendo la participación, integración social y bienestar comunitario mediante experiencias lúdicas y formativas.",
-                    "objetivo": "Diseñar y ejecutar programas recreativos orientados al aprovechamiento saludable y productivo del tiempo libre.",
-                    "competencias": [
-                        "Diseño de actividades recreativas",
-                        "Gestión comunitaria",
-                        "Animación sociocultural",
-                        "Trabajo grupal"
-                    ]
-                },
-                {
-                    "nombre": "Estadística Aplicada",
-                    "descripcion": "Introducción a los métodos estadísticos utilizados en la recolección, organización, análisis e interpretación de datos relacionados con la actividad física, el deporte y la investigación educativa. Estudia medidas de tendencia central, dispersión, representación gráfica de datos y herramientas básicas para la toma de decisiones basadas en evidencia científica.",
-                    "objetivo": "Aplicar técnicas estadísticas básicas para el análisis e interpretación de información en contextos académicos y deportivos.",
-                    "competencias": [
-                        "Análisis estadístico",
-                        "Interpretación de datos",
-                        "Pensamiento cuantitativo",
-                        "Elaboración de informes"
-                    ]
-                }
-            ]
+          "codigo": "ED540140101",
+          "nombre": "Comunicación Humana",
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Analiza los procesos de comunicación interpersonal, grupal e institucional, desarrollando habilidades para la expresión oral, escrita y corporal. Se enfatiza la comunicación como herramienta esencial para el desempeño profesional docente.",
+          "objetivo": "Desarrollar competencias comunicativas efectivas para interactuar adecuadamente en contextos educativos y sociales."
         },
         {
-            "numero": 3,
-            "resumen": "Consolidar los conocimientos científicos relacionados con el ejercicio físico e iniciar la formación pedagógica y técnica especializada para la enseñanza y práctica del deporte.",
-            "proposito": "Desarrollar competencias para comprender las respuestas fisiológicas y psicológicas asociadas al rendimiento físico, fortaleciendo simultáneamente las capacidades didácticas y deportivas del estudiante.",
-            "materias": [
-                {
-                    "nombre": "Fisiología del Ejercicio",
-                    "descripcion": "Asignatura orientada al estudio científico de las respuestas agudas y adaptaciones crónicas que experimenta el organismo humano durante la práctica sistemática de actividad física y entrenamiento deportivo. Analiza el comportamiento funcional de los sistemas cardiovascular, respiratorio, neuromuscular y endocrino frente a diferentes cargas de trabajo físico, permitiendo comprender los mecanismos fisiológicos que determinan el rendimiento deportivo, la recuperación y la prevención de alteraciones funcionales.",
-                    "objetivo": "Comprender los procesos fisiológicos asociados al ejercicio físico para optimizar el rendimiento, la salud y la planificación del entrenamiento.",
-                    "competencias": [
-                        "Análisis fisiológico del ejercicio",
-                        "Interpretación del rendimiento físico",
-                        "Evaluación funcional",
-                        "Aplicación científica al entrenamiento"
-                    ]
-                },
-                {
-                    "nombre": "Psicología del Deporte",
-                    "descripcion": "Estudio especializado de los factores psicológicos que intervienen en la práctica deportiva y el rendimiento físico. Analiza variables como motivación, liderazgo, autoconfianza, control emocional, cohesión grupal, ansiedad competitiva y resiliencia deportiva. Proporciona herramientas para comprender el comportamiento de atletas y grupos deportivos, contribuyendo al desarrollo integral del individuo y al fortalecimiento del desempeño competitivo.",
-                    "objetivo": "Aplicar principios psicológicos en la orientación, acompañamiento y fortalecimiento del rendimiento deportivo individual y colectivo.",
-                    "competencias": [
-                        "Comprensión psicológica del deportista",
-                        "Gestión emocional",
-                        "Liderazgo deportivo",
-                        "Motivación y acompañamiento"
-                    ]
-                },
-                {
-                    "nombre": "Atletismo II",
-                    "descripcion": "Profundización técnica y metodológica en las disciplinas atléticas, incorporando estrategias avanzadas de entrenamiento, evaluación del desempeño y enseñanza especializada. Incluye el perfeccionamiento de pruebas de velocidad, medio fondo, fondo, saltos y lanzamientos, así como la planificación de sesiones de entrenamiento orientadas al desarrollo de capacidades físicas específicas.",
-                    "objetivo": "Perfeccionar las habilidades técnicas y metodológicas necesarias para la práctica, enseñanza y entrenamiento del atletismo.",
-                    "competencias": [
-                        "Dominio técnico deportivo",
-                        "Planificación de entrenamientos",
-                        "Evaluación del rendimiento",
-                        "Capacidad metodológica"
-                    ]
-                },
-                {
-                    "nombre": "Gimnasia Básica",
-                    "descripcion": "Asignatura práctica destinada al aprendizaje de los fundamentos técnicos, metodológicos y pedagógicos de la gimnasia. Comprende ejercicios de flexibilidad, equilibrio, coordinación, fuerza y control corporal, utilizando implementos y aparatos básicos para el desarrollo de habilidades motrices esenciales. Asimismo, promueve la correcta ejecución de movimientos gimnásticos y la prevención de lesiones.",
-                    "objetivo": "Desarrollar capacidades motrices y técnicas fundamentales mediante la práctica sistemática de ejercicios gimnásticos.",
-                    "competencias": [
-                        "Control corporal",
-                        "Coordinación motriz",
-                        "Ejecución técnica",
-                        "Capacidad pedagógica"
-                    ]
-                },
-                {
-                    "nombre": "Didáctica de la Educación Física",
-                    "descripcion": "Asignatura pedagógica orientada al estudio de los principios, métodos, estrategias y recursos utilizados en la enseñanza de la educación física. Analiza la planificación curricular, elaboración de objetivos de aprendizaje, selección de actividades, evaluación educativa y adaptación metodológica según las características de los estudiantes y los contextos educativos.",
-                    "objetivo": "Diseñar y aplicar estrategias didácticas efectivas para la enseñanza de la educación física en distintos niveles educativos.",
-                    "competencias": [
-                        "Planificación educativa",
-                        "Diseño de estrategias didácticas",
-                        "Evaluación pedagógica",
-                        "Gestión del aprendizaje"
-                    ]
-                }
-            ]
+          "codigo": "ED540120101",
+          "nombre": "Anatomía y Fisiología Humana",
+          "uc": 4,
+          "prelacion": "Ninguna",
+          "descripcion": "Estudia la estructura y funcionamiento del cuerpo humano, abordando sistemas anatómicos y fisiológicos relacionados con el movimiento, la actividad física y el rendimiento deportivo.",
+          "objetivo": "Comprender el funcionamiento integral del organismo humano y su relación con la actividad física."
         },
         {
-            "numero": 4,
-            "resumen": "Fortalecer la formación científica y metodológica mediante el estudio del movimiento humano, la evaluación física y la investigación aplicada al ámbito deportivo y educativo.",
-            "proposito": "Capacitar al estudiante para analizar el rendimiento físico, prevenir riesgos asociados a la actividad deportiva y desarrollar competencias investigativas fundamentales.",
-            "materias": [
-                {
-                    "nombre": "Biomecánica",
-                    "descripcion": "Asignatura científica dedicada al análisis mecánico del movimiento humano. Estudia las fuerzas internas y externas que actúan sobre el cuerpo durante la ejecución de actividades físicas y deportivas, permitiendo comprender los principios que optimizan la eficiencia motriz, el rendimiento atlético y la prevención de lesiones. Asimismo, proporciona herramientas para evaluar técnicamente los gestos deportivos.",
-                    "objetivo": "Aplicar principios biomecánicos para analizar, optimizar y corregir patrones de movimiento humano en contextos deportivos y educativos.",
-                    "competencias": [
-                        "Análisis del movimiento",
-                        "Evaluación técnica deportiva",
-                        "Prevención de lesiones",
-                        "Aplicación científica"
-                    ]
-                },
-                {
-                    "nombre": "Deportes Colectivos I",
-                    "descripcion": "Asignatura orientada al estudio y práctica de disciplinas deportivas colectivas fundamentales como baloncesto, voleibol y fútbol. Aborda aspectos técnicos, tácticos, reglamentarios y metodológicos necesarios para la enseñanza, entrenamiento y organización de actividades deportivas grupales, promoviendo además valores de cooperación, liderazgo y trabajo en equipo.",
-                    "objetivo": "Desarrollar competencias técnicas y metodológicas para la enseñanza y práctica de deportes colectivos.",
-                    "competencias": [
-                        "Dominio técnico-deportivo",
-                        "Trabajo en equipo",
-                        "Planificación deportiva",
-                        "Aplicación táctica"
-                    ]
-                },
-                {
-                    "nombre": "Evaluación Física y Antropometría",
-                    "descripcion": "Asignatura especializada en la aplicación de métodos científicos para la valoración de la condición física y las características corporales de los individuos. Estudia procedimientos antropométricos, composición corporal, capacidades físicas básicas, indicadores de salud y rendimiento, así como técnicas de medición y análisis utilizadas en contextos deportivos y educativos.",
-                    "objetivo": "Aplicar procedimientos de evaluación física y antropométrica para diagnosticar, monitorear y optimizar el rendimiento y la salud de las personas.",
-                    "competencias": [
-                        "Evaluación física",
-                        "Análisis antropométrico",
-                        "Interpretación de resultados",
-                        "Diagnóstico funcional"
-                    ]
-                },
-                {
-                    "nombre": "Metodología de la Investigación",
-                    "descripcion": "Asignatura orientada al estudio de los fundamentos epistemológicos, metodológicos y técnicos del proceso de investigación científica. Analiza la formulación de problemas, construcción de objetivos, revisión documental, diseño metodológico, técnicas de recolección de datos y elaboración de informes académicos, permitiendo al estudiante desarrollar investigaciones aplicadas en educación física, deporte y recreación.",
-                    "objetivo": "Desarrollar competencias investigativas que permitan formular y ejecutar proyectos científicos con rigor metodológico.",
-                    "competencias": [
-                        "Investigación científica",
-                        "Pensamiento crítico",
-                        "Análisis metodológico",
-                        "Redacción académica"
-                    ]
-                },
-                {
-                    "nombre": "Primeros Auxilios Deportivos",
-                    "descripcion": "Asignatura práctica destinada al aprendizaje de procedimientos básicos de atención inmediata ante accidentes y emergencias ocurridas durante la práctica de actividades físicas y deportivas. Incluye técnicas de evaluación primaria, reanimación cardiopulmonar básica, inmovilización, control de hemorragias, manejo inicial de traumatismos y protocolos de actuación preventiva.",
-                    "objetivo": "Aplicar técnicas básicas de atención y respuesta inmediata ante situaciones de emergencia en contextos deportivos y recreativos.",
-                    "competencias": [
-                        "Atención de emergencias",
-                        "Prevención de riesgos",
-                        "Actuación responsable",
-                        "Seguridad deportiva"
-                    ]
-                }
-            ]
+          "codigo": "ED540130101",
+          "nombre": "Fundamentos de la Educación Física",
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Examina los principios teóricos y metodológicos que sustentan la educación física como disciplina educativa, destacando su importancia en el desarrollo físico, mental y social de las personas.",
+          "objetivo": "Identificar los fundamentos conceptuales de la educación física y su aplicación en los procesos educativos."
         },
         {
-            "numero": 5,
-            "resumen": "Desarrollar competencias especializadas en entrenamiento deportivo, nutrición, gestión institucional y recreación comunitaria, fortaleciendo la capacidad profesional para intervenir en diversos contextos deportivos y sociales.",
-            "proposito": "Capacitar al estudiante para diseñar programas de entrenamiento, promover estilos de vida saludables y gestionar actividades deportivas y recreativas con criterios científicos y organizacionales.",
-            "materias": [
-                {
-                    "nombre": "Entrenamiento Deportivo I",
-                    "descripcion": "Asignatura orientada al estudio de los fundamentos científicos y metodológicos del entrenamiento deportivo. Analiza los principios biológicos de adaptación, sobrecarga, individualización y progresión, así como los métodos para el desarrollo de capacidades físicas como fuerza, resistencia, velocidad y flexibilidad. Se enfatiza la planificación sistemática del entrenamiento para distintos niveles de desempeño físico.",
-                    "objetivo": "Aplicar los principios científicos del entrenamiento deportivo para planificar programas orientados al mejoramiento del rendimiento físico.",
-                    "competencias": [
-                        "Planificación del entrenamiento",
-                        "Desarrollo de capacidades físicas",
-                        "Evaluación del rendimiento",
-                        "Aplicación de principios científicos"
-                    ]
-                },
-                {
-                    "nombre": "Deportes Colectivos II",
-                    "descripcion": "Profundización en el estudio técnico, táctico y metodológico de disciplinas deportivas colectivas avanzadas. Analiza sistemas de juego, estrategias competitivas, planificación de sesiones de entrenamiento y evaluación del desempeño individual y grupal, fortaleciendo las competencias para la dirección y enseñanza de equipos deportivos.",
-                    "objetivo": "Diseñar y dirigir procesos de enseñanza y entrenamiento en deportes colectivos mediante estrategias metodológicas avanzadas.",
-                    "competencias": [
-                        "Dirección deportiva",
-                        "Planificación táctica",
-                        "Trabajo colaborativo",
-                        "Análisis del rendimiento grupal"
-                    ]
-                },
-                {
-                    "nombre": "Nutrición Deportiva",
-                    "descripcion": "Asignatura dedicada al estudio de los principios nutricionales aplicados a la actividad física y el deporte. Analiza los requerimientos energéticos, macronutrientes, micronutrientes, hidratación y suplementación desde una perspectiva científica, permitiendo diseñar estrategias alimentarias orientadas al mantenimiento de la salud y la optimización del rendimiento físico.",
-                    "objetivo": "Comprender la relación entre nutrición, salud y rendimiento deportivo para orientar hábitos alimenticios adecuados.",
-                    "competencias": [
-                        "Orientación nutricional",
-                        "Promoción de hábitos saludables",
-                        "Análisis dietético",
-                        "Apoyo al rendimiento deportivo"
-                    ]
-                },
-                {
-                    "nombre": "Administración Deportiva",
-                    "descripcion": "Estudio de los principios administrativos aplicados a organizaciones deportivas, recreativas y educativas. Aborda la planificación, organización, dirección y control de recursos humanos, materiales y financieros, así como la gestión estratégica de instituciones vinculadas al deporte y la actividad física.",
-                    "objetivo": "Aplicar herramientas administrativas para gestionar eficientemente organizaciones y programas deportivos.",
-                    "competencias": [
-                        "Gestión organizacional",
-                        "Administración de recursos",
-                        "Liderazgo institucional",
-                        "Planificación estratégica"
-                    ]
-                },
-                {
-                    "nombre": "Recreación Comunitaria",
-                    "descripcion": "Asignatura orientada al diseño y ejecución de programas recreativos dirigidos a comunidades, organizaciones sociales e instituciones educativas. Promueve el uso de actividades lúdicas, deportivas y culturales como herramientas para la integración social, la prevención de riesgos y el fortalecimiento del bienestar colectivo.",
-                    "objetivo": "Diseñar programas recreativos comunitarios que promuevan la participación ciudadana y el desarrollo social.",
-                    "competencias": [
-                        "Intervención comunitaria",
-                        "Diseño recreativo",
-                        "Animación sociocultural",
-                        "Gestión participativa"
-                    ]
-                }
-            ]
+          "codigo": "ED540130102",
+          "nombre": "Atletismo",
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Introduce las técnicas básicas del atletismo en sus diferentes modalidades, incluyendo carreras, saltos y lanzamientos. Se desarrollan habilidades motrices y conocimientos sobre reglamentación deportiva.",
+          "objetivo": "Aplicar fundamentos técnicos básicos de las disciplinas atléticas en contextos educativos y deportivos."
         },
         {
-            "numero": 6,
-            "resumen": "Consolidar la formación profesional mediante el dominio de metodologías avanzadas de entrenamiento, gestión de eventos, actividad física para la salud e investigación aplicada.",
-            "proposito": "Fortalecer las competencias para liderar programas deportivos, promover estilos de vida saludables y desarrollar investigaciones orientadas a la solución de problemas reales.",
-            "materias": [
-                {
-                    "nombre": "Entrenamiento Deportivo II",
-                    "descripcion": "Asignatura avanzada enfocada en la planificación, periodización y control científico del entrenamiento deportivo. Analiza macrociclos, mesociclos y microciclos, así como estrategias para la preparación física especializada y el seguimiento del rendimiento deportivo en diferentes disciplinas.",
-                    "objetivo": "Diseñar programas avanzados de entrenamiento deportivo utilizando criterios científicos de planificación y control.",
-                    "competencias": [
-                        "Periodización del entrenamiento",
-                        "Control del rendimiento",
-                        "Planificación avanzada",
-                        "Evaluación deportiva"
-                    ]
-                },
-                {
-                    "nombre": "Deportes Individuales",
-                    "descripcion": "Estudio técnico y metodológico de diversas disciplinas deportivas individuales, enfatizando la ejecución técnica, el desarrollo de habilidades específicas y la planificación del entrenamiento orientado al rendimiento. Incluye aspectos pedagógicos para la enseñanza y evaluación de estas modalidades.",
-                    "objetivo": "Desarrollar competencias para la enseñanza, entrenamiento y evaluación de deportes individuales.",
-                    "competencias": [
-                        "Dominio técnico",
-                        "Capacidad metodológica",
-                        "Planificación deportiva",
-                        "Evaluación del desempeño"
-                    ]
-                },
-                {
-                    "nombre": "Planificación y Organización de Eventos Deportivos",
-                    "descripcion": "Asignatura orientada al diseño, coordinación y ejecución de actividades, competencias y eventos deportivos. Estudia aspectos logísticos, administrativos, financieros y protocolarios necesarios para garantizar la calidad y el éxito de los eventos, considerando criterios de seguridad, participación e impacto social.",
-                    "objetivo": "Planificar y ejecutar eventos deportivos mediante procesos organizativos eficientes y sostenibles.",
-                    "competencias": [
-                        "Gestión de eventos",
-                        "Planificación logística",
-                        "Coordinación de equipos",
-                        "Administración de recursos"
-                    ]
-                },
-                {
-                    "nombre": "Actividad Física y Salud",
-                    "descripcion": "Estudio de la actividad física como herramienta fundamental para la prevención de enfermedades y la promoción de estilos de vida saludables. Analiza programas de ejercicio físico orientados a diferentes grupos poblacionales, considerando factores de riesgo, bienestar integral y calidad de vida.",
-                    "objetivo": "Diseñar programas de actividad física orientados a la promoción de la salud y la prevención de enfermedades.",
-                    "competencias": [
-                        "Promoción de la salud",
-                        "Diseño de programas físicos",
-                        "Prevención de enfermedades",
-                        "Educación para la salud"
-                    ]
-                },
-                {
-                    "nombre": "Investigación Aplicada",
-                    "descripcion": "Asignatura destinada al desarrollo de proyectos de investigación relacionados con la educación física, el deporte y la recreación. Permite aplicar conocimientos metodológicos para analizar problemáticas reales, interpretar resultados y generar propuestas de mejora sustentadas científicamente.",
-                    "objetivo": "Aplicar metodologías científicas en el desarrollo de investigaciones vinculadas al ámbito profesional.",
-                    "competencias": [
-                        "Investigación aplicada",
-                        "Análisis de datos",
-                        "Interpretación científica",
-                        "Solución de problemas"
-                    ]
-                }
-            ]
-        },
-        {
-            "numero": 7,
-            "resumen": "Integrar los conocimientos científicos, pedagógicos, administrativos y sociales adquiridos durante la carrera para intervenir profesionalmente en contextos educativos, deportivos y comunitarios.",
-            "proposito": "Preparar al estudiante para asumir funciones de liderazgo, gestión, investigación y docencia en instituciones vinculadas con la actividad física, el deporte y la recreación.",
-            "materias": [
-                {
-                    "nombre": "Gerencia Deportiva",
-                    "descripcion": "Asignatura orientada al estudio de los procesos modernos de dirección, liderazgo y gestión estratégica aplicados al ámbito deportivo. Analiza modelos organizacionales, planificación institucional, administración de recursos humanos, formulación de proyectos, liderazgo de equipos multidisciplinarios y gestión de la calidad en organizaciones deportivas públicas y privadas. Asimismo, promueve el desarrollo de competencias gerenciales necesarias para responder a los desafíos contemporáneos del sector deportivo.",
-                    "objetivo": "Aplicar herramientas gerenciales para dirigir, coordinar y optimizar organizaciones, programas y proyectos deportivos de manera eficiente y sostenible.",
-                    "competencias": [
-                        "Gestión estratégica",
-                        "Liderazgo organizacional",
-                        "Administración deportiva",
-                        "Toma de decisiones"
-                    ]
-                },
-                {
-                    "nombre": "Legislación Deportiva",
-                    "descripcion": "Estudio de las normativas legales, reglamentarias y administrativas que regulan la actividad física, el deporte y la recreación a nivel nacional e internacional. Analiza los derechos y deberes de atletas, entrenadores, docentes y organizaciones deportivas, así como aspectos relacionados con responsabilidad civil, ética profesional, protección de menores y políticas públicas en materia deportiva.",
-                    "objetivo": "Comprender y aplicar el marco jurídico que regula el ejercicio profesional y la gestión de actividades deportivas y recreativas.",
-                    "competencias": [
-                        "Interpretación normativa",
-                        "Responsabilidad profesional",
-                        "Gestión legal deportiva",
-                        "Ética institucional"
-                    ]
-                },
-                {
-                    "nombre": "Actividad Física Adaptada",
-                    "descripcion": "Asignatura especializada en la planificación y aplicación de programas de actividad física dirigidos a personas con necesidades educativas especiales, discapacidades o condiciones particulares de salud. Estudia principios de inclusión, adaptaciones curriculares, metodologías de enseñanza diferenciadas y estrategias para promover la participación activa y el bienestar integral de poblaciones diversas.",
-                    "objetivo": "Diseñar y ejecutar programas inclusivos de actividad física que favorezcan el desarrollo integral y la integración social de personas con necesidades específicas.",
-                    "competencias": [
-                        "Educación inclusiva",
-                        "Adaptación metodológica",
-                        "Intervención especializada",
-                        "Responsabilidad social"
-                    ]
-                },
-                {
-                    "nombre": "Proyecto de Grado",
-                    "descripcion": "Asignatura destinada a la formulación estructurada del trabajo de investigación que servirá como requisito para la obtención del título profesional. Comprende la identificación de problemas relevantes del área, construcción del marco teórico, formulación de objetivos, diseño metodológico y elaboración del plan de trabajo que orientará la ejecución de la investigación o proyecto aplicado.",
-                    "objetivo": "Diseñar una propuesta de investigación o intervención profesional sustentada en criterios científicos y metodológicos rigurosos.",
-                    "competencias": [
-                        "Formulación de proyectos",
-                        "Investigación científica",
-                        "Planificación metodológica",
-                        "Redacción académica"
-                    ]
-                },
-                {
-                    "nombre": "Práctica Profesional Docente",
-                    "descripcion": "Experiencia académica supervisada orientada a la aplicación de conocimientos pedagógicos y metodológicos en instituciones educativas. Permite al estudiante desarrollar actividades de planificación, enseñanza, evaluación y gestión de procesos de aprendizaje relacionados con la educación física, fortaleciendo sus competencias docentes y su capacidad de intervención profesional en escenarios reales.",
-                    "objetivo": "Aplicar competencias pedagógicas y profesionales en contextos educativos reales mediante la práctica supervisada de la docencia.",
-                    "competencias": [
-                        "Desempeño docente",
-                        "Planificación educativa",
-                        "Evaluación del aprendizaje",
-                        "Gestión pedagógica"
-                    ]
-                }
-            ]
-        },
-        {
-            "numero": 8,
-            "resumen": "Consolidar la formación profesional mediante la culminación del trabajo de investigación y la inmersión práctica en escenarios laborales vinculados con la educación física, el deporte y la recreación.",
-            "proposito": "Validar las competencias adquiridas durante la carrera a través de la investigación aplicada y la experiencia profesional directa.",
-            "materias": [
-                {
-                    "nombre": "Trabajo de Grado",
-                    "descripcion": "Fase final del proceso investigativo donde el estudiante desarrolla, ejecuta y culmina el proyecto formulado previamente. Incluye la aplicación de instrumentos de investigación, análisis e interpretación de resultados, elaboración de conclusiones y recomendaciones, así como la redacción y defensa pública del informe final conforme a las normas académicas institucionales.",
-                    "objetivo": "Desarrollar y culminar una investigación científica o proyecto aplicado que contribuya a la solución de problemáticas relacionadas con la educación física, el deporte o la recreación.",
-                    "competencias": [
-                        "Investigación aplicada",
-                        "Análisis científico",
-                        "Comunicación académica",
-                        "Resolución de problemas"
-                    ]
-                },
-                {
-                    "nombre": "Pasantía Profesional",
-                    "descripcion": "Actividad académica de carácter integrador que consiste en la incorporación supervisada del estudiante a instituciones educativas, organizaciones deportivas, entes gubernamentales, centros recreativos o empresas vinculadas con la actividad física y el deporte. Durante esta experiencia, el futuro profesional aplica conocimientos científicos, pedagógicos y administrativos en situaciones reales, fortaleciendo su capacidad de adaptación, liderazgo y desempeño laboral.",
-                    "objetivo": "Integrar y aplicar las competencias profesionales adquiridas durante la carrera en escenarios reales de desempeño laboral.",
-                    "competencias": [
-                        "Experiencia profesional",
-                        "Adaptación al entorno laboral",
-                        "Resolución de problemas reales",
-                        "Trabajo interdisciplinario",
-                        "Responsabilidad profesional"
-                    ]
-                }
-            ]
+          "codigo": "ED540110103",
+          "nombre": "Desarrollo Personal",
+          "uc": 2,
+          "prelacion": "Ninguna",
+          "descripcion": "Promueve el crecimiento personal mediante el fortalecimiento de habilidades relacionadas con autoestima, liderazgo, responsabilidad, trabajo en equipo y valores éticos.",
+          "objetivo": "Fortalecer competencias personales que favorezcan el desarrollo integral y profesional del estudiante."
         }
-              ]
+      ]
+    },
+    {
+      "numero": 2,
+      "resumen": "Durante el segundo semestre se profundiza en aspectos psicológicos, biológicos y deportivos vinculados al aprendizaje y al movimiento humano. Asimismo, se fortalecen las capacidades necesarias para comprender el desarrollo físico y cognitivo de los estudiantes.",
+      "proposito": "Desarrollar conocimientos científicos y pedagógicos que permitan comprender los procesos de aprendizaje y adaptación del organismo a la actividad física.",
+      "materias": [
+        {
+          "codigo": "ED540110202",
+          "nombre": "Psicología General",
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Estudia los fundamentos de la psicología, los procesos cognitivos, emocionales y conductuales que influyen en el aprendizaje, el desarrollo humano y la interacción social.",
+          "objetivo": "Comprender los principios psicológicos que intervienen en la conducta y el aprendizaje humano."
+        },
+        {
+          "codigo": "ED540120202",
+          "nombre": "Crecimiento y Desarrollo Humano",
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Analiza las etapas del desarrollo físico, cognitivo y socioemocional desde la infancia hasta la adultez, considerando factores biológicos y ambientales que influyen en la evolución del individuo.",
+          "objetivo": "Identificar las características del desarrollo humano para adecuar estrategias educativas y deportivas."
+        },
+        {
+          "codigo": "ED540130204",
+          "nombre": "Balonmano",
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Introduce los fundamentos técnicos, tácticos y reglamentarios del balonmano, promoviendo el desarrollo de habilidades motrices y estrategias de juego colectivo.",
+          "objetivo": "Aplicar fundamentos técnicos y tácticos básicos del balonmano en actividades educativas y recreativas."
+        },
+        {
+          "codigo": "ED540130205",
+          "nombre": "Natación",
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Desarrolla habilidades acuáticas fundamentales mediante el aprendizaje de técnicas básicas de natación, seguridad en el medio acuático y acondicionamiento físico.",
+          "objetivo": "Dominar las técnicas básicas de natación y promover prácticas seguras en ambientes acuáticos."
+        },
+        {
+          "codigo": "ED540120206",
+          "nombre": "Bioquímica Aplicada",
+          "uc": 3,
+          "prelacion": "Anatomía y Fisiología Humana",
+          "descripcion": "Estudia los procesos bioquímicos relacionados con la actividad física, el metabolismo energético y las adaptaciones fisiológicas derivadas del ejercicio.",
+          "objetivo": "Comprender los procesos bioquímicos que sustentan el rendimiento físico y deportivo."
+        },
+        {
+          "codigo": "ED540110207",
+          "nombre": "Sociología de la Educación",
+          "uc": 2,
+          "prelacion": "Ninguna",
+          "descripcion": "Analiza la relación entre educación y sociedad, considerando factores culturales, económicos y sociales que influyen en los procesos educativos.",
+          "objetivo": "Interpretar la influencia de los contextos sociales en la educación y el desarrollo humano."
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "resumen": "El tercer semestre fortalece la comprensión científica del aprendizaje, el ejercicio físico y la recreación. Asimismo, incorpora herramientas relacionadas con la educación ambiental, la gimnasia y los primeros auxilios, fundamentales para el desempeño profesional en contextos educativos y deportivos.",
+      "proposito": "Integrar conocimientos pedagógicos, biológicos y deportivos que permitan diseñar actividades físicas seguras, educativas y orientadas al desarrollo integral.",
+      "materias": [
+        {
+          "codigo": "ED540110303",
+          "nombre": "Psicología del Aprendizaje",
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Estudia las principales teorías del aprendizaje y su aplicación en contextos educativos. Analiza procesos cognitivos, motivacionales y conductuales relacionados con la adquisición de conocimientos y habilidades.",
+          "objetivo": "Aplicar principios psicológicos del aprendizaje en el diseño de experiencias educativas significativas."
+        },
+        {
+          "codigo": "ED540120301",
+          "nombre": "Ecología y Educación Ambiental",
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Examina la interacción entre los seres humanos y el ambiente, promoviendo el desarrollo de actitudes responsables hacia la conservación de los recursos naturales y la sostenibilidad.",
+          "objetivo": "Promover la conciencia ambiental mediante estrategias educativas orientadas al desarrollo sostenible."
+        },
+        {
+          "codigo": "ED540120307",
+          "nombre": "Fisiología del Ejercicio",
+          "uc": 3,
+          "prelacion": "Anatomía y Fisiología Humana",
+          "descripcion": "Analiza las respuestas y adaptaciones fisiológicas del organismo durante la actividad física y el entrenamiento deportivo, considerando factores relacionados con el rendimiento y la salud.",
+          "objetivo": "Comprender los procesos fisiológicos asociados al ejercicio físico y al rendimiento deportivo."
+        },
+        {
+          "codigo": "ED540130303",
+          "nombre": "Gimnasia",
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Desarrolla habilidades motrices mediante la práctica de ejercicios gimnásticos básicos, fortaleciendo la coordinación, el equilibrio, la flexibilidad y la expresión corporal.",
+          "objetivo": "Aplicar técnicas gimnásticas básicas para el desarrollo de capacidades físicas y motrices."
+        },
+        {
+          "codigo": "ED540130306",
+          "nombre": "Recreación y Primeros Auxilios",
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Integra conocimientos relacionados con la planificación de actividades recreativas y la atención inmediata de emergencias básicas que puedan ocurrir durante actividades físicas y deportivas.",
+          "objetivo": "Organizar actividades recreativas seguras aplicando principios básicos de primeros auxilios."
+        },
+        {
+          "codigo": "ELECTIVA-I",
+          "nombre": "Electiva I",
+          "uc": 2,
+          "prelacion": "Ninguna",
+          "descripcion": "Espacio académico flexible orientado a complementar la formación profesional mediante contenidos vinculados al desarrollo personal, la comunicación, los valores y la ciudadanía.",
+          "objetivo": "Ampliar la formación integral mediante el estudio de contenidos interdisciplinarios de interés académico y profesional."
+        }
+      ]
+    },
+{
+  "numero": 4,
+  "resumen": "Durante el cuarto semestre se fortalecen las competencias pedagógicas, administrativas y deportivas mediante el estudio de la planificación educativa, la estadística aplicada y disciplinas deportivas colectivas. Asimismo, se profundiza en el análisis científico del movimiento humano como base para la enseñanza de la actividad física.",
+  "proposito": "Desarrollar capacidades para planificar procesos de enseñanza, interpretar información estadística y aplicar conocimientos biomecánicos y deportivos en contextos educativos.",
+  "materias": [
+    {
+      "codigo": "ED540110405",
+      "nombre": "Orientación Educativa",
+      "uc": 3,
+      "prelacion": "Psicología del Aprendizaje",
+      "descripcion": "Estudia los principios y estrategias de orientación educativa orientadas al acompañamiento integral de los estudiantes. Analiza procesos relacionados con desarrollo personal, vocacional y académico.",
+      "objetivo": "Aplicar estrategias de orientación que favorezcan el desarrollo integral de los estudiantes."
+    },
+    {
+      "codigo": "ED540150402",
+      "nombre": "Estadística Descriptiva",
+      "uc": 3,
+      "prelacion": "Ninguna",
+      "descripcion": "Introduce métodos estadísticos para la recopilación, organización, análisis e interpretación de datos relacionados con fenómenos educativos, deportivos y sociales.",
+      "objetivo": "Utilizar herramientas estadísticas básicas para analizar información relacionada con la educación física y el deporte."
+    },
+    {
+      "codigo": "ED540230401",
+      "nombre": "Planificación de la Enseñanza",
+      "uc": 4,
+      "prelacion": "Psicología del Aprendizaje",
+      "descripcion": "Examina los procesos de planificación educativa, diseño curricular, formulación de objetivos y organización de actividades de enseñanza-aprendizaje.",
+      "objetivo": "Diseñar planes de enseñanza ajustados a las necesidades educativas y contextuales de los estudiantes."
+    },
+    {
+      "codigo": "ED540130411",
+      "nombre": "Voleibol",
+      "uc": 3,
+      "prelacion": "Ninguna",
+      "descripcion": "Desarrolla conocimientos técnicos, tácticos y reglamentarios relacionados con la práctica y enseñanza del voleibol en contextos educativos y deportivos.",
+      "objetivo": "Aplicar fundamentos técnicos y tácticos del voleibol en actividades formativas y recreativas."
+    },
+    {
+      "codigo": "ED540130412",
+      "nombre": "Análisis Integral del Movimiento",
+      "uc": 3,
+      "prelacion": "Anatomía y Fisiología Humana",
+      "descripcion": "Analiza el movimiento humano desde una perspectiva biomecánica y funcional, considerando aspectos anatómicos, fisiológicos y motrices que influyen en el desempeño físico.",
+      "objetivo": "Interpretar los componentes biomecánicos del movimiento humano para optimizar la práctica deportiva y educativa."
+    },
+    {
+      "codigo": "ED540230408",
+      "nombre": "Administración Deportiva",
+      "uc": 3,
+      "prelacion": "Ninguna",
+      "descripcion": "Estudia los principios de gestión y organización de instituciones deportivas, programas recreativos y eventos relacionados con la actividad física.",
+      "objetivo": "Aplicar herramientas administrativas para la gestión eficiente de organizaciones deportivas."
     }
-  
+  ]
+},
+{
+  "numero": 5,
+  "resumen": "El quinto semestre fortalece las competencias relacionadas con la gestión educativa, la investigación y el entrenamiento deportivo. Se incorporan conocimientos que permiten evaluar procesos de aprendizaje y planificar actividades físicas orientadas al desarrollo del rendimiento deportivo.",
+  "proposito": "Integrar herramientas pedagógicas, científicas y deportivas para mejorar la calidad de los procesos educativos y del entrenamiento físico.",
+  "materias": [
+    {
+      "codigo": "ED540230504",
+      "nombre": "Gerencia Educativa",
+      "uc": 3,
+      "prelacion": "Ninguna",
+      "descripcion": "Analiza modelos de gestión educativa, liderazgo institucional y procesos de administración orientados al mejoramiento de la calidad educativa.",
+      "objetivo": "Aplicar principios gerenciales en la planificación y gestión de instituciones educativas."
+    },
+    {
+      "codigo": "ED540230503",
+      "nombre": "Evaluación del Aprendizaje",
+      "uc": 3,
+      "prelacion": "Planificación de la Enseñanza",
+      "descripcion": "Examina métodos, técnicas e instrumentos utilizados para valorar el aprendizaje y el logro de objetivos educativos en distintos contextos formativos.",
+      "objetivo": "Diseñar estrategias de evaluación que permitan medir el desarrollo de competencias y aprendizajes."
+    },
+    {
+      "codigo": "ED540220501",
+      "nombre": "Metodología de la Investigación",
+      "uc": 3,
+      "prelacion": "Ninguna",
+      "descripcion": "Introduce al estudiante en los métodos científicos utilizados para la investigación educativa y deportiva, promoviendo habilidades para formular y desarrollar proyectos de investigación.",
+      "objetivo": "Aplicar principios metodológicos para el desarrollo de investigaciones en el ámbito educativo y deportivo."
+    },
+    {
+      "codigo": "ED540130514",
+      "nombre": "Principios Científicos del Entrenamiento",
+      "uc": 3,
+      "prelacion": "Fisiología del Ejercicio",
+      "descripcion": "Estudia los fundamentos biológicos, fisiológicos y metodológicos que sustentan la planificación y ejecución de programas de entrenamiento deportivo.",
+      "objetivo": "Diseñar programas básicos de entrenamiento fundamentados en principios científicos."
+    },
+    {
+      "codigo": "ED540130508",
+      "nombre": "Baloncesto",
+      "uc": 3,
+      "prelacion": "Ninguna",
+      "descripcion": "Desarrolla conocimientos técnicos, tácticos y reglamentarios del baloncesto, promoviendo habilidades para su enseñanza y práctica en diferentes contextos educativos.",
+      "objetivo": "Aplicar fundamentos técnicos y tácticos del baloncesto en actividades educativas y deportivas."
+    },
+    {
+      "codigo": "ELECTIVA-II",
+      "nombre": "Electiva II",
+      "uc": 2,
+      "prelacion": "Ninguna",
+      "descripcion": "Asignatura flexible destinada a complementar la formación profesional mediante contenidos relacionados con tecnología educativa, organización institucional o innovación pedagógica.",
+      "objetivo": "Fortalecer competencias complementarias mediante contenidos interdisciplinarios de interés profesional."
+    }
+  ]
+},
+{
+  "numero": 6,
+  "resumen": "Durante el sexto semestre se consolidan las competencias profesionales mediante experiencias prácticas, investigación social, ética docente y evaluación del rendimiento deportivo. Esta etapa permite vincular los conocimientos teóricos con situaciones reales del ejercicio profesional.",
+  "proposito": "Fortalecer la integración entre teoría y práctica mediante experiencias formativas orientadas al ejercicio docente, investigativo y deportivo.",
+  "materias": [
+    {
+      "codigo": "ED540220603",
+      "nombre": "Práctica Profesional I: El Docente como Agente de Cambio Social",
+      "uc": 3,
+      "prelacion": "Gerencia Educativa",
+      "descripcion": "Experiencia formativa orientada a la observación y participación en contextos educativos reales, promoviendo el compromiso social del futuro docente y su vinculación con la comunidad.",
+      "objetivo": "Integrar conocimientos pedagógicos mediante experiencias prácticas orientadas a la transformación social."
+    },
+    {
+      "codigo": "ED540230602",
+      "nombre": "Metodología y Recursos para el Aprendizaje",
+      "uc": 4,
+      "prelacion": "Planificación de la Enseñanza",
+      "descripcion": "Analiza estrategias metodológicas, recursos didácticos y tecnologías educativas que favorecen procesos de enseñanza-aprendizaje significativos.",
+      "objetivo": "Diseñar experiencias de aprendizaje utilizando recursos y metodologías innovadoras."
+    },
+    {
+      "codigo": "ED540220602",
+      "nombre": "Investigación Social",
+      "uc": 4,
+      "prelacion": "Metodología de la Investigación",
+      "descripcion": "Profundiza en métodos y técnicas de investigación aplicados al estudio de fenómenos educativos y sociales relacionados con la actividad física y el deporte.",
+      "objetivo": "Desarrollar investigaciones orientadas a la comprensión y solución de problemáticas sociales y educativas."
+    },
+    {
+      "codigo": "ED540110606",
+      "nombre": "Ética y Docencia",
+      "uc": 3,
+      "prelacion": "Ninguna",
+      "descripcion": "Estudia principios éticos y valores profesionales que orientan el ejercicio responsable de la docencia y la promoción del desarrollo humano integral.",
+      "objetivo": "Fortalecer la actuación ética y responsable en el desempeño profesional docente."
+    },
+    {
+      "codigo": "ED540130613",
+      "nombre": "Medición y Evaluación del Rendimiento Deportivo",
+      "uc": 3,
+      "prelacion": "Estadística Descriptiva",
+      "descripcion": "Analiza procedimientos e instrumentos utilizados para medir capacidades físicas, desempeño deportivo y evolución del entrenamiento.",
+      "objetivo": "Aplicar técnicas de evaluación que permitan valorar objetivamente el rendimiento físico y deportivo."
+    },
+    {
+      "codigo": "ED540130607",
+      "nombre": "Béisbol (M) y Softbol (F)",
+      "uc": 3,
+      "prelacion": "Ninguna",
+      "descripcion": "Desarrolla fundamentos técnicos, tácticos y reglamentarios del béisbol y el softbol, promoviendo habilidades para su enseñanza y práctica organizada.",
+      "objetivo": "Aplicar principios técnicos y tácticos del béisbol y el softbol en contextos educativos y deportivos."
+    }
+  ]
+},
+{
+  "numero": 7,
+  "resumen": "Durante el séptimo semestre se fortalecen las competencias profesionales relacionadas con la didáctica especializada, la inclusión educativa, la gestión institucional y la enseñanza de disciplinas deportivas colectivas. Asimismo, el estudiante continúa su formación práctica mediante experiencias vinculadas a la administración y supervisión educativa.",
+  "proposito": "Consolidar las capacidades pedagógicas, administrativas y deportivas necesarias para el ejercicio profesional en contextos educativos formales y no formales.",
+  "materias": [
+    {
+      "codigo": "ED540220704",
+      "nombre": "Práctica Profesional II: Administración y Supervisión de la Educación",
+      "uc": 3,
+      "prelacion": "Práctica Profesional I: El Docente como Agente de Cambio Social",
+      "descripcion": "Permite al estudiante participar en procesos administrativos y de supervisión educativa, fortaleciendo competencias relacionadas con la gestión institucional y el liderazgo pedagógico.",
+      "objetivo": "Aplicar conocimientos de administración y supervisión educativa en contextos reales de desempeño profesional."
+    },
+    {
+      "codigo": "ED540230708",
+      "nombre": "Didáctica de la Educación Física",
+      "uc": 3,
+      "prelacion": "Metodología y Recursos para el Aprendizaje",
+      "descripcion": "Estudia estrategias metodológicas específicas para la enseñanza de la educación física en los distintos niveles del sistema educativo, considerando características evolutivas y contextuales de los estudiantes.",
+      "objetivo": "Diseñar y ejecutar procesos de enseñanza-aprendizaje relacionados con la educación física utilizando estrategias didácticas apropiadas."
+    },
+    {
+      "codigo": "ED540130710",
+      "nombre": "Fútbol (M) y Fútbol Sala (F)",
+      "uc": 3,
+      "prelacion": "Ninguna",
+      "descripcion": "Desarrolla conocimientos técnicos, tácticos y reglamentarios relacionados con el fútbol y el fútbol sala, promoviendo habilidades para su enseñanza, entrenamiento y organización.",
+      "objetivo": "Aplicar fundamentos técnicos y tácticos del fútbol y fútbol sala en contextos educativos y deportivos."
+    },
+    {
+      "codigo": "ED540130703",
+      "nombre": "Educación Física Especial",
+      "uc": 3,
+      "prelacion": "Ninguna",
+      "descripcion": "Analiza estrategias pedagógicas orientadas a la inclusión de personas con necesidades educativas especiales mediante actividades físicas adaptadas y programas de desarrollo motor.",
+      "objetivo": "Diseñar actividades físicas inclusivas que favorezcan la participación y el desarrollo integral de personas con necesidades especiales."
+    },
+    {
+      "codigo": "ELECTIVA-III",
+      "nombre": "Electiva III",
+      "uc": 2,
+      "prelacion": "Ver tabla de electivas",
+      "descripcion": "Espacio académico destinado a la profundización en áreas especializadas relacionadas con la actividad física, el deporte, la investigación y el desarrollo profesional.",
+      "objetivo": "Complementar la formación profesional mediante contenidos especializados de libre elección."
+    }
+  ]
+},
+{
+  "numero": 8,
+  "resumen": "El último semestre integra los conocimientos adquiridos durante toda la carrera mediante experiencias de docencia directa e investigación aplicada. Esta etapa consolida la formación profesional del futuro licenciado en Educación Física, Deporte y Recreación.",
+  "proposito": "Integrar conocimientos pedagógicos, científicos y deportivos mediante experiencias profesionales e investigativas orientadas al ejercicio docente.",
+  "materias": [
+    {
+      "codigo": "ED540220805",
+      "nombre": "Práctica Profesional III: Docencia Integrada",
+      "uc": 7,
+      "prelacion": "Práctica Profesional II: Administración y Supervisión de la Educación",
+      "descripcion": "Experiencia profesional integral que permite al estudiante asumir responsabilidades docentes en contextos reales de enseñanza, aplicando conocimientos pedagógicos, metodológicos y deportivos adquiridos durante la carrera.",
+      "objetivo": "Demostrar competencias profesionales para planificar, ejecutar y evaluar procesos educativos relacionados con la educación física y el deporte."
+    },
+    {
+      "codigo": "ED540220806",
+      "nombre": "Trabajo de Grado",
+      "uc": 4,
+      "prelacion": "Tener aprobados todos los subproyectos hasta el VII semestre",
+      "descripcion": "Actividad académica orientada al desarrollo de una investigación aplicada que evidencie la integración de conocimientos científicos, pedagógicos y deportivos adquiridos durante la formación universitaria.",
+      "objetivo": "Desarrollar una investigación que aporte soluciones o conocimientos relevantes al campo de la educación física, el deporte y la recreación."
+    }
+  ]
+}
+]
+
+}
