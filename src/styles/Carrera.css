@@ -14,7 +14,10 @@
 
 .carrera-header h1 {
   color: #003366;
-}/* ===== TARJETAS DE INFORMACIÓN ===== */
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+/* ===== TARJETAS DE INFORMACIÓN ===== */
 
 .carrera-meta {
   display: grid;
