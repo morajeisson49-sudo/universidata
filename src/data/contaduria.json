@@ -1,617 +1,398 @@
 {
-  "id": "contaduria",
+  "id": "contaduria-publica",
   "nombre": "Licenciatura en Contaduría Pública",
   "duracion": "8 semestres",
   "titulo": "Licenciado(a) en Contaduría Pública",
-  "descripcion": "Formar profesionales altamente calificados en las ciencias contables y financieras, capaces de diseñar, dirigir, auditar y evaluar sistemas de información económica en organizaciones públicas y privadas, operando con un estricto sentido ético, visión gerencial estratégica y estricto cumplimiento del marco legal y tributario vigente.",
+  "creditos": 138,
+  "subproyectos": 44,
+  "horasTotales": 3072,
+  "descripcion": "La Licenciatura en Contaduría Pública está orientada a la formación de profesionales capaces de generar, analizar, interpretar y comunicar información financiera, económica y administrativa para apoyar la toma de decisiones en organizaciones públicas y privadas. El programa integra conocimientos contables, tributarios, financieros, administrativos, jurídicos y tecnológicos, promoviendo el ejercicio ético de la profesión y el compromiso con el desarrollo económico y social.",
   "semestres": [
     {
       "numero": 1,
-      "resumen": "Fundamentación conceptual de la ciencia contable, introducción a las ciencias jurídicas, razonamiento matemático aplicado y contexto geohistórico nacional.",
-      "proposito": "Introducir al estudiante en la teoría contable elemental, las herramientas cuantitativas y el entorno normativo básico que rige a las entidades económicas.",
+      "resumen": "El primer semestre proporciona las bases conceptuales necesarias para comprender el entorno económico, administrativo y contable de las organizaciones. Asimismo, fortalece las competencias matemáticas y metodológicas indispensables para el análisis financiero y la toma de decisiones.",
+      "proposito": "Introducir al estudiante en los fundamentos de la contabilidad, la administración y la economía, desarrollando capacidades analíticas y habilidades académicas para el desempeño universitario.",
       "materias": [
         {
+          "codigo": "CP430250101",
+          "nombre": "Introducción a la Administración",
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Estudia los principios fundamentales de la administración, las funciones gerenciales, la estructura organizacional y la importancia de la gestión eficiente de los recursos dentro de las organizaciones. Analiza los procesos de planificación, organización, dirección y control como elementos esenciales para el logro de objetivos institucionales.",
+          "objetivo": "Comprender los fundamentos de la administración y su aplicación en organizaciones públicas y privadas."
+        },
+        {
+          "codigo": "CP430230101",
           "nombre": "Contabilidad I",
-          "descripcion": "Estudio dogmático e introductorio de la contabilidad como sistema científico de información financiera. Abarca los principios de contabilidad generalmente aceptados (PCGA) y las Normas Internacionales de Información Financiera (NIIF/VEN-NIF), la teoría del cargo y del abono, la estructura de la ecuación patrimonial, el ciclo contable básico, el diseño y uso del catálogo de cuentas, el registro cronológico en los libros obligatorios (Diario, Mayor, Inventario) y la elaboración del balance de comprobación y estados financieros elementales.",
-          "objetivo": "Comprender y aplicar los principios fundamentales de la contabilidad para registrar de forma sistemática y cronológica las transacciones económicas de una entidad mercantil.",
-          "competencias": [
-            "Registro de operaciones contables",
-            "Manejo de la teoría del cargo y del abono",
-            "Estructuración de libros contables obligatorios",
-            "Elaboración de balances de comprobación",
-            "Interpretación de información financiera básica"
-          ]
+          "uc": 4,
+          "prelacion": "Ninguna",
+          "descripcion": "Introduce los principios básicos de la contabilidad financiera, el registro de operaciones económicas y la elaboración de información contable. Se estudian los elementos fundamentales de los estados financieros y las normas que regulan el proceso contable.",
+          "objetivo": "Comprender los fundamentos del sistema contable y aplicar procedimientos básicos de registro financiero."
         },
         {
-          "nombre": "Matemática",
-          "descripcion": "Asignatura de fundamentación analítica enfocada en el desarrollo del pensamiento lógico-deductivo. Comprende el estudio exhaustivo del álgebra elemental, sistemas de ecuaciones lineales y no lineales, teoría de conjuntos, funciones reales (lineales, cuadráticas, exponenciales y logarítmicas) y su modelado matemático aplicado de forma directa a la resolución de problemas de costos, ingresos, optimización de recursos y maximización de utilidades en el ámbito empresarial.",
-          "objetivo": "Desarrollar competencias cuantitativas abstractas y aplicar modelos matemáticos para el análisis y resolución de problemas financieros y administrativos.",
-          "competencias": [
-            "Pensamiento lógico-matemático",
-            "Resolución de ecuaciones complejas",
-            "Análisis cuantitativo de variables",
-            "Modelado matemático de problemas empresariales",
-            "Razonamiento numérico abstracto"
-          ]
+          "codigo": "CP430210101",
+          "nombre": "Matemática I",
+          "uc": 4,
+          "prelacion": "Ninguna",
+          "descripcion": "Desarrolla habilidades matemáticas aplicadas a las ciencias económicas y administrativas mediante el estudio de álgebra, funciones y operaciones fundamentales utilizadas en el análisis financiero y empresarial.",
+          "objetivo": "Aplicar herramientas matemáticas básicas para la resolución de problemas relacionados con la gestión empresarial y financiera."
         },
         {
-          "nombre": "Introducción al Derecho",
-          "descripcion": "Estudio propedéutico del ordenamiento jurídico general y su impacto en la actividad económica. Analiza el concepto de Derecho, la jerarquía de las normas jurídicas (Pirámide de Kelsen), las fuentes del derecho, el concepto de sujeto de derecho (personas naturales y jurídicas), el negocio jurídico, las obligaciones, los derechos de propiedad y el marco constitucional que regula e interviene en la libre empresa y en el ejercicio profesional de la contaduría.",
-          "objetivo": "Interpretar las nociones fundamentales del derecho general para comprender el marco regulatorio e institucional que condiciona el funcionamiento de las organizaciones.",
-          "competencias": [
-            "Comprensión normativa e institucional",
-            "Interpretación de textos legales",
-            "Análisis crítico del entorno legal",
-            "Identificación de figuras jurídicas corporativas",
-            "Aplicación de principios generales del derecho"
-          ]
+          "codigo": "CP430210201",
+          "nombre": "Fundamentos Económicos",
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Analiza los conceptos fundamentales de la economía, los sistemas económicos, los factores de producción y los mecanismos de oferta y demanda que influyen en el funcionamiento de los mercados.",
+          "objetivo": "Comprender los principios básicos de la economía y su impacto en las organizaciones y la sociedad."
         },
         {
-          "nombre": "Espacio Geográfico e Identidad Nacional",
-          "descripcion": "Análisis crítico y reflexivo de las realidades geográficas, socioeconómicas, históricas y culturales de Venezuela. Estudia la distribución espacial de los recursos estratégicos del país, los modelos de desarrollo económico implementados, la geopolítica nacional y el rol del profesional de la contaduría pública como un agente de transformación social, ético y comprometido con el desarrollo sustentable de las regiones.",
-          "objetivo": "Analizar las variables geográficas y socioculturales de la nación para contextualizar el impacto de la gestión financiera en el desarrollo local y regional.",
-          "competencias": [
-            "Análisis del entorno macro-social",
-            "Conciencia ciudadana y ética",
-            "Evaluación de dinámicas regionales",
-            "Responsabilidad social compartida",
-            "Valoración del patrimonio nacional"
-          ]
-        },
-        {
-          "nombre": "Lenguaje y Comunicación",
-          "descripcion": "Desarrollo y perfeccionamiento de las habilidades de lectoescritura y expresión oral técnica. Abarca las técnicas de comprensión lectora avanzada, las reglas de ortografía y sintaxis aplicadas, las estructuras de la argumentación lógica y el diseño y redacción formal de correspondencia corporativa, informes financieros técnicos, minutas, actas y memorandos indispensables para la comunicación asertiva en la gerencia.",
-          "objetivo": "Dominar las herramientas de comunicación escrita y verbal para redactar informes de carácter profesional y defender argumentos técnicos con precisión y fluidez.",
-          "competencias": [
-            "Redacción de informes técnicos",
-            "Oratoria y argumentación profesional",
-            "Comprensión analítica de textos",
-            "Sintaxis y ortografía corporativa",
-            "Expresión oral efectiva"
-          ]
-        },
-        {
-          "nombre": "Educación Física, Deporte y Recreación",
-          "descripcion": "Asignatura de formación humana e integral orientada a promover estilos de vida saludables y contrarrestar el sedentarismo y estrés corporativo. Fomenta el acondicionamiento neuromuscular, la práctica de disciplinas deportivas y actividades recreativas grupales, enfatizando el desarrollo de valores como la disciplina, la constancia, el autocontrol, la resiliencia y la cohesión de equipos de trabajo.",
-          "objetivo": "Fomentar el bienestar biopsicosocial a través de la actividad física sistemática, fortaleciendo hábitos de vida saludables y el trabajo colaborativo.",
-          "competencias": [
-            "Trabajo en equipo y liderazgo",
-            "Autodisciplina y constancia",
-            "Gestión del estrés personal",
-            "Adopción de hábitos saludables",
-            "Integración social"
-          ]
+          "codigo": "CP430270101",
+          "nombre": "Metodología de la Investigación",
+          "uc": 2,
+          "prelacion": "Ninguna",
+          "descripcion": "Introduce al estudiante en los métodos y técnicas de investigación científica, promoviendo el desarrollo de habilidades para la búsqueda, análisis e interpretación de información académica y profesional.",
+          "objetivo": "Aplicar herramientas metodológicas básicas para el desarrollo de investigaciones en el ámbito contable y administrativo."
         }
       ]
     },
     {
       "numero": 2,
-      "resumen": "Ampliación del ciclo contable, introducción a la micro y macroeconomía, herramientas estadísticas, administración general y derecho comercial.",
-      "proposito": "Dotar al estudiante de herramientas cuantitativas, organizacionales y legales avanzadas para comprender la dinámica interna y externa de las empresas.",
+      "resumen": "Durante el segundo semestre se profundiza en los procesos contables y administrativos, fortaleciendo las competencias matemáticas y económicas necesarias para comprender el funcionamiento de las organizaciones y su entorno financiero.",
+      "proposito": "Consolidar los conocimientos básicos de contabilidad, economía y administración mediante herramientas cuantitativas y conceptuales aplicadas al ámbito empresarial.",
       "materias": [
         {
+          "codigo": "CP430230202",
           "nombre": "Contabilidad II",
-          "descripcion": "Profundización avanzada en el proceso contable operativo de las empresas de servicios y comerciales. Se enfoca rigurosamente en los procesos de ajustes de cierre de ejercicio (depreciaciones, amortizaciones, provisiones, acumulados y diferidos), la metodología de la conciliación bancaria, el control interno y tratamiento contable del efectivo, las cuentas por cobrar (estimación para cuentas dudosas) y los inventarios utilizando los diferentes métodos de valoración (PEPS, Promedio Ponderado), culminando con la estructuración formal del Estado de Situación Financiera y el Estado de Resultados.",
-          "objetivo": "Estructurar y registrar asientos de ajuste y conciliaciones complejas para emitir estados financieros precisos bajo estándares técnicos internacionales.",
-          "competencias": [
-            "Formulación de estados financieros complejos",
-            "Ejecución de conciliaciones bancarias",
-            "Valoración técnico-contable de inventarios",
-            "Cálculo de depreciaciones y amortizaciones",
-            "Análisis de cuentas de activo corriente"
-          ]
+          "uc": 4,
+          "prelacion": "Contabilidad I",
+          "descripcion": "Profundiza en el proceso contable mediante el análisis de registros especializados, ajustes, cierre de cuentas y preparación de estados financieros de acuerdo con principios contables generalmente aceptados.",
+          "objetivo": "Aplicar procedimientos contables intermedios para la elaboración y análisis de información financiera."
         },
         {
-          "nombre": "Fundamentos Económicos",
-          "descripcion": "Introducción científica a los principios de la teoría económica. Analiza las fuerzas del mercado mediante el estudio de la oferta, la demanda, el equilibrio de mercado, las elasticidades y la teoría del consumidor y del productor (microeconomía). Asimismo, introduce las variables agregadas fundamentales como el Producto Interno Bruto (PIB), la inflación, el desempleo, los ciclos económicos y las políticas fiscales y monetarias que determinan el entorno de los negocios.",
-          "objetivo": "Comprender la lógica de los fenómenos económicos de mercado y las variables macroeconómicas para prever su impacto en la toma de decisiones empresariales.",
-          "competencias": [
-            "Análisis de mercados e incentivos",
-            "Comprensión de variables macroeconómicas",
-            "Evaluación de políticas económicas estatales",
-            "Pensamiento crítico y financiero",
-            "Previsión de riesgos de mercado"
-          ]
+          "codigo": "CP430250202",
+          "nombre": "Administración II",
+          "uc": 3,
+          "prelacion": "Introducción a la Administración",
+          "descripcion": "Amplía el estudio de la gestión organizacional mediante el análisis de estructuras administrativas, procesos de liderazgo, toma de decisiones y estrategias orientadas al logro de objetivos empresariales.",
+          "objetivo": "Analizar los procesos administrativos y su impacto en la eficiencia organizacional."
         },
         {
-          "nombre": "Estadística",
-          "descripcion": "Estudio de las metodologías cuantitativas aplicadas a la recolección, tabulación, presentación y análisis de datos numéricos. Abarca la estadística descriptiva (medidas de tendencia central, de dispersión y de posición), distribuciones de frecuencias, teoría elemental de la probabilidad, variables aleatorias, muestreo, distribuciones muestrales y análisis de regresión y correlación lineal lineal aplicado a proyecciones financieras empresariales.",
-          "objetivo": "Aplicar métodos estadísticos descriptivos e inferenciales elementales para procesar datos y transformarlos en información de soporte gerencial.",
-          "competencias": [
-            "Procesamiento y análisis de datos cuantitativos",
-            "Cálculo de proyecciones y tendencias",
-            "Elaboración de informes estadísticos financieros",
-            "Interpretación de probabilidades de riesgo",
-            "Manejo de indicadores cuantitativos"
-          ]
+          "codigo": "CP430210302",
+          "nombre": "Matemática II",
+          "uc": 4,
+          "prelacion": "Matemática I",
+          "descripcion": "Profundiza en el estudio de herramientas matemáticas aplicadas al análisis económico y financiero, incluyendo funciones avanzadas y técnicas de cálculo utilizadas en la gestión empresarial.",
+          "objetivo": "Aplicar métodos matemáticos avanzados para la resolución de problemas financieros y administrativos."
         },
         {
-          "nombre": "Introducción a la Administración",
-          "descripcion": "Estudio científico de las organizaciones y de la evolución del pensamiento administrativo. Analiza el proceso administrativo sistémico: Planificación (objetivos, estrategias, planes), Organización (diseño organizacional, organigramas, delegación de autoridad), Dirección (liderazgo, motivación, comunicación) y Control (establecimiento de estándares, auditoría administrativa), proporcionando la base conceptual de la gestión corporativa.",
-          "objetivo": "Comprender y aplicar las fases del proceso administrativo para optimizar la eficiencia y eficacia operacional de las entidades económicas.",
-          "competencias": [
-            "Diseño de estructuras organizacionales",
-            "Planificación estratégica táctica",
-            "Aplicación de sistemas de control de gestión",
-            "Liderazgo y dirección de equipos",
-            "Evaluación de procesos corporativos"
-          ]
+          "codigo": "CP430210402",
+          "nombre": "Microeconomía",
+          "uc": 3,
+          "prelacion": "Fundamentos Económicos",
+          "descripcion": "Estudia el comportamiento de consumidores, productores y mercados, analizando los mecanismos de formación de precios y la asignación eficiente de recursos dentro de la economía.",
+          "objetivo": "Comprender los principios microeconómicos que influyen en la toma de decisiones empresariales."
         },
         {
-          "nombre": "Legislación Mercantil",
-          "descripcion": "Análisis exhaustivo del marco jurídico regulador de los actos de comercio y los comerciantes en Venezuela, basado en el Código de Comercio. Comprende las obligaciones profesionales de los comerciantes, el funcionamiento del Registro de Comercio, las firmas comerciales, y el estudio jurídico y estructural de las compañías anónimas y de responsabilidad limitada, consorcios, asambleas de socios, comisarios, disolución y liquidación de sociedades.",
-          "objetivo": "Interpretar y aplicar las normas mercantiles que regulan la constitución, operatividad y liquidación de las entidades comerciales y figuras asociativas.",
-          "competencias": [
-            "Constitución legal de sociedades mercantiles",
-            "Manejo normativo del Código de Comercio",
-            "Redacción y revisión de actas de asamblea",
-            "Asesoría legal comercial corporativa",
-            "Evaluación de la responsabilidad de comisarios"
-          ]
-        },
-        {
-          "nombre": "Inglés Instrumental",
-          "descripcion": "Desarrollo de competencias de lectoescritura técnica en el idioma inglés enfocado en las ciencias contables y financieras. Capacita al estudiante en la traducción e interpretación de estados financieros (Balance Sheet, Income Statement), terminología de negocios internacionales, glosarios especializados, Normas Internacionales de Contabilidad (IFRS) y manuales técnicos de software de gestión.",
-          "objective": "Interpretar y traducir con precisión documentación técnica, textos financieros y normativas internacionales redactadas en idioma inglés.",
-          "competencias": [
-            "Lectura técnica de reportes financieros en inglés",
-            "Traducción de terminología contable y de negocios",
-            "Manejo de glosarios internacionales NIIF",
-            "Análisis de literatura corporativa anglosajona",
-            "Autoaprendizaje técnico bilingüe"
-          ]
+          "codigo": "CP430220102",
+          "nombre": "Informática Aplicada",
+          "uc": 2,
+          "prelacion": "Ninguna",
+          "descripcion": "Introduce herramientas tecnológicas utilizadas en la gestión administrativa y contable, incluyendo aplicaciones informáticas para el procesamiento de datos y la elaboración de informes financieros.",
+          "objetivo": "Utilizar herramientas informáticas básicas para optimizar procesos administrativos y contables."
         }
       ]
     },
     {
       "numero": 3,
-      "resumen": "Tratamiento contable de sociedades y pasivos, matemática financiera avanzada, automatización informática, metodología científica y macroeconomía.",
-      "proposito": "Capacitar en el análisis del valor del dinero en el tiempo, automatización de registros y comprensión del contexto económico nacional.",
+      "resumen": "El tercer semestre fortalece la formación profesional mediante el estudio de la contabilidad financiera avanzada, la estadística aplicada y el análisis macroeconómico. Asimismo, incorpora espacios de formación complementaria que amplían la visión integral del futuro contador público.",
+      "proposito": "Desarrollar competencias analíticas y técnicas que permitan interpretar información financiera y económica para apoyar la toma de decisiones organizacionales.",
       "materias": [
         {
+          "codigo": "CP430230303",
           "nombre": "Contabilidad III",
-          "descripcion": "Estudio avanzado del tratamiento contable aplicable al patrimonio de las sociedades de capital y a los pasivos a largo plazo. Abarca la emisión y colocación de acciones, cuentas de reservas, utilidades retenidas, dividendos (en efectivo y en acciones), la teoría de las obligaciones y bonos por pagar (emisión con prima o descuento y amortizaciones), contabilidad de agencias y sucursales, y operaciones preliminares de combinación de negocios bajo principios internacionales.",
-          "objective": "Registrar, controlar e informar con precisión técnica las transacciones patrimoniales complejas y de financiamiento de las sociedades mercantiles.",
-          "competencias": [
-            "Contabilización de emisiones de capital social",
-            "Gestión contable de bonos y pasivos financieros",
-            "Estructuración contable de agencias y sucursales",
-            "Cálculo y distribución legal de dividendos",
-            "Análisis patrimonial societario avanzado"
-          ]
+          "uc": 4,
+          "prelacion": "Contabilidad II",
+          "descripcion": "Profundiza en el estudio de los estados financieros, el tratamiento contable de operaciones complejas y la aplicación de normas financieras en organizaciones públicas y privadas.",
+          "objetivo": "Aplicar procedimientos contables avanzados para la elaboración y análisis de información financiera."
         },
         {
-          "nombre": "Matemática Financiera",
-          "descripcion": "Asignatura técnica enfocada en el análisis riguroso del valor del dinero en el tiempo y las tasas de interés. Comprende el estudio sistemático del interés simple y compuesto, descuento bancario y racional, rentas o anualidades (vencidas, anticipadas, diferidas y perpetuas), sistemas de amortización de deudas (método francés, alemán, americano) y fondos de amortización, proporcionando los pilares conceptuales de la evaluación financiera de inversiones.",
-          "objetivo": "Aplicar modelos matemáticos financieros para evaluar alternativas de financiamiento, inversión y amortización de deudas en el corto y largo plazo.",
-          "competencias": [
-            "Cálculo de tablas de amortización de créditos",
-            "Evaluación de tasas de interés efectivas y nominales",
-            "Análisis de valor actual neto y rendimiento",
-            "Modelado de esquemas de rentas y anualidades",
-            "Asesoría en toma de decisiones financieras"
-          ]
+          "codigo": "CP430210403",
+          "nombre": "Estadística",
+          "uc": 3,
+          "prelacion": "Matemática II",
+          "descripcion": "Estudia métodos estadísticos utilizados para la recolección, organización, análisis e interpretación de datos, proporcionando herramientas para la toma de decisiones empresariales basadas en información cuantitativa.",
+          "objetivo": "Aplicar técnicas estadísticas para el análisis de información económica, financiera y administrativa."
         },
         {
-          "nombre": "Informática",
-          "descripcion": "Capacitación tecnológica aplicada a los flujos de trabajo contables y administrativos. Se centra de manera avanzada en el diseño y parametrización de hojas de cálculo (Microsoft Excel o similares) utilizando funciones lógicas, matemáticas, financieras y de búsqueda, tablas dinámicas, automatizaciones básicas con macros y la introducción técnica a los Sistemas de Planificación de Recursos Empresariales (ERP) y software contables del mercado.",
-          "objetivo": "Diseñar y automatizar matrices de datos y modelos contables digitalizados para optimizar el tiempo de respuesta y procesamiento de información gerencial.",
-          "competencias": [
-            "Dominio avanzado de hojas de cálculo (Excel)",
-            "Modelado de procesos contables automatizados",
-            "Manejo de bases de datos de información",
-            "Análisis de reportes emitidos por sistemas ERP",
-            "Optimización tecnológica de flujos de oficina"
-          ]
-        },
-        {
+          "codigo": "CP430210503",
           "nombre": "Macroeconomía",
-          "descripcion": "Análisis formal y profundo del funcionamiento agregado de la economía y las macromagnitudes. Estudia los modelos de determinación del ingreso nacional, las cuentas nacionales, las teorías del consumo, la inversión y el dinero, los determinantes de la inflación y las devaluaciones monetarias, el mercado de divisas, la balanza de pagos y el impacto directo de la política macroeconómica estatal sobre la rentabilidad y estabilidad del sector empresarial.",
-          "objetivo": "Interpretar las variables, indicadores y políticas macroeconómicas para evaluar el entorno competitivo de las empresas y formular proyecciones estratégicas.",
-          "competencias": [
-            "Interpretación de indicadores macroeconómicos",
-            "Análisis del impacto de políticas fiscales y monetarias",
-            "Evaluación de riesgos inflacionarios y cambiarios",
-            "Comprensión del balance de pagos nacional",
-            "Diseño de planes estratégicos de adaptación económica"
-          ]
+          "uc": 3,
+          "prelacion": "Fundamentos Económicos",
+          "descripcion": "Analiza los fenómenos económicos de carácter global, incluyendo inflación, desempleo, crecimiento económico, políticas fiscales y monetarias, así como su impacto sobre las organizaciones y los mercados.",
+          "objetivo": "Comprender las variables macroeconómicas que influyen en el entorno empresarial y financiero."
         },
         {
-          "nombre": "Metodología de la Investigación",
-          "descripcion": "Estudio epistemológico y procedimental del método científico aplicado a las ciencias sociales y administrativas. Abarca el planteamiento del problema, la delimitación de objetivos, la construcción del marco teórico, la selección del nivel y diseño de la investigación (documental, de campo, experimental), la operacionalización de variables, el diseño de instrumentos de recolección de datos y las técnicas de redacción y presentación de informes de investigación.",
-          "objetivo": "Diseñar y ejecutar proyectos de investigación científica orientados a diagnosticar y proponer soluciones metodológicas a problemáticas del ámbito contable.",
-          "competencias": [
-            "Formulación de proyectos de investigación científica",
-            "Diseño de instrumentos de recolección de datos",
-            "Redacción de documentos académicos y técnicos",
-            "Análisis crítico de literatura científica",
-            "Aplicación del método científico a problemas reales"
-          ]
-        },
-        {
+          "codigo": "CP430270203",
           "nombre": "Electiva I",
-          "descripcion": "Asignatura de orientación profesional flexible destinada a la profundización temática en áreas emergentes y dinámicas de la disciplina. Permite al estudiante ampliar sus conocimientos en áreas como Oratoria Gerencial, Contabilidad Ambiental, Comercio Exterior o Emprendimiento Corporativo.",
-          "objetivo": "Desarrollar habilidades y competencias complementarias de libre elección académica que diversifiquen el perfil competitivo del egresado.",
-          "competencias": [
-            "Autoaprendizaje y actualización continua",
-            "Análisis interdisciplinario",
-            "Flexibilidad cognoscitiva",
-            "Visión holística corporativa",
-            "Adaptabilidad laboral"
-          ]
+          "uc": 2,
+          "prelacion": "Ninguna",
+          "descripcion": "Espacio académico flexible orientado a complementar la formación profesional mediante contenidos interdisciplinarios relacionados con el desarrollo humano, académico y social.",
+          "objetivo": "Ampliar la formación integral mediante conocimientos complementarios vinculados al entorno profesional y ciudadano."
         }
       ]
     },
+{
+  "numero": 4,
+  "resumen": "Durante el cuarto semestre se incorporan conocimientos jurídicos, financieros y contables que fortalecen la capacidad de análisis organizacional. El estudiante comienza a comprender la relación entre la normativa legal, la gestión financiera y los procesos contables dentro de las instituciones públicas y privadas.",
+  "proposito": "Desarrollar competencias para interpretar información financiera y aplicar principios jurídicos, administrativos y contables en la gestión organizacional.",
+  "materias": [
     {
-      "numero": 4,
-      "resumen": "Estudio de las normas internacionales de valoración de activos, introducción técnica a la contabilidad de costos, investigación social y desarrollo local.",
-      "proposito": "Dominar los sistemas básicos de acumulación de costos industriales y la correcta presentación de reportes financieros consolidados.",
-      "materias": [
-        {
-          "nombre": "Contabilidad IV",
-          "descripcion": "Estudio de transacciones corporativas complejas bajo criterios de consolidación y valoración internacional de activos y pasivos. Comprende de forma exhaustiva la combinación de negocios y preparación de estados financieros consolidados (matrices y subsidiarias), la contabilidad de transacciones en moneda extranjera, la medición del deterioro del valor de los activos no corrientes, y el estudio técnico de las Normas Internacionales de Contabilidad aplicables a las provisiones y activos contingentes.",
-          "objetivo": "Formular, estructurar y consolidar estados financieros de corporaciones o grupos económicos con operaciones complejas en moneda nacional y extranjera.",
-          "competencias": [
-            "Consolidación de estados financieros corporativos",
-            "Tratamiento contable de transacciones multimoneda",
-            "Aplicación avanzada de normativas NIIF/VEN-NIF",
-            "Cálculo de deterioro de activos de larga duración",
-            "Evaluación financiera de grupos económicos"
-          ]
-        },
-        {
-          "nombre": "Contabilidad de Costos I",
-          "descripcion": "Estudio de la teoría general de los costos y su importancia como herramienta de control y planeación gerencial. Abarca la clasificación de los costos (fijos, variables, directos, indirectos), el análisis y control detallado de los tres elementos del costo (materiales directos, mano de obra directa y costos indirectos de fabricación), los sistemas de acumulación de costos, enfocándose rigurosamente en el Sistema de Costos por Órdenes de Producción.",
-          "objetivo": "Diseñar, implantar y controlar sistemas de costos por órdenes de producción en empresas industriales para determinar con exactitud el costo unitario de fabricación.",
-          "competencias": [
-            "Control y contabilización de materiales y nóminas fabriles",
-            "Asignación y prorrateo de costos indirectos (CIF)",
-            "Estructuración de estados de costos de producción y venta",
-            "Manejo de inventarios de productos en proceso y terminados",
-            "Determinación de márgenes de utilidad industrial"
-          ]
-        },
-        {
-          "nombre": "Investigación Social",
-          "descripcion": "Asignatura metodológica aplicada que orienta al estudiante en la recolección cualitativa y cuantitativa de datos en comunidades y entornos reales. Aborda técnicas de muestreo social, encuestas de opinión, entrevistas a profundidad, focus groups, triangulación de información y el diseño de diagnósticos sociolaborales y económicos, vinculando la contaduría con la responsabilidad comunitaria.",
-          "objetivo": "Aplicar herramientas de investigación de campo para levantar diagnósticos sobre necesidades económicas y administrativas en realidades sociales específicas.",
-          "competencias": [
-            "Diseño de diagnósticos socioeconómicos",
-            "Aplicación de técnicas de recolección cualitativa",
-            "Análisis e interpretación de realidades del entorno",
-            "Elaboración de planes de acción social",
-            "Pensamiento social crítico"
-          ]
-        },
-        {
-          "nombre": "Participación Ciudadana y Desarrollo Local",
-          "descripcion": "Estudio de las políticas de descentralización, los mecanismos constitucionales de participación protagónica de las comunidades y los modelos de economía social (cooperativas, EPS). Analiza la formulación de proyectos socioproductivos locales, el presupuesto participativo y el papel del contador público en la asesoría, control financiero y transparencia organizativa de los modelos comunitarios de autogestión.",
-          "objetivo": "Asesorar técnica y financieramente a organizaciones de la economía social y entes comunitarios para impulsar el desarrollo sustentable endógeno.",
-          "competencias": [
-            "Gestión financiera de cooperativas y comunas",
-            "Formulación de proyectos socioproductivos",
-            "Promoción de la transparencia y rendición de cuentas",
-            "Liderazgo comunitario participativo",
-            "Aplicación de leyes de economía comunal"
-          ]
-        },
-        {
-          "nombre": "Ecología y Educación Ambiental",
-          "descripcion": "Análisis ético y científico de la interacción entre los sistemas económicos de producción industrial y el ecosistema global. Estudia la problemática del calentamiento global, el agotamiento de recursos naturales, el marco legal ambiental venezolano (Ley Orgánica del Ambiente), la responsabilidad social corporativa ambiental y los fundamentos básicos del eco-balance y la contabilidad verde o ecológica.",
-          "objetivo": "Evaluar críticamente el impacto ambiental de los procesos fabriles y comerciales, proponiendo estrategias eco-eficientes y sostenibles corporativas.",
-          "competencias": [
-            "Evaluación de impacto ambiental empresarial",
-            "Conocimiento del derecho ambiental vigente",
-            "Diseño de políticas eco-eficientes de producción",
-            "Aplicación de criterios de contabilidad ambiental",
-            "Conciencia ciudadana ambientalista"
-          ]
-        },
-        {
-          "nombre": "Electiva II",
-          "descripcion": "Materia de diversificación profesional orientada a la profundización técnica en herramientas especializadas del mercado laboral, tales como Valuación de Empresas, Gestión de Calidad, Negociación de Conflictos o Reexpresión de Estados Financieros por Inflación.",
-          "objetivo": "Profundizar en un campo técnico particular de las ciencias administrativas y contables alineado con las demandas de competencias actuales de la industria.",
-          "competencias": [
-            "Especialización temática flexible",
-            "Resolución de problemas técnicos específicos",
-            "Manejo de metodologías especializadas",
-            "Enfoque en la mejora continua",
-            "Capacidad analítica robusta"
-          ]
-        }
-      ]
+      "codigo": "CP430230404",
+      "nombre": "Contabilidad IV",
+      "uc": 4,
+      "prelacion": "Contabilidad III",
+      "descripcion": "Profundiza en el tratamiento contable de operaciones complejas, la elaboración de estados financieros avanzados y la aplicación de normas nacionales e internacionales relacionadas con la información financiera.",
+      "objetivo": "Aplicar técnicas avanzadas de registro y presentación de información financiera para la toma de decisiones organizacionales."
     },
     {
-      "numero": 5,
-      "resumen": "Sistemas de costos por procesos, introducción a la legislación impositiva e Impuesto al Valor Agregado, análisis financiero de índices y derecho laboral.",
-      "proposito": "Adquirir habilidades analíticas avanzadas para emitir diagnósticos financieros y gestionar el cumplimiento impositivo y laboral primario.",
-      "materias": [
-        {
-          "nombre": "Contabilidad de Costos II",
-          "descripcion": "Estudio avanzado de los sistemas de acumulación de costos en industrias de producción continua y de las herramientas de planificación estratégica. Se enfoca de forma analítica en el Sistema de Costos por Procesos Continuos (unidades equivalentes, producción conjunta, coproductos y subproductos), la teoría del Costeo Estándar, las variaciones en materiales, mano de obra y CIF, y la aplicación gerencial del modelo de Costeo Basado en Actividades (ABC).",
-          "objetivo": "Diseñar e implementar sistemas de costos por procesos y calcular costos estándar para evaluar variaciones fabriles y optimizar la rentabilidad operativa.",
-          "competencias": [
-            "Cálculo de producción equivalente por procesos",
-            "Análisis de variaciones de costos estándar",
-            "Implantación de modelos de costeo estratégico (ABC)",
-            "Distribución analítica de costos conjuntos",
-            "Diseño de estrategias de reducción de costos"
-          ]
-        },
-        {
-          "nombre": "Tributación I",
-          "descripcion": "Estudio analítico del marco constitucional tributario y de la imposición indirecta en Venezuela, fundamentado en el Código Orgánico Tributario (COT). Abarca los principios generales del derecho tributario, la obligación tributaria, los deberes formales y materiales de los contribuyentes, las infracciones y sanciones, y el estudio pormenorizado del Impuesto al Valor Agregado (IVA): hecho imponible, base imponible, alícuotas, débitos y créditos fiscales y retenciones de IVA.",
-          "objetivo": "Interpretar el Código Orgánico Tributario y liquidar de forma precisa las declaraciones y retenciones vinculadas al Impuesto al Valor Agregado (IVA).",
-          "competencias": [
-            "Liquidación y declaración fiscal del IVA",
-            "Aplicación de normativas y sanciones del COT",
-            "Control y revisión de libros de compras y ventas fiscales",
-            "Gestión de agentes de retención impositiva",
-            "Asesoría en cumplimiento de deberes formales"
-          ]
-        },
-        {
-          "nombre": "Análisis de Estados Financieros",
-          "descripcion": "Asignatura de carácter analítico orientada al diagnóstico económico-financiero de las empresas. Comprende la metodología de reexpresión de estados financieros por efectos de la inflación, la aplicación de técnicas de análisis vertical y horizontal, el cálculo e interpretación de razones financieras (liquidez, actividad, endeudamiento, rentabilidad y cobertura) y la elaboración e interpretación del Estado de Flujos de Efectivo.",
-          "objetivo": "Evaluar la situación financiera, la rentabilidad, la solvencia y la eficiencia operativa de una organización a través de indicadores analíticos para guiar la toma de decisiones gerenciales.",
-          "competencias": [
-            "Interpretación analítica de ratios financieros",
-            "Evaluación de solvencia, liquidez y apalancamiento",
-            "Elaboración e interpretación de flujos de efectivo",
-            "Redacción de informes de diagnóstico financiero",
-            "Detección de riesgos y debilidades económicas"
-          ]
-        },
-        {
-          "nombre": "Administración Pública",
-          "descripcion": "Estudio de la estructura organizativa, doctrinal y legal del Estado venezolano. Analiza los sistemas generales que componen la Administración Pública Nacional, la Ley de Simplificación de Trámites Administrativos, el Estatuto de la Función Pública, el principio de legalidad administrativa y los mecanismos de control interno y rendición de cuentas que rigen el ejercicio de las instituciones públicas estatales.",
-          "objetivo": "Comprender los principios organizacionales y el marco regulatorio que rige el funcionamiento y la burocracia de los entes del sector público.",
-          "competencias": [
-            "Análisis de la estructura del sector público",
-            "Comprensión de normativas administrativas estatales",
-            "Evaluación de procesos burocráticos y trámites",
-            "Manejo de principios de control institucional",
-            "Visión macro de la gestión del Estado"
-          ]
-        },
-        {
-          "nombre": "Derecho Laboral y Seguridad Social",
-          "descripcion": "Análisis profundo de la Ley Orgánica del Trabajo, los Trabajadores y las Trabajadoras (LOTTT) y la legislación de seguridad social (IVSS, FAOV, INCES). Abarca los principios del derecho laboral, el régimen de prestaciones sociales, indemnizaciones por despido injustificado, salarios, vacaciones, utilidades, estabilidad laboral, inamovilidad, negociación de convenciones colectivas y la prevención de riesgos laborales bajo la LOPCYMAT.",
-          "objetivo": "Aplicar la legislación laboral y de seguridad social vigente para gestionar nóminas, calcular pasivos laborales y mitigar riesgos de contingencias legales.",
-          "competencias": [
-            "Cálculo de prestaciones sociales e indemnizaciones laborales",
-            "Liquidación de nóminas, utilidades y vacaciones legales",
-            "Gestión de obligaciones ante el IVSS, FAOV e INCES",
-            "Interpretación técnica de la LOTTT y LOPCYMAT",
-            "Mediación en resolución de conflictos patronales"
-          ]
-        },
-        {
-          "nombre": "Desarrollo Gerencial",
-          "descripcion": "Asignatura orientada a potenciar las competencias conductuales de alta dirección. Comprende el estudio de las teorías modernas de liderazgo, la planificación estratégica corporativa (Matriz DOFA, Cuadro de Mando Integral), la gestión del cambio organizacional, técnicas avanzadas de negociación comercial, toma de decisiones bajo condiciones de incertidumbre y dinámicas de motivación y dirección de equipos de alto desempeño.",
-          "objetivo": "Desarrollar habilidades directivas y de liderazgo para conducir procesos de transformación organizacional y coordinar equipos orientados a resultados estratégicos.",
-          "competencias": [
-            "Formulación de planes estratégicos corporativos",
-            "Liderazgo directivo de equipos multidisciplinarios",
-            "Negociación efectiva de conflictos organizacionales",
-            "Toma de decisiones analíticas y estratégicas",
-            "Gestión del clima y cambio organizacional"
-          ]
-        },
-        {
-          "nombre": "Electiva III",
-          "descripcion": "Asignatura electiva diseñada para profundizar en campos hiper-especializados, tales como Auditoría de Sistemas de Información, Finanzas Internacionales, Contabilidad de Cooperativas o Formulación de Modelos de Negocio de Base Tecnológica.",
-          "objetivo": "Adquirir herramientas técnicas especializadas de vanguardia para dar respuesta a necesidades complejas de la alta gerencia corporativa.",
-          "competencias": [
-            "Especialización analítica avanzada",
-            "Manejo de herramientas de vanguardia corporativa",
-            "Visión estratégica especializada",
-            "Resolución de casos complejos de negocio",
-            "Adaptación técnica al mercado actual"
-          ]
-        }
-      ]
+      "codigo": "CP430240104",
+      "nombre": "Matemática Financiera",
+      "uc": 3,
+      "prelacion": "Matemática II",
+      "descripcion": "Estudia los principios matemáticos aplicados a operaciones financieras, incluyendo interés simple y compuesto, anualidades, amortizaciones, descuentos y evaluación de inversiones.",
+      "objetivo": "Resolver problemas financieros utilizando herramientas matemáticas aplicadas a inversiones y financiamiento."
     },
     {
-      "numero": 6,
-      "resumen": "Sistemas gubernamentales de presupuesto y contabilidad pública, impuestos directos (ISLR), principios de control de auditoría interna y diseño de manuales contables.",
-      "proposito": "Adquirir destrezas críticas para la ejecución de auditorías financieras preliminares y la liquidación del Impuesto sobre la Renta corporativo.",
-      "materias": [
-        {
-          "nombre": "Contabilidad y Presupuesto del Sector Público",
-          "descripcion": "Estudio integral del Sistema de Administración Financiera del Sector Público en Venezuela. Abarca el estudio de las directrices dictadas por la Oficina Nacional de Presupuesto (ONAPRE) y la Oficina Nacional de Contabilidad Pública (ONCOP), la estructura del clasificador presupuestario de ingresos y gastos, las fases del presupuesto público (formulación, discusión, ejecución, control) y la aplicación del plan de cuentas unificado para el registro contable gubernamental.",
-          "objetivo": "Aplicar las normativas técnicas e instrucciones contables que regulan la ejecución presupuestaria y el registro financiero en los entes de la administración pública.",
-          "competencias": [
-            "Manejo de la técnica del clasificador presupuestario público",
-            "Registro contable bajo lineamientos de la ONCOP",
-            "Formulación y evaluación de presupuestos gubernamentales",
-            "Auditoría y control de fondos públicos",
-            "Rendición de cuentas y transparencia institucional"
-          ]
-        },
-        {
-          "nombre": "Tributación II",
-          "descripcion": "Estudio científico e interpretación exhaustiva del Impuesto sobre la Renta (ISLR) en Venezuela. Comprende los conceptos de enriquecimiento neto, global y disponible, principio de territorialidad, deducciones y desgravámenes, cálculo de conciliación fiscal de rentas, régimen de retenciones de ISLR (Decreto 1808), declaración estimada y definitiva de rentas de personas naturales y jurídicas, e introducción técnica al régimen de Precios de Transferencia.",
-          "objetivo": "Calcular, declarar y liquidar el Impuesto sobre la Renta (ISLR) de personas naturales y jurídicas en estricto cumplimiento de la ley fiscal sustantiva.",
-          "competencias": [
-            "Elaboración de declaraciones definitivas de ISLR corporativo",
-            "Cálculo y aplicación de retenciones de ISLR (Decreto 1808)",
-            "Determinación de la conciliación fiscal de rentas",
-            "Planificación fiscal preventiva corporativa",
-            "Defensa técnica administrativa ante fiscalizaciones"
-          ]
-        },
-        {
-          "nombre": "Auditoría Básica",
-          "descripcion": "Introducción rigurosa a las Normas Internacionales de Auditoría (NIA). Abarca el concepto de auditoría de estados financieros, la ética y responsabilidad legal del auditor independiente, la planificación preliminar de la auditoría, la evaluación técnica del sistema de Control Interno (métodos descriptivo, cuestionarios y flujogramas), los papeles de trabajo (cédulas matrices y analíticas), las marcas de auditoría y las técnicas de obtención de evidencia probatoria (confirmación, observación, recálculo).",
-          "objetivo": "Evaluar la solidez de los sistemas de control interno y recolectar evidencias válidas mediante papeles de trabajo estructurados bajo normas internacionales.",
-          "competencias": [
-            "Evaluación técnica de sistemas de control interno",
-            "Diseño y estructuración de papeles de trabajo de auditoría",
-            "Aplicación de técnicas y procedimientos probatorios (NIA)",
-            "Detección de fraudes, errores y riesgos de control",
-            "Planificación de programas de auditoría financiera"
-          ]
-        },
-        {
-          "nombre": "Contabilidades Especiales",
-          "descripcion": "Estudio de los marcos contables y regulatorios diferenciados de sectores económicos estratégicos no industriales. Se enfoca en la contabilidad bancaria e instituciones del sector financiero bajo lineamientos de la SUDEBAN, la contabilidad de empresas de seguros bajo supervisión de la SUGESE, y el tratamiento contable específico de empresas constructoras (reconocimiento de ingresos por contratos a largo plazo) y empresas hoteleras.",
-          "objetivo": "Aplicar planes de cuentas especializados y normativas sectoriales obligatorias para estructurar la información contable de la banca, seguros y construcción.",
-          "competencias": [
-            "Manejo del catálogo de cuentas de la SUDEBAN",
-            "Contabilización de ingresos por avance de obra en construcción",
-            "Registro de operaciones de intermediación financiera y seguros",
-            "Análisis de estados financieros sectoriales especializados",
-            "Cumplimiento de normativas de superintendencias reguladoras"
-          ]
-        },
-        {
-          "nombre": "Administración Financiera",
-          "descripcion": "Estudio estratégico de las decisiones de inversión, financiamiento y administración de activos de la empresa. Comprende la administración del capital de trabajo (efectivo, valores negociables, cuentas por cobrar y gestión de inventarios), las fuentes de financiamiento corporativo a corto y largo plazo (apalancamiento operativo y financiero), el costo de capital ponderado (WACC) y los mercados de valores e intermediación financiera.",
-          "objetivo": "Gestionar eficientemente la estructura de activos de corto plazo y evaluar combinaciones de financiamiento para maximizar el valor de la firma mercantil.",
-          "competencias": [
-            "Optimización del ciclo de conversión de efectivo corporativo",
-            "Evaluación de la estructura óptima de capital social",
-            "Cálculo del costo promedio ponderado de capital (WACC)",
-            "Gestión estratégica de políticas de crédito y cobranza",
-            "Análisis de instrumentos de financiamiento corporativo"
-          ]
-        },
-        {
-          "nombre": "Sistemas Administrativos y Contables",
-          "descripcion": "Asignatura técnica enfocada en el diseño de arquitecturas de información para el control gerencial. Abarca el análisis analítico de flujos de operaciones, el diseño estructural de códigos de cuentas, la formulación de manuales de políticas y procedimientos contables, el diseño de formularios de control interno y la evaluación de la integración del software administrativo con los módulos de contabilidad general.",
-          "objetivo": "Diseñar, documentar e implantar manuales de sistemas y procedimientos contables y administrativos adaptados a la estructura y necesidades de la empresa.",
-          "competencias": [
-            "Diseño de manuales de procedimientos contables y administrativos",
-            "Estructuración técnica de catálogos de cuentas codificados",
-            "Mapeo y optimización de flujos de información corporativa",
-            "Evaluación e implantación de software de gestión integral",
-            "Diseño de políticas de control interno de procesos"
-          ]
-        }
-      ]
+      "codigo": "CP430260104",
+      "nombre": "Derecho Mercantil",
+      "uc": 3,
+      "prelacion": "Ninguna",
+      "descripcion": "Analiza las normas jurídicas que regulan las actividades comerciales, los actos de comercio, las sociedades mercantiles y las obligaciones derivadas de las relaciones empresariales.",
+      "objetivo": "Comprender el marco jurídico aplicable a las actividades comerciales y empresariales."
     },
     {
-      "numero": 7,
-      "resumen": "Tratamiento contable del sector agropecuario, formulación de dictámenes de auditoría avanzada, presupuestos comerciales, investigación operativa y deontología.",
-      "proposito": "Emitir informes de auditoría independientes con opinión técnica y simular escenarios presupuestarios empresariales complejos.",
-      "materias": [
-        {
-          "nombre": "Contabilidad Agropecuaria",
-          "descripcion": "Estudio especializado de los procesos contables aplicados a las unidades de producción agrícola y pecuaria, basado en la norma internacional NIC 41 (Agricultura). Comprende el registro y control de activos biológicos (plantaciones permanentes, ganado de cría, engorde, leche), el tratamiento contable de los costos de producción agropecuaria, la depreciación de plantas productoras, la valoración a valor razonable menos costos de venta y el diseño de indicadores de rentabilidad para el agronegocio.",
-          "objetivo": "Aplicar los criterios de valoración y registro de la NIC 41 en empresas agrícolas y ganaderas para emitir estados financieros técnicamente válidos.",
-          "competencias": [
-            "Valoración técnica y registro contable de activos biológicos",
-            "Estructuración de costos de explotación ganadera y agrícola",
-            "Aplicación de la NIC 41 y normativas internacionales del sector",
-            "Diseño de sistemas de control interno para el agronegocio",
-            "Evaluación financiera de unidades socioproductivas rurales"
-          ]
-        },
-        {
-          "nombre": "Auditoría Superior",
-          "descripcion": "Profundización avanzada en los procesos de finalización del encargo de auditoría y emisión de informes profesionales. Abarca el muestreo estadístico en auditoría, la revisión de hechos posteriores al cierre de ejercicio, la evaluación del principio de empresa en marcha, la redacción de la carta de gerencia y el análisis exhaustivo de las modalidades de dictamen de auditoría (opinión limpia, con salvedades, abstención de opinión u opinión adversa) según las NIA.",
-          "objetivo": "Formular dictámenes de auditoría independientes estructurados formalmente emitiendo una opinión técnica sobre la razonabilidad de los estados financieros de una entidad.",
-          "competencias": [
-            "Redacción formal de dictámenes de auditoría independientes",
-            "Aplicación de técnicas de muestreo estadístico de auditoría",
-            "Evaluación de riesgos y de contingencias futuras del negocio",
-            "Análisis técnico del cumplimiento del principio de empresa en marcha",
-            "Estructuración de cartas de recomendaciones de control interno"
-          ]
-        },
-        {
-          "nombre": "Presupuesto Empresarial",
-          "descripcion": "Estudio práctico del proceso de planificación financiera integral a corto plazo en las empresas privadas. Abarca la formulación detallada del presupuesto de ventas (métodos estadísticos y subjetivos de proyección), el presupuesto de producción, materiales, mano de obra, costos indirectos (CIF) y gastos operativos, culminando con la integración en el Presupuesto Maestro: Flujo de Caja Proyectado, Estado de Resultados Proyectado y Balance Proyectado.",
-          "objetivo": "Diseñar, coordinar e integrar el presupuesto maestro de una organización como herramienta científica de control y planificación financiera de los recursos.",
-          "competencias": [
-            "Formulación integral del presupuesto maestro corporativo",
-            "Elaboración y control analítico de flujos de caja proyectados",
-            "Análisis de desviaciones presupuestarias operativas",
-            "Diseño de matrices de proyecciones de ventas y compras",
-            "Establecimiento de metas y estándares financieros cuantitativos"
-          ]
-        },
-        {
-          "nombre": "Software de Aplicación",
-          "descripcion": "Laboratorio puramente tecnológico y práctico enfocado en el uso y explotación de software contable y de nómina líder en el mercado profesional venezolano (Saint, Galac, Profit, SAP o similares). Capacita en la creación de empresas en entornos virtuales, parametrización de cuentas, carga automatizada de asientos diarios, emisión automatizada de libros legales, procesamiento digital de nóminas, conciliaciones automáticas y generación electrónica de archivos XML para declaraciones fiscales.",
-          "objetivo": "Operar de manera experta sistemas informáticos integrados de contabilidad y facturación para procesar transacciones corporativas masivas de forma automatizada.",
-          "competencias": [
-            "Operación experta de sistemas contables automatizados comerciales",
-            "Generación digital de estados financieros y libros legales",
-            "Parametrización tecnológica de catálogos de cuentas digitales",
-            "Procesamiento informático de nóminas y pasivos laborales",
-            "Emisión electrónica de soportes y archivos de retención fiscal"
-          ]
-        },
-        {
-          "nombre": "Investigación de Operaciones",
-          "descripcion": "Introducción a los métodos analíticos y modelos matemáticos cuantitativos de soporte para la toma de decisiones gerenciales óptimas. Comprende el estudio sistemático de la programación lineal (método gráfico y simplex), análisis de redes, programación y control de proyectos (métodos PERT/CPM), modelos de inventarios y teoría de colas aplicados a la reducción de costos logísticos y optimización de cadenas de suministro.",
-          "objetivo": "Construir y resolver modelos matemáticos lineales e instrumentar diagramas PERT/CPM para optimizar tiempos y la distribución de recursos empresariales.",
-          "competencias": [
-            "Formulación de modelos matemáticos de programación lineal",
-            "Aplicación del método PERT/CPM para control de proyectos",
-            "Optimización cuantitativa de asignación de recursos escasos",
-            "Resolución de problemas de cuellos de botella y colas de espera",
-            "Análisis de sensibilidad económica para toma de decisiones"
-          ]
-        },
-        {
-          "nombre": "Ética Profesional",
-          "descripcion": "Estudio filosófico, deontológico y legal de las responsabilidades morales del contador público. Abarca el análisis exhaustivo de la Ley de Ejercicio de la Contaduría Pública y su Reglamento, el Código de Ética del Contador Público Venezolano, el secreto profesional, el régimen de incompatibilidades y prohibiciones, las salvaguardas ante conflictos de interés, el fraude corporativo y la responsabilidad del profesional en la lucha contra el lavado de activos.",
-          "objetivo": "Dirigir el comportamiento profesional con apego absoluto a los códigos deontológicos de la profesión, salvaguardando la fe pública, la integridad, la objetividad y la independencia técnica.",
-          "competencias": [
-            "Aplicación estricta de la Ley de Ejercicio de la Contaduría",
-            "Resolución ética de dilemas y conflictos de interés profesionales",
-            "Salvaguarda de la fe pública judicial e independencia de criterio",
-            "Identificación y denuncia de prácticas fraudulentas o blanqueo",
-            "Cumplimiento de las normas deontológicas nacionales"
-          ]
-        },
-        {
-          "nombre": "Práctica Profesional I",
-          "descripcion": "Inmersión práctica inicial y supervisada en el campo laboral contable. El estudiante se vincula directamente a firmas de contadores públicos, despachos de auditoría, departamentos de finanzas o administración de empresas aliadas. Desarrolla tareas operativas reales de transcripción contable, conciliaciones, archivo y análisis documental, auditoría interna de procesos básicos y cálculo de obligaciones laborales, vinculando la teoría universitaria con la práctica laboral.",
-          "objetivo": "Ejecutar actividades técnicas operativas propias del ejercicio contable en un entorno laboral real, demostrando disciplina, habilidades organizacionales y destrezas de oficina.",
-          "competencias": [
-            "Inserción efectiva en dinámicas de oficinas contables",
-            "Ejecución de conciliaciones y arqueos de caja en entornos reales",
-            "Organización técnica de documentación soporte contable fiscal",
-            "Aplicación práctica de conocimientos académicos acumulados",
-            "Trabajo colaborativo en departamentos de contabilidad"
-          ]
-        }
-      ]
+      "codigo": "CP430250104",
+      "nombre": "Comportamiento Organizacional",
+      "uc": 3,
+      "prelacion": "Administración II",
+      "descripcion": "Examina la conducta de individuos y grupos dentro de las organizaciones, considerando factores relacionados con liderazgo, motivación, comunicación y cultura organizacional.",
+      "objetivo": "Analizar los factores humanos que influyen en el desempeño y la efectividad organizacional."
     },
     {
-      "numero": 8,
-      "resumen": "Práctica profesional avanzada (Pasantías de campo) y ejecución del Trabajo de Investigación de Aplicación final.",
-      "proposito": "Consolidar las competencias profesionales del egresado mediante la resolución de problemas económicos y administrativos reales en la empresa.",
-      "materias": [
-        {
-          "nombre": "Práctica Profesional II (Pasantías)",
-          "descripcion": "Fase final de pasantías ocupacionales de inmersión total en organizaciones públicas o privadas. Bajo la tutoría conjunta de un profesional de la empresa y un docente de la universidad, el estudiante asume roles de alta exigencia técnica en áreas especializadas como la planificación impositiva, la jefatura de costos, la auditoría externa formal de cuentas o la dirección financiera, entregando un informe técnico final de pasantías.",
-          "objetivo": "Consolidar las competencias profesionales integrales desempeñando funciones complejas del ejercicio contable con ética, eficiencia y autonomía directiva en organizaciones reales.",
-          "competencias": [
-            "Desempeño profesional integral con autonomía técnica",
-            "Resolución de problemas contables, financieros y fiscales reales",
-            "Toma de decisiones operacionales bajo supervisión corporativa",
-            "Adaptación eficaz a la cultura organizativa y laboral",
-            "Estructuración de informes técnicos de gestión ejecutiva"
-          ]
-        },
-        {
-          "nombre": "Trabajo de Aplicación",
-          "descripcion": "Unidad curricular de egreso que consiste en el diseño, desarrollo y defensa pública de un proyecto de investigación científico aplicado de carácter profesional. El estudiante selecciona un problema real del ámbito financiero, de costos, de auditoría o tributario detectado en una organización o comunidad, formula un diagnóstico robusto y diseña una propuesta metodológica o técnica viable y detallada que solucione la problemática planteada.",
-          "objetivo": "Desarrollar y defender un proyecto de investigación aplicado e integrador que demuestre madurez científica y capacidad técnica para resolver problemáticas del ejercicio profesional de la contaduría.",
-          "competencias": [
-            "Estructuración metodológica de proyectos de investigación aplicada",
-            "Formulación de propuestas técnicas financieras y tributarias viables",
-            "Defensa oral y argumentación de criterios ante jurados evaluadores",
-            "Integración transdisciplinaria de los conocimientos de la carrera",
-            "Aporte científico y social al fortalecimiento organizacional"
-          ]
-        }
-      ]
+      "codigo": "CP430220204",
+      "nombre": "Electiva I",
+      "uc": 2,
+      "prelacion": "Ninguna",
+      "descripcion": "Asignatura de libre elección destinada a complementar la formación profesional mediante contenidos relacionados con el desarrollo académico, ciudadano y personal.",
+      "objetivo": "Fortalecer competencias complementarias que contribuyan a la formación integral del estudiante."
+    }
+  ]
+},
+{
+  "numero": 5,
+  "resumen": "El quinto semestre fortalece las competencias relacionadas con los costos, la tributación y la gestión financiera, incorporando herramientas fundamentales para el análisis económico y la toma de decisiones empresariales.",
+  "proposito": "Desarrollar capacidades para gestionar recursos financieros, aplicar normativas tributarias y diseñar sistemas de costos orientados a la eficiencia organizacional.",
+  "materias": [
+    {
+      "codigo": "CP430230505",
+      "nombre": "Contabilidad V",
+      "uc": 4,
+      "prelacion": "Contabilidad IV",
+      "descripcion": "Profundiza en áreas especializadas de la contabilidad financiera y en la preparación de informes utilizados para apoyar la gestión empresarial y la toma de decisiones.",
+      "objetivo": "Elaborar información financiera especializada que contribuya al análisis y control organizacional."
+    },
+    {
+      "codigo": "CP430230605",
+      "nombre": "Contabilidad de Costos I",
+      "uc": 4,
+      "prelacion": "Contabilidad IV",
+      "descripcion": "Introduce los fundamentos de la contabilidad de costos, analizando métodos de acumulación, clasificación y control de costos aplicados a procesos productivos y de servicios.",
+      "objetivo": "Aplicar técnicas de determinación y control de costos para apoyar la gestión empresarial."
+    },
+    {
+      "codigo": "CP430260205",
+      "nombre": "Derecho Tributario",
+      "uc": 3,
+      "prelacion": "Derecho Mercantil",
+      "descripcion": "Estudia el sistema tributario venezolano, los tributos nacionales, regionales y municipales, así como las obligaciones fiscales de personas naturales y jurídicas.",
+      "objetivo": "Comprender las normas tributarias y aplicarlas correctamente en el ejercicio profesional."
+    },
+    {
+      "codigo": "CP430240105",
+      "nombre": "Administración Financiera I",
+      "uc": 3,
+      "prelacion": "Matemática Financiera",
+      "descripcion": "Analiza los principios básicos de la administración financiera, la planificación de recursos, el manejo de capital y la evaluación de decisiones de inversión y financiamiento.",
+      "objetivo": "Aplicar herramientas financieras para optimizar la administración de recursos organizacionales."
+    },
+    {
+      "codigo": "CP430270305",
+      "nombre": "Metodología de la Investigación Aplicada",
+      "uc": 2,
+      "prelacion": "Metodología de la Investigación",
+      "descripcion": "Profundiza en el diseño y ejecución de investigaciones aplicadas a problemas contables, financieros y administrativos, fortaleciendo las capacidades analíticas del estudiante.",
+      "objetivo": "Diseñar investigaciones orientadas a la solución de problemas relacionados con las ciencias contables."
+    }
+  ]
+},
+{
+  "numero": 6,
+  "resumen": "Durante el sexto semestre el estudiante profundiza en auditoría, costos, finanzas y sistemas de información, fortaleciendo competencias esenciales para el ejercicio profesional del contador público.",
+  "proposito": "Integrar conocimientos contables, financieros y tecnológicos para mejorar los procesos de control, evaluación y toma de decisiones dentro de las organizaciones.",
+  "materias": [
+    {
+      "codigo": "CP430230706",
+      "nombre": "Contabilidad VI",
+      "uc": 4,
+      "prelacion": "Contabilidad V",
+      "descripcion": "Estudia áreas avanzadas de la contabilidad relacionadas con consolidación de estados financieros, análisis especializado y aplicación de normas internacionales de información financiera.",
+      "objetivo": "Aplicar procedimientos avanzados de contabilidad financiera en entornos organizacionales complejos."
+    },
+    {
+      "codigo": "CP430230706",
+      "nombre": "Contabilidad de Costos II",
+      "uc": 4,
+      "prelacion": "Contabilidad de Costos I",
+      "descripcion": "Profundiza en sistemas de costos, presupuestos, análisis de variaciones y herramientas de control utilizadas para mejorar la eficiencia operativa de las organizaciones.",
+      "objetivo": "Diseñar sistemas de costos orientados a la planificación y control de recursos."
+    },
+    {
+      "codigo": "CP430230106",
+      "nombre": "Auditoría I",
+      "uc": 4,
+      "prelacion": "Contabilidad V",
+      "descripcion": "Introduce los principios, normas y procedimientos de auditoría financiera, enfatizando la evaluación de controles internos y la verificación de información contable.",
+      "objetivo": "Aplicar técnicas básicas de auditoría para evaluar la razonabilidad de la información financiera."
+    },
+    {
+      "codigo": "CP430240206",
+      "nombre": "Administración Financiera II",
+      "uc": 3,
+      "prelacion": "Administración Financiera I",
+      "descripcion": "Profundiza en la gestión financiera mediante el análisis de riesgos, estructura de capital, decisiones de inversión y estrategias de financiamiento empresarial.",
+      "objetivo": "Evaluar alternativas financieras que contribuyan al crecimiento y sostenibilidad organizacional."
+    },
+    {
+      "codigo": "CP430220306",
+      "nombre": "Sistemas de Información Contable",
+      "uc": 3,
+      "prelacion": "Informática Aplicada",
+      "descripcion": "Analiza los sistemas tecnológicos utilizados para el procesamiento, control y gestión de información contable, financiera y administrativa dentro de las organizaciones.",
+      "objetivo": "Utilizar sistemas de información para optimizar los procesos contables y administrativos."
+    }
+  ]
+},
+{
+  "numero": 7,
+  "resumen": "Durante el séptimo semestre se consolidan las competencias profesionales mediante el estudio de auditoría avanzada, tributación aplicada, análisis financiero y prácticas contables. El estudiante fortalece su capacidad para evaluar organizaciones y emitir juicios técnicos fundamentados.",
+  "proposito": "Desarrollar habilidades profesionales para la auditoría, el análisis financiero, la planificación tributaria y la gestión estratégica de la información contable.",
+  "materias": [
+    {
+      "codigo": "CP430230107",
+      "nombre": "Auditoría II",
+      "uc": 4,
+      "prelacion": "Auditoría I",
+      "descripcion": "Profundiza en los procedimientos de auditoría financiera, operativa y de gestión, incluyendo la planificación, ejecución y elaboración de informes profesionales conforme a las normas de auditoría vigentes.",
+      "objetivo": "Aplicar procedimientos avanzados de auditoría para evaluar la razonabilidad de la información financiera y la efectividad de los controles internos."
+    },
+    {
+      "codigo": "CP430260307",
+      "nombre": "Impuesto Sobre la Renta",
+      "uc": 4,
+      "prelacion": "Derecho Tributario",
+      "descripcion": "Estudia la normativa relacionada con el impuesto sobre la renta, los sujetos pasivos, la determinación de enriquecimientos gravables y los procedimientos de declaración establecidos por la legislación venezolana.",
+      "objetivo": "Aplicar correctamente las disposiciones legales relacionadas con la determinación y declaración del impuesto sobre la renta."
+    },
+    {
+      "codigo": "CP430240307",
+      "nombre": "Análisis de Estados Financieros",
+      "uc": 3,
+      "prelacion": "Administración Financiera II",
+      "descripcion": "Examina técnicas de análisis financiero mediante indicadores, razones financieras y métodos de evaluación utilizados para interpretar la situación económica de las organizaciones.",
+      "objetivo": "Interpretar información financiera para apoyar procesos de evaluación y toma de decisiones organizacionales."
+    },
+    {
+      "codigo": "CP430230707",
+      "nombre": "Contabilidad Superior",
+      "uc": 4,
+      "prelacion": "Contabilidad VI",
+      "descripcion": "Estudia operaciones contables complejas relacionadas con consolidación de estados financieros, fusiones, adquisiciones y otras situaciones especiales contempladas por las normas contables modernas.",
+      "objetivo": "Aplicar criterios especializados para el tratamiento contable de operaciones financieras complejas."
+    },
+    {
+      "codigo": "CP430270407",
+      "nombre": "Seminario de Investigación",
+      "uc": 2,
+      "prelacion": "Metodología de la Investigación Aplicada",
+      "descripcion": "Orienta al estudiante en la formulación de proyectos de investigación relacionados con problemáticas contables, financieras o administrativas, fortaleciendo competencias científicas y metodológicas.",
+      "objetivo": "Diseñar propuestas de investigación orientadas a la solución de problemas en el ámbito contable y financiero."
+    },
+    {
+      "codigo": "CP430220407",
+      "nombre": "Electiva II",
+      "uc": 2,
+      "prelacion": "Ninguna",
+      "descripcion": "Asignatura de libre elección destinada a complementar la formación profesional mediante contenidos especializados relacionados con las ciencias económicas, administrativas y sociales.",
+      "objetivo": "Fortalecer competencias complementarias mediante contenidos académicos de interés profesional."
+    }
+  ]
+},
+{
+  "numero": 8,
+  "resumen": "El último semestre integra todos los conocimientos adquiridos durante la carrera mediante experiencias prácticas, auditoría especializada, planificación estratégica y trabajo de investigación aplicado. Esta etapa prepara al estudiante para el ejercicio profesional de la Contaduría Pública.",
+  "proposito": "Consolidar las competencias profesionales necesarias para desempeñarse de manera ética y eficiente en organizaciones públicas y privadas.",
+  "materias": [
+    {
+      "codigo": "CP430230208",
+      "nombre": "Auditoría III",
+      "uc": 4,
+      "prelacion": "Auditoría II",
+      "descripcion": "Aborda procesos avanzados de auditoría, evaluación de riesgos, auditoría integral y elaboración de informes especializados dirigidos a distintos sectores económicos.",
+      "objetivo": "Desarrollar auditorías profesionales aplicando normas técnicas y criterios de evaluación especializados."
+    },
+    {
+      "codigo": "CP430240408",
+      "nombre": "Evaluación de Proyectos",
+      "uc": 3,
+      "prelacion": "Administración Financiera II",
+      "descripcion": "Estudia técnicas para formular, evaluar y seleccionar proyectos de inversión mediante indicadores financieros, económicos y sociales utilizados en la toma de decisiones empresariales.",
+      "objetivo": "Aplicar herramientas de evaluación financiera para determinar la viabilidad de proyectos de inversión."
+    },
+    {
+      "codigo": "CP430250508",
+      "nombre": "Planificación Estratégica",
+      "uc": 3,
+      "prelacion": "Comportamiento Organizacional",
+      "descripcion": "Analiza procesos de formulación estratégica, diseño de objetivos organizacionales, análisis del entorno y establecimiento de planes orientados al crecimiento institucional.",
+      "objetivo": "Diseñar estrategias organizacionales que favorezcan la competitividad y sostenibilidad empresarial."
+    },
+    {
+      "codigo": "CP430270508",
+      "nombre": "Trabajo Especial de Grado",
+      "uc": 4,
+      "prelacion": "Seminario de Investigación",
+      "descripcion": "Actividad académica destinada al desarrollo de una investigación aplicada relacionada con el ámbito contable, financiero o administrativo, evidenciando la integración de conocimientos adquiridos durante la carrera.",
+      "objetivo": "Desarrollar una investigación que aporte soluciones a problemáticas relacionadas con el ejercicio profesional de la Contaduría Pública."
+    },
+    {
+      "codigo": "CP430220508",
+      "nombre": "Práctica Profesional",
+      "uc": 6,
+      "prelacion": "Aprobación de los semestres anteriores",
+      "descripcion": "Experiencia supervisada en organizaciones públicas o privadas que permite al estudiante aplicar conocimientos contables, financieros, tributarios y administrativos en contextos reales de trabajo.",
+      "objetivo": "Integrar conocimientos teóricos y prácticos mediante el desempeño profesional en organizaciones reales."
+    },
+    {
+      "codigo": "CP430220508",
+      "nombre": "Electiva III",
+      "uc": 2,
+      "prelacion": "Ninguna",
+      "descripcion": "Espacio académico flexible orientado a profundizar conocimientos en áreas especializadas de interés profesional para el futuro contador público.",
+      "objetivo": "Complementar la formación profesional mediante contenidos especializados seleccionados por el estudiante."
     }
   ]
 }
+
+  ]
+}
+  
