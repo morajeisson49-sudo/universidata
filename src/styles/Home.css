@@ -124,4 +124,22 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 25px;
+}@media (max-width: 768px) {
+  .buscador-container {
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+
+  .buscador-wrapper {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .buscador {
+    width: 100%;
+    box-sizing: border-box;
+  }
 }
