@@ -1,736 +1,514 @@
 {
-  "id": "produccion-animal",
+  "id": "ingenieria-produccion-animal",
   "nombre": "Ingeniería en Producción Animal",
-  "duracion": "9 semestres",
+  "duracion": "10 semestres",
   "titulo": "Ingeniero(a) en Producción Animal",
-  "descripcion": "Formar profesionales integrales capaces de planificar, gestionar, optimizar y evaluar sistemas de producción animal sostenibles mediante la aplicación de conocimientos científicos, tecnológicos, administrativos y ambientales orientados al desarrollo agropecuario, la seguridad alimentaria y el aprovechamiento racional de los recursos naturales.",
+  "creditos": 153,
+  "subproyectos": 59,
+  "horasTotales": 4448,
+  "descripcion": "La carrera de Ingeniería en Producción Animal forma profesionales capaces de planificar, diseñar, gestionar y optimizar sistemas de producción pecuaria sostenibles, integrando conocimientos científicos, tecnológicos, económicos y ambientales. El programa proporciona competencias para el manejo eficiente de especies animales de interés productivo, la conservación de los recursos naturales, la innovación tecnológica y la gestión empresarial agropecuaria, contribuyendo al desarrollo sostenible del sector agroalimentario y al fortalecimiento de la seguridad alimentaria nacional.",
   "semestres": [
     {
       "numero": 1,
-      "resumen": "Proporcionar al estudiante las bases científicas, matemáticas, comunicacionales y sociales necesarias para comprender el contexto agropecuario y desarrollar habilidades fundamentales para su formación profesional.",
-      "proposito": "Introducir al estudiante en los principios académicos, científicos y sociales que sustentan la Ingeniería en Producción Animal, fortaleciendo sus capacidades de análisis, comunicación e interpretación del entorno productivo.",
+      "resumen": "El primer semestre proporciona las bases fundamentales para la formación profesional del ingeniero en producción animal. Se desarrollan competencias comunicativas, matemáticas, culturales y físicas que permiten al estudiante comprender la importancia de la formación integral dentro del contexto agropecuario y universitario.",
+      "proposito": "Desarrollar competencias básicas de comunicación, razonamiento lógico, formación cultural y desarrollo personal que sirvan de fundamento para los estudios científicos y tecnológicos posteriores.",
       "materias": [
         {
-          "nombre": "Metodología de la Investigación",
-          "descripcion": "Asignatura orientada al estudio de los fundamentos epistemológicos, metodológicos y técnicos de la investigación científica. Analiza los procesos de formulación de problemas, construcción de objetivos, diseño metodológico, búsqueda de información y elaboración de informes académicos. Proporciona herramientas para desarrollar pensamiento crítico y capacidades investigativas aplicables al ámbito agropecuario y productivo.",
-          "objetivo": "Desarrollar competencias investigativas que permitan identificar problemas, formular proyectos y aplicar métodos científicos para la generación de conocimiento.",
-          "competencias": [
-            "Pensamiento científico",
-            "Análisis crítico",
-            "Formulación de proyectos",
-            "Redacción académica"
-          ]
-        },
-        {
+          "codigo": "PA220210101",
           "nombre": "Lenguaje y Comunicación",
-          "descripcion": "Asignatura destinada al fortalecimiento de las competencias comunicativas orales y escritas requeridas para el desempeño universitario y profesional. Estudia técnicas de comprensión lectora, redacción, argumentación y comunicación efectiva, promoviendo la producción de documentos académicos y técnicos con claridad, coherencia y precisión.",
-          "objetivo": "Fortalecer las habilidades de comunicación oral y escrita necesarias para el desempeño académico y profesional.",
-          "competencias": [
-            "Comunicación efectiva",
-            "Redacción técnica",
-            "Comprensión lectora",
-            "Expresión oral"
-          ]
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Estudia los procesos fundamentales de comunicación oral y escrita, fortaleciendo las habilidades de comprensión lectora, redacción académica y expresión verbal.",
+          "objetivo": "Desarrollar competencias comunicativas que permitan expresar ideas con claridad, precisión y sentido crítico."
         },
         {
-          "nombre": "Introducción a los Medios de Comunicación",
-          "descripcion": "Asignatura orientada al análisis de los medios de comunicación como herramientas para la difusión del conocimiento y la transformación social. Examina los procesos de comunicación masiva, la influencia de los medios en la sociedad y su aplicación en la divulgación científica y tecnológica relacionada con el sector agropecuario.",
-          "objetivo": "Comprender el papel de los medios de comunicación en la difusión de información y el desarrollo social.",
-          "competencias": [
-            "Análisis comunicacional",
-            "Interpretación de medios",
-            "Divulgación científica",
-            "Pensamiento crítico"
-          ]
+          "codigo": "PA220210102",
+          "nombre": "Inglés I",
+          "uc": 2,
+          "prelacion": "Ninguna",
+          "descripcion": "Introduce al estudiante en el aprendizaje del idioma inglés mediante el desarrollo de habilidades básicas de lectura, escritura y comprensión.",
+          "objetivo": "Adquirir conocimientos básicos del idioma inglés para acceder a información científica y tecnológica."
         },
         {
-          "nombre": "Inglés",
-          "descripcion": "Asignatura enfocada en el desarrollo de competencias básicas de comprensión y comunicación en lengua inglesa. Facilita el acceso a literatura científica internacional, documentación técnica y recursos especializados relacionados con la producción animal y las ciencias agropecuarias.",
-          "objetivo": "Desarrollar habilidades básicas de lectura, escritura y comprensión del idioma inglés aplicado a contextos académicos y científicos.",
-          "competencias": [
-            "Comprensión lectora en inglés",
-            "Vocabulario técnico",
-            "Comunicación básica",
-            "Interpretación de documentos científicos"
-          ]
-        },
-        {
+          "codigo": "PA220120103",
           "nombre": "Cálculo I",
-          "descripcion": "Asignatura destinada al estudio de funciones, límites y derivadas como herramientas fundamentales para el análisis cuantitativo de fenómenos naturales y productivos. Desarrolla el razonamiento lógico-matemático necesario para abordar problemas relacionados con la ingeniería y las ciencias agropecuarias.",
-          "objetivo": "Aplicar conceptos fundamentales del cálculo diferencial para modelar y analizar situaciones relacionadas con la ingeniería.",
-          "competencias": [
-            "Razonamiento matemático",
-            "Modelación de fenómenos",
-            "Resolución de problemas",
-            "Pensamiento analítico"
-          ]
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Aborda los fundamentos matemáticos relacionados con funciones, límites y aplicaciones del cálculo diferencial.",
+          "objetivo": "Aplicar herramientas matemáticas para resolver problemas científicos."
         },
         {
-          "nombre": "Organización Social de la Producción",
-          "descripcion": "Asignatura orientada al estudio de las relaciones sociales, económicas y productivas que intervienen en los sistemas de producción. Analiza los factores que influyen en el desarrollo rural, la organización comunitaria y la participación social en los procesos agropecuarios.",
-          "objetivo": "Comprender las dinámicas sociales y económicas que condicionan los sistemas de producción agropecuaria.",
-          "competencias": [
-            "Análisis socioeconómico",
-            "Comprensión rural",
-            "Participación comunitaria",
-            "Interpretación productiva"
-          ]
-        },
-        {
+          "codigo": "PA220210105",
           "nombre": "Educación Física y Deportes",
-          "descripcion": "Asignatura destinada a promover hábitos de vida saludables mediante la práctica sistemática de actividades físicas y deportivas. Contribuye al bienestar integral del estudiante y fortalece valores relacionados con la disciplina, el trabajo en equipo y la responsabilidad personal.",
-          "objetivo": "Promover el desarrollo físico, la salud y el bienestar integral mediante la práctica de actividades deportivas.",
-          "competencias": [
-            "Condición física",
-            "Trabajo en equipo",
-            "Hábitos saludables",
-            "Disciplina personal"
-          ]
+          "uc": 2,
+          "prelacion": "Ninguna",
+          "descripcion": "Promueve el desarrollo físico, la salud integral y la práctica deportiva como elementos fundamentales para el bienestar personal.",
+          "objetivo": "Fomentar hábitos saludables mediante la actividad física."
+        },
+        {
+          "codigo": "PA220210104",
+          "nombre": "Cultura",
+          "uc": 2,
+          "prelacion": "Ninguna",
+          "descripcion": "Analiza las manifestaciones culturales y su importancia en la construcción de la identidad individual y colectiva.",
+          "objetivo": "Valorar la diversidad cultural como elemento fundamental para el desarrollo humano."
         }
       ]
     },
     {
       "numero": 2,
-      "resumen": "Profundizar las bases científicas y técnicas mediante el estudio de los organismos vivos, las ciencias básicas y las herramientas de representación utilizadas en la producción animal.",
-      "proposito": "Desarrollar conocimientos fundamentales sobre biología, química, matemáticas y representación gráfica que permitan comprender los sistemas productivos agropecuarios.",
+      "resumen": "El segundo semestre incorpora conocimientos científicos básicos relacionados con la biología, la química y la organización social de la producción.",
+      "proposito": "Proporcionar fundamentos científicos y sociales que permitan comprender los procesos biológicos y productivos asociados al sector agropecuario.",
       "materias": [
         {
+          "codigo": "ELECTIVA-I",
           "nombre": "Electiva I",
-          "descripcion": "Asignatura flexible orientada a complementar la formación integral del estudiante mediante contenidos académicos seleccionados según las necesidades curriculares y los intereses institucionales.",
-          "objetivo": "Ampliar la formación académica mediante experiencias de aprendizaje complementarias.",
-          "competencias": [
-            "Aprendizaje autónomo",
-            "Formación integral",
-            "Adaptabilidad",
-            "Pensamiento interdisciplinario"
-          ]
+          "uc": 2,
+          "prelacion": "Ninguna",
+          "descripcion": "Espacio académico flexible destinado a complementar la formación integral del estudiante.",
+          "objetivo": "Ampliar la formación mediante experiencias de aprendizaje complementarias."
         },
         {
-          "nombre": "Zoología",
-          "descripcion": "Estudio científico de los animales, su clasificación, morfología, fisiología y relaciones evolutivas. Proporciona las bases biológicas necesarias para comprender las especies de interés pecuario y su importancia en los sistemas de producción animal.",
-          "objetivo": "Comprender las características biológicas y taxonómicas de las especies animales relevantes para la producción.",
-          "competencias": [
-            "Clasificación zoológica",
-            "Análisis biológico",
-            "Comprensión de especies animales",
-            "Aplicación pecuaria"
-          ]
+          "codigo": "PA220120205",
+          "nombre": "Biología",
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Estudia los principios fundamentales de la vida y los procesos biológicos de los organismos.",
+          "objetivo": "Comprender los fundamentos biológicos que sustentan la producción animal."
         },
         {
+          "codigo": "PA220110201",
           "nombre": "Cálculo II",
-          "descripcion": "Continuación del estudio del cálculo matemático mediante la aplicación de integrales y técnicas avanzadas de análisis cuantitativo. Permite modelar procesos complejos relacionados con la producción y gestión agropecuaria.",
-          "objetivo": "Aplicar técnicas integrales y modelos matemáticos en la resolución de problemas de ingeniería.",
-          "competencias": [
-            "Análisis matemático",
-            "Modelación avanzada",
-            "Resolución de problemas",
-            "Pensamiento lógico"
-          ]
+          "uc": 3,
+          "prelacion": "Cálculo I",
+          "descripcion": "Profundiza en técnicas avanzadas de cálculo diferencial e integral.",
+          "objetivo": "Aplicar métodos matemáticos avanzados al análisis de fenómenos naturales."
         },
         {
+          "codigo": "PA220110202",
           "nombre": "Dibujo",
-          "descripcion": "Asignatura orientada al desarrollo de habilidades de representación gráfica mediante técnicas de dibujo técnico aplicadas al diseño y planificación de infraestructuras agropecuarias.",
-          "objetivo": "Desarrollar capacidades para interpretar y elaborar representaciones gráficas técnicas.",
-          "competencias": [
-            "Representación gráfica",
-            "Interpretación de planos",
-            "Precisión técnica",
-            "Visualización espacial"
-          ]
+          "uc": 2,
+          "prelacion": "Ninguna",
+          "descripcion": "Introduce técnicas de representación gráfica utilizadas en proyectos agropecuarios.",
+          "objetivo": "Desarrollar habilidades para la interpretación y elaboración de planos."
         },
         {
-          "nombre": "Organización Social de la Producción II",
-          "descripcion": "Profundización en el análisis de las estructuras sociales y económicas vinculadas a los sistemas productivos rurales. Examina procesos de desarrollo local, organización comunitaria y políticas de producción agropecuaria.",
-          "objetivo": "Analizar las dinámicas sociales que intervienen en el desarrollo sostenible de las comunidades rurales.",
-          "competencias": [
-            "Análisis comunitario",
-            "Gestión social",
-            "Comprensión económica",
-            "Desarrollo rural"
-          ]
+          "codigo": "PA220210204",
+          "nombre": "Organización Social de la Producción",
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Analiza los procesos sociales y económicos vinculados a la producción agropecuaria.",
+          "objetivo": "Comprender la dinámica organizativa de las comunidades productivas."
         },
         {
+          "codigo": "PA220120203",
           "nombre": "Química",
-          "descripcion": "Estudio de los principios fundamentales de la química general, incluyendo estructura atómica, enlaces químicos, reacciones y propiedades de la materia. Proporciona bases para comprender procesos biológicos y productivos relacionados con la producción animal.",
-          "objetivo": "Comprender los principios químicos fundamentales aplicables a los sistemas biológicos y agropecuarios.",
-          "competencias": [
-            "Análisis químico",
-            "Interpretación de reacciones",
-            "Pensamiento científico",
-            "Aplicación agropecuaria"
-          ]
-        },
-        {
-          "nombre": "Botánica",
-          "descripcion": "Asignatura dedicada al estudio de las plantas, su clasificación, morfología, fisiología y ecología. Analiza especies de importancia forrajera y agrícola, fundamentales para la alimentación animal y la sostenibilidad de los sistemas productivos.",
-          "objetivo": "Comprender la biología de las plantas y su importancia en la producción animal.",
-          "competencias": [
-            "Identificación vegetal",
-            "Comprensión botánica",
-            "Análisis ecológico",
-            "Aplicación forrajera"
-          ]
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Estudia la composición, estructura y transformaciones de la materia.",
+          "objetivo": "Interpretar fenómenos químicos relacionados con los sistemas biológicos."
         }
       ]
-    }
-  ,
+    },
+    {
+      "numero": 3,
+      "resumen": "El tercer semestre fortalece la formación científica mediante el estudio de la ecología, la botánica, la zoología, la química orgánica y la informática aplicada.",
+      "proposito": "Integrar conocimientos ecológicos, biológicos y tecnológicos necesarios para comprender los sistemas productivos pecuarios.",
+      "materias": [
+        {
+          "codigo": "PA220120307",
+          "nombre": "Ecología Animal",
+          "uc": 2,
+          "prelacion": "Organización Social de la Producción",
+          "descripcion": "Analiza las relaciones entre los animales y el ambiente donde se desarrollan.",
+          "objetivo": "Comprender la interacción entre organismos y ecosistemas."
+        },
+        {
+          "codigo": "PA220130302",
+          "nombre": "Topografía Cartográfica",
+          "uc": 3,
+          "prelacion": "Dibujo",
+          "descripcion": "Estudia técnicas de levantamiento topográfico e interpretación cartográfica.",
+          "objetivo": "Aplicar herramientas topográficas en la planificación agropecuaria."
+        },
+        {
+          "codigo": "PA220210303",
+          "nombre": "Informática",
+          "uc": 3,
+          "prelacion": "Ninguna",
+          "descripcion": "Desarrolla competencias en el uso de herramientas informáticas para la gestión de información.",
+          "objetivo": "Utilizar tecnologías digitales en procesos académicos y productivos."
+        },
+        {
+          "codigo": "PA220120304",
+          "nombre": "Botánica",
+          "uc": 3,
+          "prelacion": "Biología",
+          "descripcion": "Estudia la estructura, clasificación y fisiología de las plantas.",
+          "objetivo": "Identificar especies vegetales de interés agropecuario."
+        },
+        {
+          "codigo": "PA220120306",
+          "nombre": "Química Orgánica",
+          "uc": 3,
+          "prelacion": "Química",
+          "descripcion": "Analiza la estructura y comportamiento de compuestos orgánicos presentes en organismos vivos.",
+          "objetivo": "Comprender los principios de la química orgánica aplicados a sistemas biológicos."
+        },
+        {
+          "codigo": "PA220120301",
+          "nombre": "Cálculo III",
+          "uc": 3,
+          "prelacion": "Cálculo II",
+          "descripcion": "Profundiza en herramientas avanzadas de cálculo para el análisis científico.",
+          "objetivo": "Resolver problemas complejos mediante modelos matemáticos."
+        },
+        {
+          "codigo": "PA220120308",
+          "nombre": "Zoología",
+          "uc": 2,
+          "prelacion": "Biología",
+          "descripcion": "Estudia la diversidad animal, clasificación y características biológicas de especies de interés productivo.",
+          "objetivo": "Reconocer las principales especies animales relevantes para la producción pecuaria."
+        }
+      ]
+    },
 {
-  "numero": 3,
-  "resumen": "Desarrollar conocimientos científicos fundamentales relacionados con la anatomía, ecología, representación territorial y herramientas tecnológicas necesarias para comprender los sistemas de producción animal.",
-  "proposito": "Fortalecer la comprensión biológica, ambiental y tecnológica de los procesos productivos pecuarios mediante el estudio de las estructuras animales, los ecosistemas y las herramientas de análisis territorial.",
+  "numero": 4,
+  "resumen": "El cuarto semestre marca la transición hacia las ciencias aplicadas de la producción animal. El estudiante adquiere conocimientos sobre suelos, bioquímica, anatomía animal, estadística y física, complementados con experiencias prácticas junto a productores que permiten vincular la teoría con la realidad del sector agropecuario.",
+  "proposito": "Desarrollar competencias científicas y técnicas orientadas al análisis de los recursos naturales, la estructura biológica animal y la interpretación de datos para la toma de decisiones productivas.",
   "materias": [
     {
+      "codigo": "ELECTIVA-II",
+      "nombre": "Electiva II",
+      "uc": 2,
+      "prelacion": "Ninguna",
+      "descripcion": "Espacio académico destinado al fortalecimiento de competencias culturales, éticas y tecnológicas mediante contenidos complementarios al perfil profesional.",
+      "objetivo": "Ampliar la formación integral mediante conocimientos interdisciplinarios de interés académico y profesional."
+    },
+    {
+      "codigo": "PA220130403",
+      "nombre": "Edafología",
+      "uc": 3,
+      "prelacion": "Química Orgánica",
+      "descripcion": "Estudia la formación, clasificación, propiedades físicas, químicas y biológicas de los suelos, así como su manejo racional dentro de sistemas de producción agropecuaria sostenibles.",
+      "objetivo": "Analizar las características de los suelos para optimizar su uso en sistemas de producción animal."
+    },
+    {
+      "codigo": "PA220260404",
+      "nombre": "Prácticas Profesionales con Productores",
+      "uc": 2,
+      "prelacion": "Ecología Animal",
+      "descripcion": "Experiencia formativa orientada al contacto directo con productores agropecuarios, permitiendo conocer sistemas reales de producción y fortalecer la integración entre teoría y práctica.",
+      "objetivo": "Aplicar conocimientos básicos en escenarios productivos reales mediante experiencias de aprendizaje con productores."
+    },
+    {
+      "codigo": "PA220130401",
+      "nombre": "Estadística",
+      "uc": 3,
+      "prelacion": "Cálculo II",
+      "descripcion": "Introduce métodos estadísticos para la recopilación, organización, análisis e interpretación de datos aplicados a investigaciones y procesos productivos agropecuarios.",
+      "objetivo": "Utilizar herramientas estadísticas para el análisis de información relacionada con la producción animal."
+    },
+    {
+      "codigo": "PA220120405",
+      "nombre": "Física",
+      "uc": 3,
+      "prelacion": "Ninguna",
+      "descripcion": "Estudia principios fundamentales de mecánica, energía, movimiento y fenómenos físicos aplicables a procesos productivos, infraestructura y mecanización agrícola.",
+      "objetivo": "Comprender fenómenos físicos que influyen en actividades agropecuarias y sistemas productivos."
+    },
+    {
+      "codigo": "PA220120402",
+      "nombre": "Bioquímica",
+      "uc": 3,
+      "prelacion": "Química Orgánica",
+      "descripcion": "Analiza los procesos químicos y metabólicos que ocurren en organismos vivos, enfatizando la transformación de nutrientes y la regulación biológica de funciones vitales.",
+      "objetivo": "Comprender los procesos bioquímicos que sustentan el crecimiento, desarrollo y producción animal."
+    },
+    {
+      "codigo": "PA220120406",
       "nombre": "Anatomía Animal",
-      "descripcion": "Asignatura orientada al estudio de la estructura, organización y funcionamiento de los órganos y sistemas que conforman el cuerpo de los animales domésticos de interés zootécnico. Analiza la morfología animal como base para la comprensión de procesos fisiológicos, reproductivos y productivos.",
-      "objetivo": "Comprender la estructura anatómica de los animales de interés pecuario para su aplicación en actividades productivas y sanitarias.",
-      "competencias": [
-        "Identificación anatómica",
-        "Interpretación morfológica",
-        "Análisis estructural",
-        "Aplicación zootécnica"
-      ]
-    },
-    {
-      "nombre": "Ecología Animal",
-      "descripcion": "Estudio de las interacciones entre los animales y su ambiente, considerando factores bióticos y abióticos que influyen en la dinámica poblacional, la adaptación y la sostenibilidad de los sistemas productivos pecuarios.",
-      "objetivo": "Analizar las relaciones ecológicas que afectan el desarrollo y productividad de las especies animales.",
-      "competencias": [
-        "Análisis ecológico",
-        "Gestión ambiental",
-        "Comprensión ecosistémica",
-        "Sostenibilidad productiva"
-      ]
-    },
-    {
-      "nombre": "Topografía Cartográfica",
-      "descripcion": "Asignatura orientada al estudio de técnicas de medición, representación y análisis del terreno. Permite interpretar mapas, planos y levantamientos topográficos utilizados en el diseño y planificación de unidades de producción animal.",
-      "objetivo": "Aplicar técnicas topográficas para la planificación y gestión de espacios agropecuarios.",
-      "competencias": [
-        "Levantamiento topográfico",
-        "Interpretación cartográfica",
-        "Planificación territorial",
-        "Representación espacial"
-      ]
-    },
-    {
-      "nombre": "Informática",
-      "descripcion": "Asignatura destinada al desarrollo de competencias digitales para el uso de herramientas informáticas aplicadas a la gestión, análisis y procesamiento de información agropecuaria. Incluye aplicaciones ofimáticas y sistemas de información básicos.",
-      "objetivo": "Utilizar herramientas informáticas para apoyar la gestión de información en el ámbito agropecuario.",
-      "competencias": [
-        "Manejo de software",
-        "Procesamiento de datos",
-        "Competencia digital",
-        "Gestión de información"
-      ]
-    },
-    {
-      "nombre": "Organización Social de la Producción III",
-      "descripcion": "Profundización en el estudio de los procesos organizativos vinculados al desarrollo rural, la economía social y la participación comunitaria. Analiza estrategias para fortalecer la sostenibilidad de los sistemas productivos locales.",
-      "objetivo": "Evaluar modelos de organización social aplicables al desarrollo productivo rural.",
-      "competencias": [
-        "Gestión comunitaria",
-        "Desarrollo rural",
-        "Análisis socioeconómico",
-        "Participación social"
-      ]
-    },
-    {
-      "nombre": "Química Orgánica",
-      "descripcion": "Asignatura dedicada al estudio de los compuestos orgánicos presentes en organismos vivos, sus propiedades, estructura molecular y reacciones químicas. Constituye una base fundamental para comprender procesos metabólicos y nutricionales.",
-      "objetivo": "Comprender los principios de la química orgánica aplicados a los sistemas biológicos y productivos.",
-      "competencias": [
-        "Análisis molecular",
-        "Interpretación química",
-        "Comprensión metabólica",
-        "Aplicación biológica"
-      ]
-    },
-    {
-      "nombre": "Cálculo III",
-      "descripcion": "Continuación del estudio matemático mediante funciones de varias variables, derivadas parciales y aplicaciones avanzadas del cálculo para la resolución de problemas complejos relacionados con la ingeniería agropecuaria.",
-      "objetivo": "Aplicar herramientas matemáticas avanzadas en el análisis de fenómenos relacionados con la producción animal.",
-      "competencias": [
-        "Modelación matemática",
-        "Análisis cuantitativo",
-        "Resolución avanzada de problemas",
-        "Pensamiento lógico"
-      ]
+      "uc": 3,
+      "prelacion": "Ninguna",
+      "descripcion": "Estudia la estructura anatómica de los animales domésticos de interés zootécnico, identificando órganos, sistemas y funciones relevantes para la producción animal.",
+      "objetivo": "Reconocer la organización anatómica de los animales para comprender su funcionamiento biológico."
     }
   ]
 },
 {
-  "numero": 4,
-  "resumen": "Consolidar la formación científica mediante el estudio de procesos físicos, químicos y biológicos que intervienen en la producción animal y el manejo sostenible de los recursos naturales.",
-  "proposito": "Proporcionar conocimientos fundamentales para comprender la interacción entre suelo, organismos vivos y ambiente en sistemas de producción pecuaria.",
-  "materias": [
-    {
-      "nombre": "Electiva II",
-      "descripcion": "Asignatura flexible destinada a complementar la formación profesional mediante contenidos especializados seleccionados según las necesidades curriculares e intereses institucionales.",
-      "objetivo": "Ampliar la formación académica mediante conocimientos complementarios e interdisciplinarios.",
-      "competencias": [
-        "Formación integral",
-        "Pensamiento interdisciplinario",
-        "Aprendizaje autónomo",
-        "Adaptabilidad"
-      ]
-    },
-    {
-      "nombre": "Apicultura",
-      "descripcion": "Asignatura orientada al estudio de la biología, manejo y explotación productiva de las abejas. Analiza técnicas de producción de miel, cera y otros derivados apícolas, así como la importancia de la polinización en los ecosistemas agrícolas.",
-      "objetivo": "Aplicar técnicas de manejo apícola para el aprovechamiento sostenible de los recursos derivados de las abejas.",
-      "competencias": [
-        "Manejo apícola",
-        "Producción de derivados",
-        "Gestión sostenible",
-        "Sanidad apícola"
-      ]
-    },
-    {
-      "nombre": "Edafología",
-      "descripcion": "Estudio de la formación, composición, clasificación y propiedades físicas, químicas y biológicas de los suelos. Analiza su importancia para la producción de forrajes y el desarrollo sostenible de sistemas agropecuarios.",
-      "objetivo": "Comprender las características de los suelos y su influencia en la productividad agropecuaria.",
-      "competencias": [
-        "Análisis de suelos",
-        "Interpretación edafológica",
-        "Manejo sostenible",
-        "Evaluación productiva"
-      ]
-    },
-    {
-      "nombre": "Cálculo IV",
-      "descripcion": "Asignatura orientada al estudio de ecuaciones diferenciales y aplicaciones matemáticas avanzadas utilizadas en la modelación de procesos biológicos, productivos y económicos relacionados con la ingeniería.",
-      "objetivo": "Resolver problemas complejos mediante herramientas matemáticas avanzadas.",
-      "competencias": [
-        "Modelación avanzada",
-        "Análisis matemático",
-        "Resolución de ecuaciones",
-        "Interpretación cuantitativa"
-      ]
-    },
-    {
-      "nombre": "Estadística",
-      "descripcion": "Asignatura destinada al estudio de métodos estadísticos para la recolección, organización, análisis e interpretación de datos. Proporciona herramientas para la toma de decisiones y la investigación científica en producción animal.",
-      "objetivo": "Aplicar técnicas estadísticas para el análisis e interpretación de información científica y productiva.",
-      "competencias": [
-        "Análisis estadístico",
-        "Interpretación de datos",
-        "Investigación científica",
-        "Toma de decisiones"
-      ]
-    },
-    {
-      "nombre": "Física",
-      "descripcion": "Estudio de los principios fundamentales de la mecánica, energía, movimiento y fenómenos físicos aplicados a procesos productivos agropecuarios y sistemas tecnológicos utilizados en el sector.",
-      "objetivo": "Comprender los fenómenos físicos involucrados en sistemas de producción y tecnologías agropecuarias.",
-      "competencias": [
-        "Análisis físico",
-        "Interpretación de fenómenos",
-        "Resolución de problemas",
-        "Aplicación tecnológica"
-      ]
-    },
-    {
-      "nombre": "Bioquímica",
-      "descripcion": "Asignatura dedicada al estudio de las moléculas biológicas y los procesos químicos que ocurren en los organismos vivos. Analiza metabolismo, enzimas, proteínas, carbohidratos y lípidos relacionados con la nutrición y producción animal.",
-      "objetivo": "Comprender los procesos bioquímicos fundamentales que sustentan la vida y la productividad animal.",
-      "competencias": [
-        "Interpretación bioquímica",
-        "Análisis metabólico",
-        "Comprensión molecular",
-        "Aplicación nutricional"
-      ]
-    }
-  ]
-}
-,
-{
   "numero": 5,
-  "resumen": "Desarrollar competencias científicas y tecnológicas relacionadas con la genética, fisiología, alimentación y manejo de especies animales de interés productivo.",
-  "proposito": "Capacitar al estudiante para comprender los procesos biológicos que determinan la productividad animal y aplicar técnicas orientadas al mejoramiento de los sistemas pecuarios.",
+  "resumen": "Durante el quinto semestre se profundiza en el conocimiento de los sistemas biológicos y productivos mediante el estudio de la fisiología animal, microbiología, acuicultura, mecanización agrícola y especies de interés económico. Asimismo, se fortalece el aprendizaje experiencial mediante actividades vivenciales en contextos reales.",
+  "proposito": "Comprender el funcionamiento fisiológico de los animales y los procesos tecnológicos asociados a los sistemas modernos de producción pecuaria.",
   "materias": [
     {
-      "nombre": "Genética y Mejoramiento Animal",
-      "descripcion": "Asignatura orientada al estudio de los principios genéticos que regulan la herencia y variabilidad de las especies animales. Analiza métodos de selección, cruzamiento, evaluación genética y estrategias de mejoramiento aplicadas a la optimización de la producción pecuaria.",
-      "objetivo": "Aplicar principios genéticos para mejorar las características productivas y reproductivas de las especies animales.",
-      "competencias": [
-        "Selección genética",
-        "Mejoramiento animal",
-        "Evaluación genética",
-        "Planificación reproductiva"
-      ]
-    },
-    {
-      "nombre": "Forrajicultura Tropical",
-      "descripcion": "Estudio de las especies forrajeras utilizadas en sistemas pecuarios tropicales, incluyendo establecimiento, manejo, conservación y aprovechamiento. Analiza la producción de biomasa y su impacto en la alimentación animal.",
-      "objetivo": "Diseñar estrategias de producción y manejo de recursos forrajeros adaptados a condiciones tropicales.",
-      "competencias": [
-        "Manejo de pasturas",
-        "Producción forrajera",
-        "Nutrición animal",
-        "Planificación agropecuaria"
-      ]
-    },
-    {
-      "nombre": "Fisiología Animal",
-      "descripcion": "Asignatura dedicada al estudio del funcionamiento de órganos y sistemas animales, así como los mecanismos que regulan el crecimiento, metabolismo, reproducción y adaptación al ambiente.",
-      "objetivo": "Comprender los procesos fisiológicos que influyen en la salud y productividad animal.",
-      "competencias": [
-        "Interpretación fisiológica",
-        "Análisis biológico",
-        "Comprensión funcional",
-        "Aplicación productiva"
-      ]
-    },
-    {
+      "codigo": "PA220250502",
       "nombre": "Acuicultura",
-      "descripcion": "Estudio de los principios y técnicas de producción de organismos acuáticos de interés económico. Analiza sistemas de cultivo, manejo nutricional, calidad del agua y sostenibilidad de la producción acuícola.",
-      "objetivo": "Aplicar técnicas de producción acuícola para el aprovechamiento sostenible de recursos hidrobiológicos.",
-      "competencias": [
-        "Producción acuícola",
-        "Manejo de sistemas acuáticos",
-        "Gestión sostenible",
-        "Control ambiental"
-      ]
+      "uc": 2,
+      "prelacion": "Botánica",
+      "descripcion": "Introduce los principios básicos de producción acuícola, manejo de especies acuáticas, sistemas de cultivo y aprovechamiento sostenible de recursos hidrobiológicos.",
+      "objetivo": "Aplicar conocimientos básicos relacionados con la producción y manejo de organismos acuáticos."
     },
     {
-      "nombre": "Investigación de Operaciones",
-      "descripcion": "Asignatura orientada al uso de modelos matemáticos y herramientas analíticas para optimizar procesos productivos y apoyar la toma de decisiones en organizaciones agropecuarias.",
-      "objetivo": "Aplicar técnicas cuantitativas para optimizar sistemas de producción y gestión.",
-      "competencias": [
-        "Modelación matemática",
-        "Optimización de procesos",
-        "Análisis de sistemas",
-        "Toma de decisiones"
-      ]
+      "codigo": "PA220120503",
+      "nombre": "Fisiología Animal",
+      "uc": 3,
+      "prelacion": "Anatomía Animal / Bioquímica",
+      "descripcion": "Analiza el funcionamiento de los sistemas biológicos animales y los mecanismos fisiológicos que regulan crecimiento, reproducción, nutrición y adaptación al medio.",
+      "objetivo": "Comprender los procesos fisiológicos que determinan el desempeño productivo de los animales."
     },
     {
+      "codigo": "PA220250504",
+      "nombre": "Equinos-Cunicultura",
+      "uc": 2,
+      "prelacion": "Ninguna",
+      "descripcion": "Estudia los principios de manejo, alimentación, reproducción y producción de equinos y conejos, considerando aspectos técnicos y económicos.",
+      "objetivo": "Aplicar técnicas básicas para el manejo eficiente de sistemas de producción equina y cunícola."
+    },
+    {
+      "codigo": "PA220130501",
       "nombre": "Mecanización Agrícola",
-      "descripcion": "Estudio de equipos, maquinarias y tecnologías utilizadas en actividades agrícolas y pecuarias. Analiza criterios de selección, operación, mantenimiento y eficiencia de los sistemas mecanizados.",
-      "objetivo": "Comprender el funcionamiento y aplicación de tecnologías mecanizadas en sistemas agropecuarios.",
-      "competencias": [
-        "Operación de maquinaria",
-        "Mantenimiento técnico",
-        "Gestión tecnológica",
-        "Optimización productiva"
-      ]
+      "uc": 2,
+      "prelacion": "Física",
+      "descripcion": "Examina el uso de maquinaria, equipos e implementos agrícolas utilizados en actividades pecuarias, enfatizando criterios de eficiencia y seguridad operacional.",
+      "objetivo": "Seleccionar y utilizar tecnologías de mecanización adecuadas para procesos agropecuarios."
     },
     {
+      "codigo": "PA220120505",
       "nombre": "Microbiología",
-      "descripcion": "Asignatura dedicada al estudio de microorganismos de importancia agropecuaria, incluyendo bacterias, hongos y virus relacionados con procesos biológicos, productivos y sanitarios.",
-      "objetivo": "Comprender la influencia de los microorganismos en la producción y salud animal.",
-      "competencias": [
-        "Análisis microbiológico",
-        "Interpretación biológica",
-        "Control sanitario",
-        "Aplicación productiva"
-      ]
+      "uc": 3,
+      "prelacion": "Bioquímica",
+      "descripcion": "Estudia los microorganismos de importancia agropecuaria, sus características biológicas, aplicaciones productivas y efectos sobre la salud animal.",
+      "objetivo": "Identificar microorganismos relevantes para la producción animal y comprender su impacto biológico."
+    },
+    {
+      "codigo": "PA220250506",
+      "nombre": "Sistema de Producción de Búfalos",
+      "uc": 2,
+      "prelacion": "Ninguna",
+      "descripcion": "Analiza las características productivas, reproductivas y de manejo de los búfalos como alternativa estratégica dentro de los sistemas pecuarios tropicales.",
+      "objetivo": "Comprender las particularidades técnicas de los sistemas de producción bufalina."
+    },
+    {
+      "codigo": "PA220260507",
+      "nombre": "Vivencial",
+      "uc": 2,
+      "prelacion": "Prácticas Profesionales con Productores",
+      "descripcion": "Actividad integradora que fortalece el aprendizaje mediante experiencias directas en unidades de producción, promoviendo la observación crítica y la aplicación práctica de conocimientos.",
+      "objetivo": "Relacionar los contenidos académicos con situaciones reales presentes en sistemas productivos agropecuarios."
     }
   ]
 },
 {
   "numero": 6,
-  "resumen": "Consolidar conocimientos relacionados con nutrición, reproducción, sanidad y administración de sistemas productivos animales.",
-  "proposito": "Desarrollar capacidades profesionales para gestionar eficientemente procesos productivos pecuarios mediante criterios científicos, sanitarios y administrativos.",
+  "resumen": "El sexto semestre consolida la formación técnica del futuro ingeniero mediante el estudio de la nutrición, genética, reproducción animal, diseño experimental y producción de forrajes tropicales. Estos conocimientos constituyen la base científica para optimizar la productividad pecuaria.",
+  "proposito": "Desarrollar competencias orientadas al mejoramiento genético, nutricional y reproductivo de los animales mediante el uso de herramientas científicas y metodológicas.",
   "materias": [
     {
+      "codigo": "ELECTIVA-III",
       "nombre": "Electiva III",
-      "descripcion": "Asignatura destinada a complementar la formación profesional mediante contenidos especializados seleccionados de acuerdo con necesidades académicas y productivas específicas.",
-      "objetivo": "Ampliar las competencias profesionales mediante experiencias académicas complementarias.",
-      "competencias": [
-        "Formación integral",
-        "Pensamiento interdisciplinario",
-        "Adaptabilidad profesional",
-        "Aprendizaje autónomo"
-      ]
+      "uc": 2,
+      "prelacion": "Ninguna",
+      "descripcion": "Asignatura flexible destinada a profundizar conocimientos especializados relacionados con sistemas productivos, sostenibilidad, tecnologías emergentes o gestión agropecuaria.",
+      "objetivo": "Complementar la formación profesional mediante áreas de interés particular vinculadas al sector agropecuario."
     },
     {
-      "nombre": "Nutrición y Alimentación Animal",
-      "descripcion": "Estudio de los requerimientos nutricionales de las especies pecuarias y de los sistemas de formulación de dietas balanceadas. Analiza nutrientes, digestión, metabolismo y estrategias alimenticias para maximizar la productividad.",
-      "objetivo": "Diseñar programas nutricionales que optimicen la salud y el rendimiento animal.",
-      "competencias": [
-        "Formulación de dietas",
-        "Evaluación nutricional",
-        "Manejo alimenticio",
-        "Optimización productiva"
-      ]
+      "codigo": "PA220170601",
+      "nombre": "Forrajicultura Tropical",
+      "uc": 3,
+      "prelacion": "Edafología / Vivencial",
+      "descripcion": "Estudia especies forrajeras tropicales, sistemas de establecimiento, manejo y conservación de pasturas destinadas a la alimentación animal.",
+      "objetivo": "Diseñar estrategias de producción y manejo de recursos forrajeros adaptados a condiciones tropicales."
     },
     {
-      "nombre": "Sanidad Animal",
-      "descripcion": "Asignatura orientada al estudio de enfermedades que afectan a los animales domésticos, así como estrategias de prevención, control epidemiológico y manejo sanitario en unidades de producción.",
-      "objetivo": "Aplicar medidas sanitarias para prevenir y controlar enfermedades en sistemas pecuarios.",
-      "competencias": [
-        "Prevención sanitaria",
-        "Control epidemiológico",
-        "Diagnóstico básico",
-        "Bioseguridad"
-      ]
+      "codigo": "PA220170603",
+      "nombre": "Genética y Mejoramiento",
+      "uc": 3,
+      "prelacion": "Estadística",
+      "descripcion": "Analiza principios genéticos aplicados a la selección y mejoramiento de animales de producción, orientados al incremento de la eficiencia productiva.",
+      "objetivo": "Aplicar fundamentos genéticos para optimizar características productivas y reproductivas."
     },
     {
+      "codigo": "PA220170604",
+      "nombre": "Nutrición y Alimentación",
+      "uc": 3,
+      "prelacion": "Bioquímica",
+      "descripcion": "Estudia los requerimientos nutricionales de los animales y el uso eficiente de alimentos, suplementos y recursos disponibles para maximizar la producción.",
+      "objetivo": "Diseñar programas de alimentación que favorezcan la salud y productividad animal."
+    },
+    {
+      "codigo": "PA220170605",
       "nombre": "Reproducción Animal",
-      "descripcion": "Estudio de los procesos biológicos relacionados con la reproducción de especies pecuarias, incluyendo fisiología reproductiva, manejo reproductivo y biotecnologías aplicadas.",
-      "objetivo": "Aplicar estrategias reproductivas que incrementen la eficiencia productiva de los rebaños.",
-      "competencias": [
-        "Manejo reproductivo",
-        "Diagnóstico reproductivo",
-        "Biotecnología animal",
-        "Planificación productiva"
-      ]
+      "uc": 2,
+      "prelacion": "Fisiología Animal",
+      "descripcion": "Examina los procesos reproductivos de las principales especies pecuarias, incluyendo técnicas de manejo reproductivo y tecnologías de reproducción asistida.",
+      "objetivo": "Comprender los mecanismos reproductivos para mejorar la eficiencia de los sistemas pecuarios."
     },
     {
-      "nombre": "Administración de Empresas Agropecuarias",
-      "descripcion": "Asignatura dedicada al estudio de principios administrativos aplicados a organizaciones agropecuarias. Analiza planificación, organización, dirección y control de recursos para garantizar la sostenibilidad empresarial.",
-      "objetivo": "Gestionar eficientemente empresas agropecuarias mediante herramientas administrativas modernas.",
-      "competencias": [
-        "Gestión empresarial",
-        "Administración de recursos",
-        "Planificación estratégica",
-        "Liderazgo organizacional"
-      ]
-    },
-    {
+      "codigo": "PA220130602",
       "nombre": "Diseño Experimental",
-      "descripcion": "Asignatura orientada a la planificación y análisis de experimentos científicos mediante metodologías estadísticas que permitan obtener resultados confiables para la investigación agropecuaria.",
-      "objetivo": "Diseñar experimentos científicos utilizando criterios metodológicos y estadísticos adecuados.",
-      "competencias": [
-        "Diseño de investigaciones",
-        "Análisis estadístico",
-        "Interpretación de resultados",
-        "Metodología científica"
-      ]
-    },
-    {
-      "nombre": "Cunicultura y Equinos",
-      "descripcion": "Estudio de los sistemas de producción, manejo, alimentación, reproducción y sanidad de conejos y equinos. Analiza su importancia económica y productiva dentro de los sistemas agropecuarios.",
-      "objetivo": "Aplicar técnicas de manejo y producción en sistemas cunícolas y equinos.",
-      "competencias": [
-        "Manejo animal especializado",
-        "Producción cunícola",
-        "Producción equina",
-        "Gestión pecuaria"
-      ]
+      "uc": 3,
+      "prelacion": "Estadística",
+      "descripcion": "Desarrolla competencias para planificar, ejecutar y analizar experimentos científicos relacionados con la producción animal y la investigación agropecuaria.",
+      "objetivo": "Diseñar investigaciones que permitan generar información confiable para la toma de decisiones técnicas."
     }
   ]
-}
-,
+},
 {
   "numero": 7,
-  "resumen": "Desarrollar competencias especializadas en la gestión, planificación y optimización de sistemas de producción animal, incorporando tecnologías y estrategias orientadas a la eficiencia productiva.",
-  "proposito": "Capacitar al estudiante para administrar y optimizar unidades de producción pecuaria mediante conocimientos técnicos, económicos y tecnológicos aplicados a diferentes especies animales.",
+  "resumen": "Durante el séptimo semestre el estudiante profundiza en el manejo integral de las principales especies de producción animal, incorporando conocimientos sobre sanidad, mejoramiento de pasturas y sistemas productivos adaptados a las condiciones tropicales.",
+  "proposito": "Desarrollar competencias para optimizar la producción pecuaria mediante el manejo sanitario, nutricional y productivo de especies de importancia económica.",
   "materias": [
     {
-      "nombre": "Sistema de Producción de Aves",
-      "descripcion": "Asignatura orientada al estudio integral de los sistemas de producción avícola, incluyendo genética, nutrición, manejo, bioseguridad y comercialización. Analiza estrategias para maximizar la eficiencia productiva y garantizar la sostenibilidad de las explotaciones avícolas.",
-      "objetivo": "Diseñar y gestionar sistemas de producción avícola eficientes y sostenibles.",
-      "competencias": [
-        "Producción avícola",
-        "Manejo de aves",
-        "Bioseguridad",
-        "Optimización productiva"
-      ]
+      "codigo": "PA220170702",
+      "nombre": "Bovinocultura de Carne",
+      "uc": 3,
+      "prelacion": "Nutrición y Alimentación / Reproducción Animal",
+      "descripcion": "Estudia los sistemas de producción de bovinos de carne, incluyendo manejo, alimentación, reproducción, mejoramiento genético y evaluación productiva.",
+      "objetivo": "Aplicar técnicas de manejo que permitan mejorar la eficiencia de los sistemas de producción de carne bovina."
     },
     {
-      "nombre": "Sistema de Producción Vacuno de Carne",
-      "descripcion": "Estudio de los sistemas de producción bovina orientados a la obtención de carne. Analiza genética, alimentación, reproducción, manejo sanitario y estrategias de comercialización para maximizar la rentabilidad y calidad del producto.",
-      "objetivo": "Gestionar sistemas de producción bovina de carne con criterios de eficiencia y sostenibilidad.",
-      "competencias": [
-        "Producción bovina",
-        "Manejo de rebaños",
-        "Planificación pecuaria",
-        "Evaluación productiva"
-      ]
+      "codigo": "PA220170703",
+      "nombre": "Patología Animal",
+      "uc": 3,
+      "prelacion": "Microbiología",
+      "descripcion": "Analiza las enfermedades que afectan a los animales domésticos, sus causas, manifestaciones clínicas y mecanismos de prevención.",
+      "objetivo": "Identificar patologías animales y establecer medidas preventivas para preservar la salud del rebaño."
     },
     {
-      "nombre": "Optimización de Procesos",
-      "descripcion": "Asignatura destinada al estudio de técnicas y herramientas para mejorar la eficiencia de procesos productivos mediante el análisis de recursos, tiempos, costos y resultados.",
-      "objetivo": "Aplicar estrategias de optimización para incrementar la eficiencia de sistemas agropecuarios.",
-      "competencias": [
-        "Análisis de procesos",
-        "Optimización productiva",
-        "Toma de decisiones",
-        "Gestión eficiente"
-      ]
+      "codigo": "PA220170704",
+      "nombre": "Pastos y Forrajes",
+      "uc": 3,
+      "prelacion": "Forrajicultura Tropical",
+      "descripcion": "Profundiza en la producción, manejo y conservación de recursos forrajeros destinados a la alimentación animal.",
+      "objetivo": "Diseñar estrategias de manejo sostenible de pasturas y recursos forrajeros."
     },
     {
-      "nombre": "Gerencia y Mercadeo Agrícola",
-      "descripcion": "Asignatura enfocada en el estudio de estrategias gerenciales y comerciales aplicadas al sector agropecuario. Analiza mercados, cadenas de valor, planificación estratégica y comercialización de productos agroalimentarios.",
-      "objetivo": "Aplicar herramientas gerenciales y de mercadeo para fortalecer la competitividad de empresas agropecuarias.",
-      "competencias": [
-        "Gerencia agropecuaria",
-        "Mercadeo agrícola",
-        "Planificación estratégica",
-        "Gestión comercial"
-      ]
+      "codigo": "PA220170705",
+      "nombre": "Porcinocultura",
+      "uc": 3,
+      "prelacion": "Nutrición y Alimentación",
+      "descripcion": "Estudia los sistemas modernos de producción porcina, enfatizando aspectos nutricionales, reproductivos, sanitarios y económicos.",
+      "objetivo": "Gestionar sistemas de producción porcina eficientes y sostenibles."
     },
     {
-      "nombre": "Tecnología para la Producción de Carne",
-      "descripcion": "Estudio de los procesos tecnológicos relacionados con la obtención, procesamiento, conservación y evaluación de la calidad de la carne. Incluye aspectos de inocuidad alimentaria y control de calidad.",
-      "objetivo": "Aplicar tecnologías que garanticen la calidad y seguridad de los productos cárnicos.",
-      "competencias": [
-        "Tecnología cárnica",
-        "Control de calidad",
-        "Inocuidad alimentaria",
-        "Procesamiento industrial"
-      ]
-    },
-    {
-      "nombre": "Sistema de Producción Porcina",
-      "descripcion": "Asignatura dedicada al estudio de la producción porcina, incluyendo genética, alimentación, reproducción, sanidad y manejo integral de explotaciones comerciales.",
-      "objetivo": "Gestionar sistemas porcinos eficientes mediante prácticas técnicas y sanitarias adecuadas.",
-      "competencias": [
-        "Producción porcina",
-        "Manejo especializado",
-        "Sanidad animal",
-        "Planificación productiva"
-      ]
-    },
-    {
-      "nombre": "Sistema de Producción Ovina y Caprina",
-      "descripcion": "Estudio de las técnicas de manejo, alimentación, reproducción y sanidad aplicadas a sistemas de producción ovina y caprina, considerando su importancia económica y social en regiones rurales.",
-      "objetivo": "Aplicar estrategias de producción sostenibles en sistemas ovinos y caprinos.",
-      "competencias": [
-        "Producción ovina",
-        "Producción caprina",
-        "Manejo de rebaños",
-        "Gestión pecuaria"
-      ]
+      "codigo": "PA220170706",
+      "nombre": "Sanidad Animal",
+      "uc": 3,
+      "prelacion": "Patología Animal",
+      "descripcion": "Aborda programas preventivos, control epidemiológico y medidas sanitarias orientadas a garantizar la salud animal y la inocuidad de los productos pecuarios.",
+      "objetivo": "Implementar programas sanitarios que reduzcan riesgos y mejoren la productividad animal."
     }
   ]
 },
 {
   "numero": 8,
-  "resumen": "Fortalecer las capacidades profesionales relacionadas con la planificación de infraestructuras, gestión ambiental, desarrollo rural y formulación de proyectos productivos.",
-  "proposito": "Preparar al estudiante para diseñar soluciones integrales que contribuyan al desarrollo sostenible de los sistemas pecuarios y de las comunidades rurales.",
+  "resumen": "El octavo semestre fortalece las competencias relacionadas con la producción de leche, aves y especies menores, incorporando además herramientas de investigación y gestión técnica aplicadas a sistemas pecuarios.",
+  "proposito": "Consolidar conocimientos especializados en sistemas de producción animal y fortalecer capacidades investigativas para la solución de problemas del sector.",
   "materias": [
     {
-      "nombre": "Diseño de Infraestructuras Pecuarias",
-      "descripcion": "Asignatura orientada al diseño y planificación de instalaciones destinadas a la producción animal. Analiza criterios técnicos, ambientales y económicos para garantizar condiciones óptimas de bienestar y productividad.",
-      "objetivo": "Diseñar infraestructuras pecuarias funcionales, seguras y sostenibles.",
-      "competencias": [
-        "Diseño técnico",
-        "Planificación de instalaciones",
-        "Bienestar animal",
-        "Gestión de proyectos"
-      ]
+      "codigo": "PA220180801",
+      "nombre": "Avicultura",
+      "uc": 3,
+      "prelacion": "Nutrición y Alimentación",
+      "descripcion": "Estudia la producción comercial de aves, incluyendo genética, alimentación, reproducción, sanidad y manejo productivo.",
+      "objetivo": "Optimizar sistemas de producción avícola mediante criterios técnicos y económicos."
     },
     {
-      "nombre": "Electiva IV",
-      "descripcion": "Asignatura destinada a complementar la formación profesional mediante contenidos especializados seleccionados de acuerdo con las necesidades del entorno productivo y los intereses académicos.",
-      "objetivo": "Fortalecer competencias específicas mediante experiencias de aprendizaje complementarias.",
-      "competencias": [
-        "Especialización académica",
-        "Aprendizaje autónomo",
-        "Adaptabilidad profesional",
-        "Pensamiento interdisciplinario"
-      ]
+      "codigo": "PA220180802",
+      "nombre": "Bovinocultura de Leche",
+      "uc": 3,
+      "prelacion": "Bovinocultura de Carne",
+      "descripcion": "Analiza los sistemas de producción de leche, enfatizando aspectos nutricionales, reproductivos, sanitarios y de calidad.",
+      "objetivo": "Aplicar técnicas para incrementar la eficiencia y calidad de la producción lechera."
     },
     {
-      "nombre": "Extensión y Desarrollo Rural",
-      "descripcion": "Estudio de estrategias de intervención social orientadas al fortalecimiento de comunidades rurales mediante procesos educativos, tecnológicos y productivos que promuevan el desarrollo sostenible.",
-      "objetivo": "Diseñar programas de extensión rural que contribuyan al desarrollo integral de las comunidades.",
-      "competencias": [
-        "Desarrollo rural",
-        "Intervención comunitaria",
-        "Transferencia tecnológica",
-        "Participación social"
-      ]
+      "codigo": "PA220180803",
+      "nombre": "Metodología de la Investigación",
+      "uc": 3,
+      "prelacion": "Diseño Experimental",
+      "descripcion": "Desarrolla habilidades para formular proyectos de investigación, recolectar información y analizar resultados científicos.",
+      "objetivo": "Diseñar investigaciones orientadas a resolver problemas relacionados con la producción animal."
     },
     {
-      "nombre": "Sistema de Producción Bovino Doble Propósito",
-      "descripcion": "Asignatura dedicada al estudio de sistemas productivos orientados simultáneamente a la producción de carne y leche. Analiza aspectos técnicos, económicos y ambientales relacionados con este modelo de explotación.",
-      "objetivo": "Gestionar sistemas bovinos de doble propósito con criterios de sostenibilidad y rentabilidad.",
-      "competencias": [
-        "Producción bovina integral",
-        "Manejo de rebaños",
-        "Evaluación económica",
-        "Planificación productiva"
-      ]
+      "codigo": "PA220180804",
+      "nombre": "Caprinocultura y Ovinocultura",
+      "uc": 2,
+      "prelacion": "Nutrición y Alimentación",
+      "descripcion": "Estudia los sistemas de producción de cabras y ovejas, considerando aspectos técnicos, productivos y económicos.",
+      "objetivo": "Gestionar programas de producción caprina y ovina adaptados a diferentes condiciones ambientales."
     },
     {
-      "nombre": "Impacto Ambiental de la Producción Animal",
-      "descripcion": "Asignatura orientada al análisis de los efectos ambientales generados por las actividades pecuarias y al diseño de estrategias de mitigación para promover sistemas productivos sostenibles.",
-      "objetivo": "Evaluar y minimizar los impactos ambientales asociados a la producción animal.",
-      "competencias": [
-        "Gestión ambiental",
-        "Evaluación de impactos",
-        "Sostenibilidad productiva",
-        "Responsabilidad ecológica"
-      ]
-    },
-    {
-      "nombre": "Formulación y Evaluación de Proyectos",
-      "descripcion": "Estudio de metodologías para la identificación, diseño, evaluación y gestión de proyectos agropecuarios. Incluye análisis financiero, técnico y socioeconómico.",
-      "objetivo": "Diseñar y evaluar proyectos productivos viables y sostenibles.",
-      "competencias": [
-        "Formulación de proyectos",
-        "Evaluación financiera",
-        "Planificación estratégica",
-        "Gestión de inversiones"
-      ]
-    },
-    {
-      "nombre": "Legislación Rural",
-      "descripcion": "Asignatura orientada al estudio del marco jurídico que regula las actividades agropecuarias, el uso de la tierra, la producción animal y las relaciones laborales en el ámbito rural.",
-      "objetivo": "Aplicar la normativa legal vigente en la gestión de actividades agropecuarias.",
-      "competencias": [
-        "Interpretación normativa",
-        "Gestión legal",
-        "Responsabilidad profesional",
-        "Cumplimiento regulatorio"
-      ]
-    },
-    {
-      "nombre": "Seguridad e Higiene Industrial",
-      "descripcion": "Estudio de principios, normas y procedimientos destinados a prevenir riesgos laborales y garantizar condiciones seguras en entornos productivos agropecuarios.",
-      "objetivo": "Implementar programas de seguridad e higiene que protejan a trabajadores e instalaciones.",
-      "competencias": [
-        "Prevención de riesgos",
-        "Seguridad ocupacional",
-        "Gestión preventiva",
-        "Salud laboral"
-      ]
+      "codigo": "PA220180805",
+      "nombre": "Extensión Agropecuaria",
+      "uc": 2,
+      "prelacion": "Organización Social de la Producción",
+      "descripcion": "Analiza estrategias de transferencia tecnológica y asistencia técnica dirigidas a productores agropecuarios.",
+      "objetivo": "Promover procesos de innovación y desarrollo rural mediante programas de extensión."
     }
   ]
 },
 {
   "numero": 9,
-  "resumen": "Integrar los conocimientos científicos, técnicos y administrativos adquiridos durante la carrera mediante experiencias de investigación y práctica profesional.",
-  "proposito": "Consolidar el perfil profesional del futuro Ingeniero en Producción Animal a través de la aplicación de competencias en escenarios reales y proyectos de investigación.",
+  "resumen": "El noveno semestre integra conocimientos relacionados con la administración, economía y planificación de empresas pecuarias, fortaleciendo la visión empresarial del futuro profesional.",
+  "proposito": "Desarrollar capacidades de gestión y administración para dirigir eficientemente unidades de producción animal.",
   "materias": [
     {
+      "codigo": "PA220190901",
+      "nombre": "Administración Agropecuaria",
+      "uc": 3,
+      "prelacion": "Extensión Agropecuaria",
+      "descripcion": "Estudia principios administrativos aplicados a empresas agropecuarias, incluyendo planificación, organización, dirección y control.",
+      "objetivo": "Gestionar recursos humanos, técnicos y financieros dentro de sistemas productivos."
+    },
+    {
+      "codigo": "PA220190902",
+      "nombre": "Economía Agropecuaria",
+      "uc": 3,
+      "prelacion": "Administración Agropecuaria",
+      "descripcion": "Analiza los factores económicos que influyen en la producción agropecuaria y la toma de decisiones empresariales.",
+      "objetivo": "Evaluar la rentabilidad y sostenibilidad económica de proyectos pecuarios."
+    },
+    {
+      "codigo": "PA220190903",
+      "nombre": "Formulación y Evaluación de Proyectos",
+      "uc": 3,
+      "prelacion": "Metodología de la Investigación",
+      "descripcion": "Desarrolla herramientas para la formulación, análisis y evaluación financiera de proyectos productivos.",
+      "objetivo": "Diseñar proyectos viables que contribuyan al desarrollo agropecuario."
+    },
+    {
+      "codigo": "PA220190904",
+      "nombre": "Manejo Integrado de Sistemas Pecuarios",
+      "uc": 3,
+      "prelacion": "Bovinocultura de Leche / Porcinocultura / Avicultura",
+      "descripcion": "Integra conocimientos técnicos de diversas especies para optimizar sistemas de producción animal bajo criterios de sostenibilidad.",
+      "objetivo": "Diseñar estrategias integrales para mejorar la productividad y competitividad de las explotaciones pecuarias."
+    }
+  ]
+},
+{
+  "numero": 10,
+  "resumen": "El décimo semestre culmina la formación profesional mediante la práctica integral y el desarrollo de investigaciones aplicadas que demuestran las competencias adquiridas durante la carrera.",
+  "proposito": "Integrar conocimientos científicos, técnicos y administrativos mediante experiencias profesionales y proyectos de investigación aplicados.",
+  "materias": [
+    {
+      "codigo": "PA220261001",
+      "nombre": "Pasantías Profesionales",
+      "uc": 8,
+      "prelacion": "Haber aprobado todos los semestres anteriores",
+      "descripcion": "Experiencia profesional supervisada desarrollada en empresas, instituciones o unidades de producción animal, permitiendo aplicar conocimientos adquiridos durante la carrera.",
+      "objetivo": "Demostrar competencias profesionales en escenarios reales del sector pecuario."
+    },
+    {
+      "codigo": "PA220221002",
       "nombre": "Trabajo de Grado",
-      "descripcion": "Actividad académica orientada al desarrollo y culminación de una investigación científica o proyecto aplicado relacionado con la producción animal. Incluye formulación, ejecución, análisis de resultados y defensa pública del trabajo realizado.",
-      "objetivo": "Desarrollar una investigación o proyecto que contribuya a la solución de problemas del sector agropecuario.",
-      "competencias": [
-        "Investigación aplicada",
-        "Análisis científico",
-        "Redacción técnica",
-        "Resolución de problemas"
-      ]
-    },
-    {
-      "nombre": "Ética Profesional",
-      "descripcion": "Asignatura destinada al análisis de principios éticos y valores que orientan el ejercicio responsable de la profesión, promoviendo el compromiso social, ambiental y profesional.",
-      "objetivo": "Fortalecer la conducta ética y la responsabilidad profesional en el ejercicio de la ingeniería.",
-      "competencias": [
-        "Ética profesional",
-        "Responsabilidad social",
-        "Toma de decisiones",
-        "Compromiso institucional"
-      ]
-    },
-    {
-      "nombre": "Pasantías",
-      "descripcion": "Experiencia académica supervisada que permite al estudiante incorporarse temporalmente a organizaciones agropecuarias, empresas, instituciones públicas o centros de investigación para aplicar conocimientos adquiridos durante la carrera.",
-      "objetivo": "Integrar conocimientos y competencias profesionales mediante experiencias reales de trabajo.",
-      "competencias": [
-        "Desempeño profesional",
-        "Adaptación laboral",
-        "Trabajo interdisciplinario",
-        "Aplicación de conocimientos",
-        "Gestión productiva"
-      ]
+      "uc": 6,
+      "prelacion": "Metodología de la Investigación y aprobación del plan de trabajo",
+      "descripcion": "Investigación aplicada orientada a generar soluciones o aportes científicos relacionados con la producción animal y el desarrollo agropecuario.",
+      "objetivo": "Desarrollar un trabajo de investigación que evidencie la integración de conocimientos adquiridos durante la formación universitaria."
     }
   ]
 }
-  ]
+]
 }
